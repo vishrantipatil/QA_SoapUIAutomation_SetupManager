@@ -1,0 +1,597 @@
+[
+   {
+      "locatorName":"Default",
+      "locator":""
+   },
+   {
+      "locatorName":"UtilityNameLink",
+      "locator":"//a[text()='%s']"
+   },
+   {
+      "locatorName":"RefreshButton",
+      "locator":"//input[@type='button' and @value='Refresh']"
+   },
+   {
+      "locatorName":"ServingEntities",
+      "locator":"//a[text()='Serving Entities'] "
+   },
+   {
+      "locatorName":"ActionMenu",
+      "locator":"//a[@id='trayicon']"
+   },
+   {
+      "locatorName":"ActionMenuOption",
+      "locator":"//a[normalize-space(text())='%s']"
+   },
+   {
+      "locatorName":"ADD_NEW_RECORD",
+      "locator":"//ul[contains(@class,'extra-nav-right-icon')]/li//a/i//*[name()='use' and @*='#icon_CirclePlus']/ancestor::a"
+   },
+   {
+      "locatorName":"ANGULAR_FIVE_TOAST_MSG",
+      "locator":"//simple-snack-bar[contains(@class,'mat-simple-snackbar') and normalize-space(text())='%s']"
+   },
+   {
+      "locatorName":"DELETE_BUTTON",
+      "locator":"//smart-lite-table-row[contains(@class,'table-row')][1]/descendant::a[@class='delete-icon']"
+   },
+   {
+      "locatorName":"ERROR_LOG_FILE_LINK",
+      "locator":"//div[text()='Import'][1]/following-sibling::div[2]/a[starts-with(text(),'%s')]"
+   },
+   {
+      "locatorName":"TEXT_MAXIMUM_UPLOAD_GRID_MESSAGE",
+      "locator":"//p[@id='maximumUsersCount' and text()='%s']"
+   },
+   {
+      "locatorName":"TEXT_MAXIMUM_UPLOAD_IMPORT_MESSAGE",
+      "locator":"//div[@id='dvUploadbox']/p[last() and text()='%s']"
+   },
+   {
+      "locatorName":"LINK_BROWSE_FILE",
+      "locator":"//div[@id='dvUploadbox']/p/a"
+   },
+   {
+      "locatorName":"ERROR_LOG_FILE_STATUS",
+      "locator":"//div[text()='Import'][1]/following-sibling::div[text()='%s'][1]"
+   },
+   {
+      "locatorName":"SELECT_FILTER_COLUMN",
+      "locator":"id=filterColumnSelect"
+   },
+   {
+      "locatorName":"SEARCH_AUTO_SUGGEST_FIELD_ON_POPUP",
+      "locator":"//div[contains(@id,'filterColumnDisplayNameDiv') and text()='%s']/ancestor::div[contains(@id,'filterColumnDiv')]/div//input[contains(@id,'txtGroupMember')]"
+   },
+   {
+      "locatorName":"CHECKBOX_AUTO_SUGGEST_ON_POPUP",
+      "locator":"//div[@id='filterColumnRowDiv']/descendant::input[@type='checkbox' and contains(@filterdatavalue,'%s')]"
+   },
+   {
+      "locatorName":"OK_BUTTON_ON_FILTER_POPUP",
+      "locator":"//div[@id='filterColumnRowDiv']/descendant::input[@type='button']"
+   },
+   {
+      "locatorName":"NO_RECORD_FOUND_SEARCH_MESSAGE",
+      "locator":"//ul[@class='notificationMsg' and text()='No records found.']"
+   },
+   {
+      "locatorName":"LINK_SELECTED_COUNT",
+      "locator":"//div[contains(@id,'filterColumnDisplayNameDiv') and text()='%s']/ancestor::div[contains(@id,'filterColumnDiv')]/div//a[contains(@id,'showSelectedLink') and text()='%s selected']"
+   },
+   {
+      "locatorName":"TEXT_CHANGE_PASSWORD",
+      "locator":"//div[text()='Change Password']"
+   },
+   {
+      "locatorName":"CHANGE_PASSWORD_USERNAME_TEXT",
+      "locator":"//input[@type='text' and @readonly='true' and @value='%s']"
+   },
+   {
+      "locatorName":"NEW_PASSWORD_TEXT_FIELD",
+      "locator":"//input[@type='password' and @placeholder='New Password']"
+   },
+   {
+      "locatorName":"CONFIRM_NEW_PASSWORD_TEXT_FIELD",
+      "locator":"//input[@type='password' and @placeholder='Confirm New Password']"
+   },
+   {
+      "locatorName":"PASSWORD_INFO_ICON",
+      "locator":"id=passInfo"
+   },
+   {
+      "locatorName":"BUTTON_UPDATE_PASSWORD",
+      "locator":"//input[@id='updateBtn' and @type='submit' and @title='UPDATE' and @disabled='disabled']"
+   },
+   {
+      "locatorName":"USERNAME",
+      "locator":"id=UserName"
+   },
+   {
+      "locatorName":"PASSWORD",
+      "locator":"id=Password"
+   },
+   {
+      "locatorName":"LOGIN_BUTTON",
+      "locator":"id=login"
+   },
+   {
+      "locatorName":"NEXT_GRID_CELL",
+      "locator":"//div[text()='%s']/following-sibling::div[1]"
+   },
+   {
+      "locatorName":"SHIPPING_INPUT",
+      "locator":"//div[text()='Please Enter']/parent::div"
+   },
+   {
+      "locatorName":"SHIIPING_METHOD_NAME_INPUT",
+      "locator":"//div[text()='Please Enter']/parent::div/following-sibling::div//input"
+   },
+   {
+      "locatorName":"JURISDICTION_NAMEORCODE_INPUT",
+      "locator":"//*[contains(@class,'table-row')][1]/td[%s]//div[text()='Please Enter']"
+   },
+   {
+      "locatorName":"JURISDICTION_NAMEORCODE_INPUT_BOX",
+      "locator":"//*[contains(@class,'table-row')][1]/td[%s]//div[text()='Please Enter']/parent::div/following-sibling::div//input"
+   },
+   {
+      "locatorName":"CLICK_GEAR_OPTION",
+      "locator":"//div[@title='%s']/ancestor::td[@data='SetId']/following::td[9]"
+   },
+   {
+      "locatorName":"CLICK_TITLE_LINK",
+      "locator":"//*/span[@class='extra-nav-title--text title-link' and text()='%s']"
+   },
+   {
+      "locatorName":"DEFAULT_CURRENCY",
+      "locator":"//h6[contains(text(),'Default Currency is set to')]/child::b[normalize-space(text())='%s']"
+   },
+   {
+      "locatorName":"VERIFY_ANGULARPOPUPMSG",
+      "locator":"//div[@class='modal-content padding0 ']//div[normalize-space(text())='%s']"
+   },
+   {
+      "locatorName":"OKBUTTON_ANGULARPOPUPMSG",
+      "locator":"//div[@class='modal-footer']//a[contains(text(),'%s')]"
+   },
+   {
+      "locatorName":"TEXT_HID_MESSAGE",
+      "locator":"//div[@id='Div4']/p[normalize-space(text())='%s']"
+   },
+   {
+      "locatorName":"TEXT_HID_MESSAGE_POINTS",
+      "locator":"//div[@id='Div4']/descendant::li[normalize-space(text())='%s']"
+   },
+   {
+      "locatorName":"CONFIGURE_ATTRIBUTE",
+      "locator":"//div[normalize-space(text())='%s']/ancestor::td/following-sibling::td/descendant::div[normalize-space(text())='%s']/ancestor::td/following-sibling::td/descendant::*[name()='use' and @*='#icon_Configure']/ancestor::i"
+   },
+   {
+      "locatorName":"WK_ATTRIBUTES",
+      "locator":"//div[normalize-space(text())='%s']/ancestor::td/following-sibling::td[2]//a"
+   },
+   {
+      "locatorName":"WK_ATTRIBUTES_OPTIONS",
+      "locator":"//span[normalize-space(text())='TrackingNumber']/preceding-sibling::div/descendant::input"
+	},
+   {  
+      "locatorName":"WorkspaceSettingLink",
+      "locator":"//a[@id='headerUserProfileId']"
+   },
+   {  
+      "locatorName":"SettingsTabLink",
+      "locator":"//a[text()='%s']"
+   },
+   {  
+      "locatorName":"MobileNumberInput",
+      "locator":"//input[@id='txtMobileNumber']"
+   },
+   {  
+      "locatorName":"PERSONA_ACTIVITY_DWLD",
+      "locator":"//tr[1]/td[2]/descendant::div[text()='Completed']/ancestor::tr/td[7]/descendant::a[starts-with(normalize-space(text()),'Persona Activity Export')]"
+   },
+   {  
+      "locatorName":"PORTAL_VIEW_AUDIT_BTN",
+      "locator":"//input[@value='View Audit']"
+   },
+   {  
+      "locatorName":"USERMANAGER_Q1",
+      "locator":"//div[normalize-space(text())='%s']/ancestor::div/descendant::input[normalize-space(@value)='%s']"
+   },
+   {  
+      "locatorName":"USERMANAGER_Q2_SELECTED_OPTIONS",
+      "locator":"//div[normalize-space(text())='%s']/ancestor::div/descendant::select/child::option[normalize-space(text())='%s' and @selected='selected']"
+   },
+   {  
+      "locatorName":"USERMANAGER_Q2_UNSELECTED_OPTIONS",
+      "locator":"//div[normalize-space(text())='%s']/ancestor::div/descendant::select/child::option[normalize-space(text())='%s' and not(@selected='selected')]"
+   },
+   {  
+      "locatorName":"USERMANAGER_Q3_SELECTED_OPTIONS",
+      "locator":"//div[normalize-space(text())='%s']/ancestor::div/descendant::label[normalize-space(text())='%s']/parent::td/descendant::input[@checked='checked']"
+   },
+   {  
+      "locatorName":"USERMANAGER_Q3_UNSELECTED_OPTIONS",
+      "locator":"//div[normalize-space(text())='%s']/ancestor::div/descendant::label[normalize-space(text())='%s']/parent::td/descendant::input[not(@checked='checked')]"
+   },
+   {  
+      "locatorName":"USERMANAGER_Q4_SELECTED_OPTIONS",
+      "locator":"//div[normalize-space(text())='%s']/ancestor::div/descendant::label[normalize-space(text())='%s']/ancestor::td/descendant::input[@checked='checked']"
+   },
+   {  
+      "locatorName":"USERMANAGER_Q4_UNSELECTED_OPTIONS",
+      "locator":"//div[normalize-space(text())='%s']/ancestor::div/descendant::label[normalize-space(text())='%s']/ancestor::td/descendant::input[not(@checked='checked')]"
+   },
+   {  
+      "locatorName":"USERMANAGER_Q5_SELECTED_OPTIONS",
+      "locator":"//div[normalize-space(text())='%s']/ancestor::div/descendant::div[text()='Selected Option(s)']/following-sibling::select/child::option[text()='%s']"
+   },
+   {  
+      "locatorName":"USERMANAGER_Q5_AVAILABLE_OPTIONS",
+      "locator":"//div[normalize-space(text())='%s']/ancestor::div/descendant::div[text()='Available Option(s)']/following-sibling::select/child::option[text()='%s']"
+   },
+   {  
+      "locatorName":"COLLECTION_ADD_POPUPMSG",
+      "locator":"//span[contains(normalize-space(text()),'%s')]/ancestor::smart-notification/descendant::div[contains(@class,'notificationContent')]"
+   },
+   {  
+      "locatorName":"VERIFY_FILTER",
+      "locator":"//label[@class='active-filter card ng-star-inserted']/a[text()=' %s ']"
+   },
+   {  
+      "locatorName":"REMOVE_FILTER",
+      "locator":"//label[@class='active-filter card ng-star-inserted']/a/i"
+   },
+   {  
+      "locatorName":"OK_POPUP",
+      "locator":"//div[@class='card-header notify-header']/ancestor::div[@class='modal-content padding0 ']/following::div[@class='modal-footer']/a"
+   },
+   {  
+      "locatorName":"GET_CATEGORY_CODE",
+      "locator":"//smart-lite-table-row[%s]/td[2]/descendant::div[contains(@class,'truncate')]"
+   },
+   {  
+      "locatorName":"IS_APPLIEDFILTER_PRESENT",
+      "locator":"//label[normalize-space(text())='%s']"
+   },
+   {  
+      "locatorName":"SSO_USERNAME",
+      "locator":"//input[@id='userNameInput']"
+   },
+   {  
+      "locatorName":"SSO_PASSWORD",
+      "locator":"//input[@id='passwordInput']"
+   },
+   {  
+      "locatorName":"SSO_SUBMIT_BUTTON",
+      "locator":"//span[@id='submitButton']"
+   },
+   {  
+      "locatorName":"ERROR_VIEW_LOG",
+      "locator":"//smart-lite-table-row[1]/td[@data='ErrorMessage']//div[starts-with(text(),'%s')]"
+   },
+   {  
+      "locatorName":"TOTAL_COUNT",
+      "locator":"//smart-lite-table-row[1]/td[@data='TotalCount']//div[@class='element-data-container textfield-data-container']/div"
+   },
+   {  
+      "locatorName":"ANGULAR_DROPDOWN_OPTION",
+      "locator":"//span[normalize-space(text())='%s']"
+   },
+   {  
+      "locatorName":"DAC_ATTRIBUTE",
+      "locator":"//td[1]/descendant::div[normalize-space(text())='%s']"
+   },
+   {  
+      "locatorName":"ANGULAR_LOOKUP_WITH_REFERENCENO_COLNo",
+      "locator":"//div[@title='%s']/ancestor::td/following-sibling::td[%s]/descendant::a"
+   },
+   {  
+      "locatorName":"ANGULAR_LOOKUP_CHECKBOX",
+      "locator":"//span[normalize-space(text())='%s']/preceding-sibling::div/descendant::input"
+   },
+   {  
+      "locatorName":"USERMANAGER_MANAGER_TYPE",
+      "locator":"//div[contains(@class,'managerTypeContainer')][%s]/descendant::select"
+   },
+   {  
+      "locatorName":"USERMANAGER_MANAGER",
+      "locator":"//div[contains(@class,'managerTypeContainer')][%s]/descendant::ul[contains(@id,'listSelectedManagers')]/li[text()='%s']"
+   },
+   {  
+      "locatorName":"ANGULAR_FIELD_CLICK_ROW_COL",
+      "locator":"//smart-lite-table-row[%s]/td[%s]/descendant::a"
+   },
+   {  
+      "locatorName":"RADIO_POPUP_SEARCH",
+      "locator":"//span[contains(text(),'Form Name')]/ancestor::div[contains(@class,'modal-popup')]/descendant::input[@placeholder='Search']"
+   },
+   {  
+      "locatorName":"RADIO_POPUP_OPTION_SELECT",
+      "locator":"//label[contains(text(),'%s')]"
+   },
+   { 
+	  "locatorName":"WARNING_POPUP_MESSAGE",
+      "locator":"//span[normalize-space(text())='Warning!']/ancestor::div[contains(@class,'notify-header')]/following-sibling::div[normalize-space(text())='%s']"
+   },
+   {
+      "locatorName":"DocumentTypeSort",
+      "locator":"//th//div[text()='Document Type']/parent::smart-lite-table-header//a//i"
+   },
+   {  
+      "locatorName":"DAC_DROPDOWN",
+      "locator":"//mat-label[normalize-space(text())='%s']"
+   },
+   {  
+      "locatorName":"UM_MAPPING_INFO_FIELDS",
+      "locator":"//a[@original-title='%s']"
+   },
+   {  
+      "locatorName":"UM_MAPPING_INFO_LOOKUPPOPUP",
+      "locator":"//span[normalize-space(text())='%s']"
+   },
+   {  
+      "locatorName":"UM_MAPPING_INFO_LOOKUPPOPUP_PLUSICON",
+      "locator":"//span[normalize-space(text())='%s']/ancestor::li/descendant::span[@role='button' and @title='Collapsed']"
+   },
+   {  
+      "locatorName":"UM_MAPPING_INFO_LOOKUPPOPUP_INFOICON",
+      "locator":"//span[normalize-space(text())='%s']/ancestor::span[contains(@ng-if,'category')]/descendant::span[@title='Category description']"
+   },
+   {  
+      "locatorName":"UM_MAPPING_INFO_CATDESC_TITLE",
+      "locator":"//div[@id='tooltipPASDescription']//span[text()='%s']"
+   },
+   {  
+      "locatorName":"UM_MAPPING_INFO_CATDESC",
+      "locator":"//div[text()='%s' and contains(@id,'tree-Description')]"
+   },
+   {  
+      "locatorName":"UM_MAPPING_INFO_CATDESC_CLOSE",
+      "locator":"//div[@id='tooltipPASDescription']/child::a[@title='Close']"
+   },
+   {  
+      "locatorName":"GET_CATEGORY_NAME",
+      "locator":"//smart-lite-table-row[%s]/td[%s]/descendant::div[contains(@class,'truncate')]"
+   },
+   {  
+      "locatorName":"LOOKUPPOPUP_SEARCH_WITH_POPUPHEADER",
+      "locator":"//span[text()='%s']/ancestor::div[@class='boxContainer']/descendant::input[@placeholder='Search']"
+   },
+   {  
+      "locatorName":"LOOKUPPOPUP_PARENTCAT",
+      "locator":"//span[contains(text(),'%s')]"
+   },
+   {  
+      "locatorName":"VALIDATE_TREE",
+      "locator":"//div[@title='%s']/ancestor::td/following::td[1]/descendant::a[normalize-space(text())='%s' and @class='button']"
+   },
+   {  
+      "locatorName":"HID_MSG_ORG_HEADER",
+      "locator":"//b[contains(text(),'%s')]"
+   },
+   {  
+      "locatorName":"MANAGE_FLIP_QUESTION_MAPPING",
+      "locator":"//td[@data='Id']//div[text()='%s']/ancestor::smart-lite-table-row/td//question-flipping-config-button/a"
+   },
+   {  
+      "locatorName":"MANAGE_FLIP_ANSWER_MAPPING",
+      "locator":"//td[@data='CustomAttributeQuestionDocumentTypeMappingId']//div[text()='%s']/ancestor::smart-lite-table-row/td//choice-flipping-config-button/a"
+   },
+   {
+      "locatorName":"NewMFAresend",
+      "locator":"//a[@id='newMFAresend']"
+   },
+   {
+      "locatorName":"EmailchkVerifyOtpResent",
+      "locator":"//span[contains(text(),'Email')]/preceding-sibling::input[@id='EmailchkVerifyOtpResent']"
+   },
+   {
+      "locatorName":"ResendotpForUser",
+      "locator":"//a[@id='resendotpForUser' and text()='Resend']"
+   },
+   {
+         "locatorName":"OPTOUT_PAGE",
+      "locator":"//input[@id='btnOptOut']"
+   
+   },
+   {
+      "locatorName":"VERIFY_ANGULARPOPUPMSG_POPUPTYPE",
+      "locator":"//span[normalize-space(text())='%s']/ancestor::smart-notification/descendant::div[@class='modal-content padding0 ']//div[normalize-space(text())='%s']"
+   },
+   {
+      "locatorName":"HEADER_DOWNLOAD_ICON",
+      "locator":"//ul[contains(@class,'extra-nav-right-icon')]/li//a/i//*[name()='use' and @*='#icon_Download']/ancestor::a"
+   },
+   {
+      "locatorName":"BUYERUSER_COL_TAB",
+      "locator":"//div[@id='gdListMasters']//div[@class='wj-cells']/div[contains(@class,'wj-cell')][%s]"
+   },
+   {
+      "locatorName":"Add_New_Disabled",
+      "locator":"//span[normalize-space(text())='%s']/ancestor::div[contains(@class,'subHeaderWrapper')]//ul//li[1]//a[contains(@class,'disabled')]"
+   },
+   {
+      "locatorName":"Field_Dropdown_Arrow",
+      "locator":"//table//tbody//smart-lite-table-row[1]//td[3]//div[@class='mat-select-arrow']"
+   },
+   {
+      "locatorName":"Field_List_Value",
+      "locator":"//mat-option//span[normalize-space(text())='%s']"
+   },
+   {
+      "locatorName":"RULES_STATUS",
+      "locator":"//span[contains(@class,'inline-text')]/span[contains(text(),'%s')]"
+   },
+   {
+      "locatorName":"NAVIGATE_TO_BACK",
+      "locator":"//*[name()='use' and @*='#icon_Back']/ancestor::a"
+   },
+   {
+      "locatorName":"RELOAD_BUTTON",
+      "locator":"//a[text()='Reload']"
+   },
+   {
+      "locatorName":"GET_ENTITY_DETAIL_CODE",
+      "locator":"//div[text()='%s'][%s]/following-sibling::div[1]"
+   },
+   {  
+      "locatorName":"FORM_STATUS_HEADER",
+      "locator":"//span[normalize-space(text())='%s' or normalize-space(text())='%s']"
+   },
+   {  "locatorName":"ACCOUNTING_BUTTON",
+      "locator":"//a[contains(text(),'Accounting Details')]"
+   },
+   {
+       "locatorName":"LOGOFF_BUTTON",
+      "locator":"//a[contains(text(),'Logoff')]"
+   },
+   {
+       "locatorName":"KEEP_WORKING_BUTTON",
+      "locator":"//a[contains(text(),'Yes, Keep Working')]"
+   } ,  {
+      "locatorName":"filterIcon",
+      "locator":"//a[@data-tooltip='Filter']/i | //a[contains(@class,'dropdown-filter')]/i"
+   },
+   {
+      "locatorName":"TaskFilterOption",
+      "locator":"//ul//div[@label='%s']//input"
+   },
+   {
+      "locatorName":"TaskFilterSave",
+      "locator":"//div[contains(@class,'relative sort-dropdown')]//a[text()=' Done']"
+   },
+   {
+      "locatorName":"ApplyFilter",
+      "locator":"//div//span[text()='Applied Filters:']"
+   },  
+   {
+      "locatorName":"VerifyTaskFilterIsApplied",
+      "locator":"//ul[@class='sidepanel-filter-itemList']//li[@data-tooltip='%s' and contains(@class,'isSelected')]"
+   },
+      {
+      "locatorName":"FirstDocumentName",
+      "locator":"(//span[contains(@class,'title grey-text text-darken')])[1]"
+   },
+    {
+      "locatorName":"removeFilter",
+      "locator":"//i[@class='icon iconSmall ng-isolate-scope tooltipped' and @message='Remove Filter']"
+   },
+   {
+      "locatorName":"HELP_CENTER_MODULE",
+      "locator":"//div[normalize-space(text())='%s']"
+   },
+   {
+      "locatorName":"ITEM_HOVER_CHECKBOX",
+      "locator":"//strong[normalize-space(text())='Display Item Description on Hover']/parent::label/following-sibling::smart-checkbox//input[@ng-reflect-model='%s']"
+   },
+   {
+      "locatorName":"HEADER_ACTION_BUTTON",
+      "locator":"//i[@message='Actions']"
+	},
+   {
+      "locatorName":"GENERATE_HID_POPUP_MSG",
+      "locator":"//div[contains(@class,'notifyContainer')]/descendant::div[normalize-space(text())=\"%s\"]"
+   },
+   {
+      "locatorName":"GENERATE_HID_POPUP_OPTIONS",
+      "locator":"//input[@id='confirmMesgClose' and  @type='button' and @value='%s']"
+   },
+   {
+      "locatorName":"RULE10_SELECT_CHECKBOX_FIRSTROW",
+      "locator":"//div[@class='wj-cell wj-frozen']/input"
+   },
+   {
+      "locatorName":"VALIDATE_TREE_BUTTONS",
+      "locator":"//div[@title='%s']/ancestor::td/following::td[1]/descendant::a[normalize-space(text())='%s' or normalize-space(text())='%s' and @class='button']"
+   },
+   {
+      "locatorName":"R10_RULE_POPUP_LINK",
+      "locator":"//div[contains(@class,'wj-frozen')]/a"
+   },
+   {
+      "locatorName":"R10_RULE_POPUP",
+      "locator":"//div[@class='popupBox']/descendant::span[text()='Rule Details']"
+   },
+   {
+      "locatorName":"R10_RULE_NAME_POPUP",
+      "locator":"//div[text()='Rule Name : %s - %s']"
+   },
+   {
+      "locatorName":"R10_CONDITIONS_POPUP",
+      "locator":"//div[text()='Conditions']/ancestor::div[@class='formOneColumn']/descendant::span[text()='%s %s%s']"
+   },
+   {
+      "locatorName":"R10_ACTION_TYPE_POPUP",
+      "locator":"//div[text()='Action Type : %s']"
+   },
+   {
+      "locatorName":"R10_PARAMETERS_POPUP",
+      "locator":"//div[text()='Parameters']/ancestor::div[@class='formOneColumn']/descendant::span[text()='%s']"
+   },
+   {
+      "locatorName":"R10_CLOSE_POPUP",
+      "locator":"//a[@title='Close']"
+   },
+   {
+      "locatorName":"R10_RULE_CHANGED_COUNT",
+      "locator":"//strong[normalize-space(text())='%s']/label[text()=%s]"
+   },
+   {
+      "locatorName":"APPROVAL_MATRIX_POPUP",
+      "locator":"//span[normalize-space(text())='%s']/ancestor::div[contains(@class,'notificationanimate')]/descendant::p[normalize-space(text())='%s']"
+   },
+   {
+      "locatorName":"FEATURE_DESCRIPTION_HELPTEXT",
+      "locator":"//span[text()='%s']/parent::div/child::span[@message='%s']"
+   },
+   {
+      "locatorName":"HOMEICON",
+      "locator":"//a[@class='brand-logo left']"
+   },
+   {
+      "locatorName":"GET_USER_CLIENTCONTACTCODE",
+      "locator":"//div[@id='gdListMasters']//div[@class='wj-cells']/div[contains(@class,'wj-cell') and contains(@style,'left: 2465px;')]"
+   },
+   {
+	  "locatorName": "ADVANCED_FILTERS",
+      "locator": "//div[normalize-space(text())='%s']"
+   },
+   {
+      "locatorName": "HEADER_FILTER_ICON",
+      "locator": "//ul[contains(@class,'extra-nav-right-icon')]/li//a/i//*[name()='use' and @*='#icon_Filter']/ancestor::a"
+   },
+   {
+      "locatorName": "ADVANCED_FILTERS_PLACEHOLDER",
+      "locator": "//input[@placeholder='%s']"
+   },
+   {
+      "locatorName": "UM_MAPPING_INFO_LOOKUPPOPUP_CONTAINS",
+      "locator": "//span[contains(text(),'%s')]"
+   },
+   {
+      "locatorName":"ChangePasswordLinkUserProfile",
+      "locator":"//a[@id='changePassword']"
+   },
+   {
+      "locatorName":"CaptchaTextField",
+      "locator":"//input[@id='RepMapChallengeSolution']"
+   },
+   {
+      "locatorName":"CategoryImageEditButton",
+      "locator":"//div[normalize-space(text())='%s']/ancestor::div[@class='card-back']/preceding-sibling::div[@class='card']//a[@aria-label='edit']"
+   },
+   {
+      "locatorName":"CategoryImageSection",
+      "locator":"//div[@class='card-head']//span[@class='cardIconItem left']"
+   },
+   {
+      "locatorName":"UM_BELONGING_DIVISION",
+      "locator":"//select[@id='ddlBelongLOB']"
+   },
+   {
+      "locatorName":"UM_BELONGING_ENTITIES",
+      "locator":"//div[normalize-space(text())='Belonging Organization Entity']/parent::div//div[contains(@style,'block')]//a[contains(@class,'UpdateEntity1')]|//div[normalize-space(text())='Belonging Organization Entity']/parent::div//a[normalize-space(text())='Select Entities' and contains(@style,'block')]"
+   }
+]

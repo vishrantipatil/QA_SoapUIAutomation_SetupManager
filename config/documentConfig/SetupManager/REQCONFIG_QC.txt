@@ -1,0 +1,916 @@
+{
+	"name": {
+		"label": "P2P_Req_Name",
+		"type": "TYPE",
+		"section": 1,
+		"isMandatory": true,
+		"isEditable": true,
+		"confirmationMessage": "0"
+	},
+	"number": {
+		"label": "P2P_Req_Number",
+		"type": "TYPE",
+		"section": 1,
+		"isMandatory": true,
+		"isEditable": false,
+		"confirmationMessage": "0"
+	},
+	"createdBy": {
+		"label": "P2P_Req_CreatedBy",
+		"type": "TYPE",
+		"section": 1,
+		"isMandatory": true,
+		"isEditable": false,
+		"confirmationMessage": "0"
+	},
+	"Source System": {
+		"label": "Null",
+		"type": "TYPE",
+		"section": 1,
+		"isMandatory": true,
+		"isEditable": false,
+		"confirmationMessage": "0",
+		"defaultLabelValue": "NULL"
+	},
+	"groupCompany": {
+		"label": "null",
+		"type": "AUTOSUGGEST",
+		"section": 1,
+		"isMandatory": true,
+		"isEditable": true,
+		"confirmationMessage": "0"
+	},
+	"headerEntity1": {
+		"label": "P2P_Req_PurchasingGroup",
+		"type": "AUTOSUGGEST",
+		"section": 1,
+		"isMandatory": true,
+		"isEditable": true,
+		"confirmationMessage": "0"
+	},
+	"lob": {
+		"label": "null",
+		"type": "AUTOSUGGEST",
+		"section": 1,
+		"isMandatory": true,
+		"isEditable": true,
+		"confirmationMessage": "0"
+	},
+	"headerEntity2": {
+		"label": "P2P_Purchasing Org",
+		"type": "AUTOSUGGEST",
+		"section": 1,
+		"isMandatory": true,
+		"isEditable": true,
+		"confirmationMessage": "0"
+	},
+	"headerEntity3": {
+		"label": "P2P_Req_PurchasingGroup",
+		"type": "AUTOSUGGEST",
+		"section": 1,
+		"isMandatory": true,
+		"isEditable": true,
+		"confirmationMessage": "0"
+	},
+	"headerEntity4": {
+		"label": "P2P_Req_Purchasing_Organization",
+		"type": "AUTOSUGGEST",
+		"section": 1,
+		"isMandatory": true,
+		"isEditable": true,
+		"confirmationMessage": "0"
+	},
+	"currency": {
+		"label": "P2P_Common_Currency",
+		"type": "AUTOSUGGEST",
+		"section": 1,
+		"isMandatory": true,
+		"isEditable": true,
+		"confirmationMessage": "0"
+		"defaultLabelValue": "Currency"
+	},
+	"isUrgent": {
+		"label": "P2P_Req_Urgent",
+		"type": "CHECKBOX",
+		"section": 1,
+		"isMandatory": true,
+		"isEditable": true,
+		"confirmationMessage": "0"
+	},
+	"obo": {
+		"label": "P2P_Req_OnBehalfOf",
+		"type": "AUTOSUGGEST",
+		"section": 1,
+		"isMandatory": true,
+		"isEditable": true,
+		"confirmationMessage": "2:3"
+	},
+	"shipToServiceTo": {
+		"label": "P2P_CMN_ShipTo",
+		"type": "AUTOSUGGEST",
+		"section": 2,
+		"isMandatory": true,
+		"isEditable": true,
+		"confirmationMessage": 2
+	},
+	"shipAddressServiceAddress": {
+		"label": "P2P_CMN_ShipToAddress",
+		"type": "TYPE",
+		"section": 2,
+		"isMandatory": true,
+		"isEditable": false,
+		"confirmationMessage": "0"
+	},
+	"billTo": {
+		"label": "P2P_CMN_BillTo",
+		"type": "AUTOSUGGEST",
+		"section": 2,
+		"isMandatory": true,
+		"isEditable": true,
+		"confirmationMessage": "0"
+	},
+	"billToAddress": {
+		"label": "P2P_CMN_BillToAddress",
+		"type": "TYPE",
+		"section": 2,
+		"isMandatory": false,
+		"isEditable": false,
+		"confirmationMessage": "0"
+	},
+	"emailIDFaxNumber": {
+		"label": "P2P_Req_EmailFax",
+		"type": "TYPE",
+		"section": 2,
+		"isMandatory": false,
+		"isEditable": false,
+		"confirmationMessage": "0"
+	},
+	"deliverToStr": {
+		"label": "P2P_CMN_DeliverTo",
+		"type": "TYPE",
+		"section": 2,
+		"isMandatory": false,
+		"isEditable": true,
+		"confirmationMessage": "0"
+	},
+	"erpOrderType": {
+		"label": "P2P_REQ_ERPOrderType",
+		"type": "SELECT",
+		"section": 3,
+		"isMandatory": true,
+		"isEditable": true,
+		"confirmationMessage": "0"
+	},
+	"workOrder": {
+		"label": "P2P_REQ_WorkOrder",
+		"type": "TYPE",
+		"section": 3,
+		"isMandatory": true,
+		"isEditable": true,
+		"confirmationMessage": "0"
+	},
+	"organization": {
+		"label": "P2P_Req_Organization",
+		"type": "AUTOSUGGEST",
+		"section": 1,
+		"isMandatory": false,
+		"isEditable": false,
+		"confirmationMessage": "0",
+		"defaultLabelValue": "Organization"
+
+	},
+	"purchaseType": {
+		"label": "PurchaseType",
+		"type": "SELECT",
+		"section": 1,
+		"isMandatory": true,
+		"isEditable": true,
+		"confirmationMessage": "2:4",
+		"defaultLabelValue": "Purchase Type"
+	},
+	"BudgetId": {
+		"label": "P2P_REQ_BudgetID",
+		"type": "AUTOSUGGEST",
+		"section": 3,
+		"isMandatory": true,
+		"isEditable": true,
+		"confirmationMessage": "0"
+	},
+	"companyName": {
+		"label": "P2P_Company",
+		"type": "AUTOSUGGEST",
+		"section": 1,
+		"isMandatory": true,
+		"isEditable": true,
+		"confirmationMessage": "0"
+	},
+	"businessUnit": {
+		"label": "P2P_BU/Function",
+		"type": "AUTOSUGGEST",
+		"section": 1,
+		"isMandatory": true,
+		"isEditable": true,
+		"confirmationMessage": "0"
+	},
+	"costCenter": {
+		"label": "P2P_REQ_CostCenter",
+		"type": "AUTOSUGGEST",
+		"section": 1,
+		"isMandatory": true,
+		"isEditable": true,
+		"confirmationMessage": "0"
+
+	},
+	"spotbuy": {
+		"label": "P2P_SpotBuy",
+		"type": "DROPDOWN",
+		"section": 1,
+		"isMandatory": true,
+		"isEditable": true,
+		"confirmationMessage": "0"
+
+	},
+	"itemSettings": {
+		"lineNumber": {
+			"label": "P2P_Req_LineNo_Riteaid",
+			"type": "NOACTION",
+			"isMandatory": true,
+			"isEditable": false,
+			"confirmationMessage": "0",
+			"section": 1,
+			"gridType": "constant"
+		},
+		"lineNumberAccounting": {
+			"label": "P2P_Req_LineNumber",
+			"type": "NOACTION",
+			"isMandatory": true,
+			"isEditable": false,
+			"confirmationMessage": "0",
+			"section": 1,
+			"gridType": "constant"
+		},
+		"type": {
+			"label": "P2P_Req_LineType_Riteaid",
+			"isMandatory": true,
+			"isEditable": true,
+			"type": "DROPDOWN",
+			"section": 1,
+			"confirmationMessage": "0",
+			"gridType": "scrollable"
+		},
+		"description": {
+			"label": "P2P_Req_PartnerItemNameForExelon",
+			"section": 1,
+			"isMandatory": true,
+			"isEditable": true,
+			"type": "TYPE",
+			"confirmationMessage": "0",
+			"gridType": "constant"
+		},
+		"partner": {
+			"label": "P2P_Req_SupplierName",
+			"type": "AUTOSUGGEST",
+			"section": 1,
+			"isMandatory": true,
+			"isEditable": true,
+			"confirmationMessage": "0",
+			"gridType": "scrollable"
+		},
+		"partnerItemNumber": {
+			"label": "P2P_Req_PartnerItemNumber",
+			"type": "TYPE",
+			"isMandatory": true,
+			"isEditable": true,
+			"section": 1,
+			"confirmationMessage": "0",
+			"gridType": "scrollable"
+		},
+		"category": {
+			"label": "P2P_CMN_Category",
+			"type": "CATEGORY",
+			"isMandatory": true,
+			"isEditable": true,
+			"section": 1,
+			"confirmationMessage": "0",
+			"gridType": "scrollable"
+		},
+		"quantity": {
+			"label": "P2P_Quantity_Riteaid",
+			"type": "TYPE",
+			"isMandatory": true,
+			"isEditable": true,
+			"section": 1,
+			"confirmationMessage": "0",
+			"gridType": "scrollable"
+		},
+		"receiptReceivedQuantity": {
+			"label": "null",
+			"type": "AUTOSUGGEST",
+			"isMandatory": true,
+			"isEditable": true,
+			"section": 1,
+			"confirmationMessage": "0",
+			"gridType": "scrollable"
+		},
+		"receiptAcceptedQuantity": {
+			"label": "null",
+			"type": "AUTOSUGGEST",
+			"isMandatory": true,
+			"isEditable": true,
+			"section": 1,
+			"confirmationMessage": "0",
+			"gridType": "scrollable"
+		},
+		"uom": {
+			"label": "P2P_CMN_UOM",
+			"type": "AUTOSUGGEST",
+			"isMandatory": true,
+			"isEditable": true,
+			"section": 1,
+			"confirmationMessage": "0",
+			"gridType": "scrollable"
+		},
+		"startDate": {
+			"label": "P2P_Req_StartDate",
+			"type": "DATE",
+			"isMandatory": true,
+			"isEditable": true,
+			"section": 1,
+			"confirmationMessage": "0",
+			"gridType": "scrollable"
+		},
+		"endDate": {
+			"label": "P2P_Req_EndDate",
+			"type": "DATE",
+			"section": 1,
+			"isMandatory": true,
+			"isEditable": true,
+			"confirmationMessage": "0",
+			"gridType": "scrollable"
+		},
+		"unitPrice": {
+			"label": "P2P_Req_UnitPrice_Riteaid",
+			"type": "TYPE",
+			"section": 1,
+			"isMandatory": false,
+			"isEditable": true,
+			"confirmationMessage": "0",
+			"gridType": "scrollable"
+		},
+		"total": {
+			"label": "P2P_Req_LineTotal",
+			"isMandatory": false,
+			"type": "NOACTION",
+			"isEditable": false,
+			"section": 1,
+			"confirmationMessage": "0",
+			"gridType": "scrollable"
+		},
+		"taxes": {
+			"label": "P2P_Req_Taxes_Riteaid",
+			"isMandatory": false,
+			"isEditable": true,
+			"type": "TAX",
+			"section": 1,
+			"confirmationMessage": "0",
+			"gridType": "scrollable"
+		},
+		"otherCharges": {
+			"label": "P2P_Req_OtherCharges_Riteaid",
+			"type": "TYPE",
+			"section": 1,
+			"isMandatory": false,
+			"isEditable": true,
+			"confirmationMessage": "0",
+			"gridType": "scrollable"
+		},
+		"shippingCharges": {
+			"label": "P2P_Req_ShippingCharges_Riteaid",
+			"type": "TYPE",
+			"section": 1,
+			"isMandatory": false,
+			"isEditable": true,
+			"confirmationMessage": "0",
+			"gridType": "scrollable"
+		},
+		"requestedDate": {
+			"label": "P2P_Req_RequestedDate",
+			"dataType": "DATE",
+			"isMandatory": true,
+			"isEditable": false,
+			"section": 1,
+			"confirmationMessage": "0",
+			"gridType": "scrollable"
+		},
+		"needByDate": {
+			"label": "P2P_Req_NeedByDate",
+			"type": "DATE",
+			"isMandatory": true,
+			"isEditable": true,
+			"section": 1,
+			"confirmationMessage": "0",
+			"gridType": "scrollable"
+		},
+		"shippingMethod": {
+			"label": "P2P_Req_ShippingMethod",
+			"type": "DROPDOWN",
+			"isMandatory": false,
+			"isEditable": true,
+			"section": 1,
+			"confirmationMessage": "0",
+			"gridType": "scrollable"
+		},
+		"shipTo": {
+			"label": "P2P_Common_ShipToOrServiceTo",
+			"isMandatory": true,
+			"isEditable": true,
+			"type": "AUTOSUGGEST",
+			"section": 2,
+			"confirmationMessage": "0",
+			"gridType": "scrollable"
+		},
+		"shipTo.address": {
+			"label": "P2P_Req_ShipToAddress",
+			"type": "TYPE",
+			"isMandatory": false,
+			"isEditable": false,
+			"section": 1,
+			"confirmationMessage": "0",
+			"gridType": "scrollable"
+		},
+		"deliverToStr": {
+			"type": "TYPE",
+			"label": "P2P_CMN_DeliverTo",
+			"isMandatory": false,
+			"isEditable": true,
+			"section": 1,
+			"confirmationMessage": "0",
+			"gridType": "scrollable"
+		},
+		"isProcurable": {
+			"type": "DROPDOWN",
+			"label": "P2P_Req_ProcumentOption",
+			"isMandatory": false,
+			"isEditable": true,
+			"section": 1,
+			"confirmationMessage": "0",
+			"gridType": "scrollable"
+		},
+		"matching": {
+			"label": "P2P_Req_Matching",
+			"type": "DROPDOWN",
+			"isMandatory": false,
+			"isEditable": true,
+			"section": 1,
+			"confirmationMessage": "0",
+			"gridType": "scrollable"
+		},
+		"manufacturer": {
+			"label": "manufacturerDetails",
+			"section": 1,
+			"type": "MANUFACTURE",
+			"isMandatory": false,
+			"isEditable": true,
+			"confirmationMessage": "0",
+			"gridType": "scrollable"
+		},
+		"contractNumber": {
+			"label": "P2P_Req_ContractNumber",
+			"isMandatory": false,
+			"isEditable": true,
+			"type": "AUTOSUGGEST",
+			"section": 1,
+			"confirmationMessage": "0",
+			"gridType": "scrollable"
+		},
+		"contractName": {
+			"label": "P2P_Req_ContractName",
+			"type": "TYPE",
+			"isMandatory": false,
+			"isEditable": true,
+			"section": 1,
+			"confirmationMessage": "0",
+			"gridType": "scrollable"
+		},
+		"contractValue": {
+			"label": "P2P_Req_ContractValue",
+			"type": "TYPE",
+			"section": 1,
+			"isMandatory": false,
+			"isEditable": true,
+			"confirmationMessage": "0",
+			"gridType": "scrollable"
+		},
+		"contractExpiryDate": {
+			"label": "P2P_Req_ContractExpiryDate",
+			"type": "DATE",
+			"section": 1,
+			"isMandatory": false,
+			"isEditable": false,
+			"confirmationMessage": "0",
+			"gridType": "scrollable"
+		},
+		"notes": {
+			"label": "comments",
+			"type": "COMMENT",
+			"section": 1,
+			"isMandatory": true,
+			"isEditable": true,
+			"confirmationMessage": "0",
+			"gridType": "scrollable"
+		},
+		"descriptionAccounting": {
+			"label": "P2P_Req_PartnerItemName",
+			"type": "TYPE",
+			"isMandatory": false,
+			"isEditable": true,
+			"section": 1,
+			"confirmationMessage": "0",
+			"gridType": "constant"
+		},
+		"buyerItemNumber": {
+			"label": "P2P_Req_ItemNumber",
+			"type": "TYPE",
+			"isMandatory": false,
+			"isEditable": true,
+			"section": 1,
+			"confirmationMessage": "0",
+			"gridType": "scrollable"
+		},
+		"requester": {
+			"label": "P2P_REQ_Requester",
+			"type": "AUTOSUGGEST",
+			"section": 2,
+			"isMandatory": true,
+			"isEditable": false,
+			"confirmationMessage": "0",
+			"gridType": "scrollable"
+		},
+		"splitEntity1": {
+			"label": "P2P_Company",
+			"type": "AUTOSUGGEST",
+			"section": 2,
+			"isMandatory": true,
+			"isEditable": false,
+			"confirmationMessage": "0",
+			"gridType": "scrollable"
+		},
+		"splitEntity4": {
+			"label": "Null",
+			"type": "AUTOSUGGEST",
+			"section": 2,
+			"isMandatory": true,
+			"isEditable": true,
+			"confirmationMessage": "0",
+			"gridType": "scrollable"
+		},
+		"splitEntity3": {
+			"label": "P2P_BU/Function",
+			"type": "AUTOSUGGEST",
+			"section": 2,
+			"isMandatory": true,
+			"isEditable": true,
+			"confirmationMessage": "0",
+			"gridType": "scrollable"
+		},
+		"splitEntity2": {
+			"label": "P2P_Segments",
+			"type": "AUTOSUGGEST",
+			"section": 2,
+			"isMandatory": false,
+			"isEditable": true,
+			"confirmationMessage": "0",
+			"gridType": "scrollable"
+		},
+		"split": {
+			"label": "P2P_Req_SplitNumber",
+			"type": "NOACTION",
+			"section": 2,
+			"isMandatory": true,
+			"isEditable": true,
+			"confirmationMessage": "0",
+			"gridType": "scrollable"
+		},
+		"splitType": {
+			"label": "split",
+			"type": "NOACTION",
+			"section": 2,
+			"isMandatory": false,
+			"isEditable": true,
+			"confirmationMessage": "0",
+			"gridType": "scrollable",
+			"defaultLabelValue": "split"
+		},
+
+		"splitValue": {
+			"label": "P2P_Req_SplitValue",
+			"type": "NOACTION",
+			"section": 2,
+			"isMandatory": true,
+			"isEditable": true,
+			"confirmationMessage": "0",
+			"gridType": "scrollable"
+		},
+		"splittotal": {
+			"label": "P2P_Req_TotalSplitValue",
+			"type": "NOACTION",
+			"section": 2,
+			"isMandatory": true,
+			"isEditable": true,
+			"confirmationMessage": "0",
+			"gridType": "scrollable"
+		},
+		"taxesCharge": {
+			"label": "P2P_Req_Taxes",
+			"type": "NOACTION",
+			"section": 2,
+			"isMandatory": true,
+			"isEditable": true,
+			"confirmationMessage": "0",
+			"gridType": "scrollable"
+
+		},
+
+		"orderingStatus": {
+			"label": "P2P_Req_OrderingStatus",
+			"type": "NOACTION",
+			"section": 2,
+			"isMandatory": true,
+			"isEditable": true,
+			"confirmationMessage": "0",
+			"gridType": "scrollable"
+		},
+		"contractLineItemRef": {
+			"label": "P2P_Req_Contractitems",
+			"type": "NOACTION",
+			"section": 2,
+			"isMandatory": true,
+			"isEditable": true,
+			"confirmationMessage": "0",
+			"gridType": "scrollable"
+		},
+		"splitEntity5": {
+			"label": "Null",
+			"type": "AUTOSUGGEST",
+			"section": 2,
+			"isMandatory": true,
+			"isEditable": false,
+			"confirmationMessage": "0",
+			"gridType": "scrollable",
+			"defaultLabelValue": "NULL"
+		},
+		"splitEntity6": {
+			"label": "Null",
+			"type": "AUTOSUGGEST",
+			"section": 2,
+			"isMandatory": true,
+			"isEditable": false,
+			"confirmationMessage": "0",
+			"gridType": "scrollable",
+			"defaultLabelValue": "NULL"
+		},
+		"splitEntity7": {
+			"label": "P2P_REQ_CostCenter",
+			"type": "AUTOSUGGEST",
+			"section": 2,
+			"isMandatory": true,
+			"isEditable": true,
+			"confirmationMessage": "0",
+			"gridType": "scrollable"
+		},
+		"splitEntity8": {
+			"label": "P2P_GL Accounts",
+			"type": "AUTOSUGGEST",
+			"isMandatory": true,
+			"isEditable": true,
+			"section": 2,
+			"confirmationMessage": "0",
+			"gridType": "scrollable"
+		},
+		"splitEntity9": {
+			"label": "P2P_Legal Entity",
+			"type": "AUTOSUGGEST",
+			"isMandatory": true,
+			"isEditable": true,
+			"section": 2,
+			"confirmationMessage": "0",
+			"gridType": "scrollable"
+		},
+		"splitEntity10": {
+			"label": "P2P_Req_Quantity",
+			"type": "AUTOSUGGEST",
+			"isMandatory": true,
+			"isEditable": false,
+			"section": 2,
+			"confirmationMessage": "0",
+			"gridType": "scrollable"
+		},
+		"splitEntity11": {
+			"label": "P2P_Req_SplitValue",
+			"type": "AUTOSUGGEST",
+			"isMandatory": true,
+			"isEditable": false,
+			"section": 2,
+			"confirmationMessage": "0",
+			"gridType": "scrollable"
+		},
+		"splitEntity12": {
+			"label": "P2P_Req_Taxes&Charges",
+			"type": "AUTOSUGGEST",
+			"isMandatory": true,
+			"isEditable": false,
+			"section": 2,
+			"confirmationMessage": "0",
+			"gridType": "scrollable"
+		},
+		"splitEntity13": {
+			"label": "P2P_Req_TotalSplitValue",
+			"type": "AUTOSUGGEST",
+			"isMandatory": true,
+			"isEditable": false,
+			"section": 2,
+			"confirmationMessage": "0",
+			"gridType": "scrollable"
+		},
+		"splitEntity14": {
+			"label": "P2P_Payable Entity",
+			"type": "AUTOSUGGEST",
+			"isMandatory": true,
+			"isEditable": true,
+			"section": 2,
+			"confirmationMessage": "0",
+			"gridType": "scrollable",
+			"defaultLabelValue": "NULL"
+		},
+		"orderingLocation": {
+			"label": "Null",
+			"type": "AUTOSUGGEST",
+			"isMandatory": true,
+			"isEditable": true,
+			"section": 2,
+			"confirmationMessage": "0",
+			"gridType": "scrollable",
+			"defaultLabelValue": "NULL"
+		},
+		"splitEntity15": {
+			"label": "P2P_BU.OBJ.SUB",
+			"type": "AUTOSUGGEST",
+			"isMandatory": true,
+			"isEditable": true,
+			"section": 2,
+			"confirmationMessage": "0",
+			"gridType": "scrollable",
+			"defaultLabelValue": "P2P_BU.OBJ.SUB *"
+		},
+		"splitEntity16": {
+			"label": "Null",
+			"type": "AUTOSUGGEST",
+			"isMandatory": true,
+			"isEditable": true,
+			"section": 2,
+			"confirmationMessage": "0",
+			"gridType": "scrollable",
+			"defaultLabelValue": "NULL"
+		},
+		"splitEntity17": {
+			"label": "Null",
+			"type": "AUTOSUGGEST",
+			"isMandatory": true,
+			"isEditable": true,
+			"section": 2,
+			"confirmationMessage": "0",
+			"gridType": "scrollable",
+			"defaultLabelValue": "NULL"
+		},
+		"splitEntity18": {
+			"label": "Null",
+			"type": "AUTOSUGGEST",
+			"isMandatory": true,
+			"isEditable": true,
+			"section": 2,
+			"confirmationMessage": "0",
+			"gridType": "scrollable",
+			"defaultLabelValue": "NULL"
+		},
+		"splitEntity19": {
+			"label": "Null",
+			"type": "AUTOSUGGEST",
+			"isMandatory": true,
+			"isEditable": true,
+			"section": 2,
+			"confirmationMessage": "0",
+			"gridType": "scrollable",
+			"defaultLabelValue": "NULL"
+		},
+		"splitEntity20": {
+			"label": "Null",
+			"type": "AUTOSUGGEST",
+			"isMandatory": true,
+			"isEditable": true,
+			"section": 2,
+			"confirmationMessage": "0",
+			"gridType": "scrollable",
+			"defaultLabelValue": "NULL"
+		},
+		"splitEntity21": {
+			"label": "Null",
+			"type": "AUTOSUGGEST",
+			"isMandatory": true,
+			"isEditable": true,
+			"section": 2,
+			"confirmationMessage": "0",
+			"gridType": "scrollable",
+			"defaultLabelValue": "NULL"
+		},
+		"splitEntity22": {
+			"label": "Null",
+			"type": "AUTOSUGGEST",
+			"isMandatory": true,
+			"isEditable": true,
+			"section": 2,
+			"confirmationMessage": "0",
+			"gridType": "scrollable",
+			"defaultLabelValue": "NULL"
+		},
+		"splitEntity23": {
+			"label": "Null",
+			"type": "AUTOSUGGEST",
+			"isMandatory": true,
+			"isEditable": true,
+			"section": 2,
+			"confirmationMessage": "0",
+			"gridType": "scrollable",
+			"defaultLabelValue": "NULL"
+		},
+		"splitEntity24": {
+			"label": "Null",
+			"type": "AUTOSUGGEST",
+			"isMandatory": true,
+			"isEditable": true,
+			"section": 2,
+			"confirmationMessage": "0",
+			"gridType": "scrollable",
+			"defaultLabelValue": "NULL"
+		},
+		"priceType": {
+			"label": "P2P_Common_PriceType",
+			"type": "DROPDOWN",
+			"isMandatory": false,
+			"isEditable": true,
+			"section": 2,
+			"confirmationMessage": "0",
+			"gridType": "scrollable",
+			"defaultLabelValue": "Price Type"
+		},
+		"contingentWorkerName": {
+			"label": "P2P_Common_ContingentWorkerName",
+			"type": "AUTOSUGGEST",
+			"isMandatory": true,
+			"isEditable": true,
+			"section": 2,
+			"confirmationMessage": "0",
+			"gridType": "scrollable",
+			"defaultLabelValue": "Contingent Worker Name"
+		},
+		"jobTitle": {
+			"label": "P2P_Common_JobTitle",
+			"type": "DROPDOWN",
+			"isMandatory": true,
+			"isEditable": true,
+			"section": 2,
+			"confirmationMessage": "0",
+			"gridType": "scrollable",
+			"defaultLabelValue": "Job Title"
+		},
+		"reportingManager": {
+			"label": "P2P_Common_ReportingManagerName",
+			"type": "AUTOSUGGEST",
+			"isMandatory": true,
+			"isEditable": true,
+			"section": 2,
+			"confirmationMessage": "0",
+			"gridType": "scrollable",
+			"defaultLabelValue": "Reporting Manager"
+		},
+		"margin": {
+			"label": "P2P_Common_Margin",
+			"type": "TYPE",
+			"isMandatory": true,
+			"isEditable": true,
+			"section": 2,
+			"confirmationMessage": "0",
+			"gridType": "scrollable",
+			"defaultLabelValue": "Margin (%)"
+		},
+		"payRate": {
+			"label": "P2P_Common_BasedRate",
+			"type": "TYPE",
+			"isMandatory": false,
+			"isEditable": false,
+			"section": 2,
+			"confirmationMessage": "0",
+			"gridType": "scrollable",
+			"defaultLabelValue": "Pay Rate"
+		}
+	}
+}

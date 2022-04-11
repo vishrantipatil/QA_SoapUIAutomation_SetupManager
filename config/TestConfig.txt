@@ -1,0 +1,5 @@
+#
+#Thu Mar 31 11:44:44 IST 2022
+TestTool.IMInstallDir=C\:\\Automation\\Testcase Repo\\QA_Automation_SetupManager\\config
+TestTool.InputDir=C\:\\Automation\\Testcase Repo\\QA_Automation_SetupManager\\TestCases
+TestTool.LogDir=C\:\\Automation\\Testcase Repo\\QA_Automation_SetupManager\\logs

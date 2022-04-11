@@ -1,0 +1,9 @@
+/SmartTestScreenshot
+/bin/*
+/test-output/*
+/TestLogs/*
+/ExecutionScreenshot/*
+/reports/*
+/target/*
+/download/*
+* -crlf

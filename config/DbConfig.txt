@@ -1,0 +1,6 @@
+#
+#Tue Jan 14 18:19:09 IST 2020
+db.password=Password@123
+db.schema=
+db.url=jdbc\:sqlserver\://172.19.2.6\\SQLEXPRESS\:1433;databaseName\=SmartTestDB
+db.userName=sa

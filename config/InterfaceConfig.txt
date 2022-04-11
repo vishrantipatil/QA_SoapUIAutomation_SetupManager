@@ -1,0 +1,11 @@
+#
+#Fri Jan 15 14:40:42 IST 2016
+defaultProtocol=http;
+accountName=gepuatinterfacestorage;
+accountKey=DBgPKzmGhl3IbH+0jdCDzSFWYG88PulMpmvqUHzPAjCuVw5lUyTddqLAMWTnxg/UJE9sUkiH/rMZ+bdOzlxiBg==
+clientCode=198798
+interfacePO=SAP/cXML
+interfacePOInvoice=ScanOne/cXML
+interfaceReceipt=SAP/cXML
+interfaceCreditMemoFromBuyer=ScanOne/cXML
+interfaceCreditMemoFromSupplier=cXML

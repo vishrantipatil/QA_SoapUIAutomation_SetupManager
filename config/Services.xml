@@ -1,0 +1,3458 @@
+<services>
+	<service serviceName="setupmanager.FillBuyerUserBasicDetailsSheet">
+		<field fieldName="Operation" fieldRef="Operation"/>	
+		<field fieldName="First Name" fieldRef="First Name"/>
+		<field fieldName="Last Name" fieldRef="Last Name"/>
+		<field fieldName="User Name" fieldRef="User Name"/>
+		<field fieldName="Client Contact Code" fieldRef="Client Contact Code"/>
+		<field fieldName="Email ID" fieldRef="Email ID"/>
+		<field fieldName="Currency User Profile" fieldRef="Currency User Profile"/>
+		<field fieldName="Phone 1" fieldRef="Phone 1"/>
+		<field fieldName="Phone 2" fieldRef="Phone 2"/>
+		<field fieldName="Persona" fieldRef="Persona"/>
+		<field fieldName="Manager Username" fieldRef="Manager Username"/>
+		<field fieldName="Designation" fieldRef="Designation"/>
+		<field fieldName="Country" fieldRef="Country"/>
+		<field fieldName="Ship To Location Code | Name" fieldRef="Ship To Location Code | Name"/>
+		<field fieldName="Currency Authority Amounts" fieldRef="Currency Authority Amounts"/>
+		<field fieldName="Primary Authority Amount" fieldRef="Primary Authority Amount"/>
+		<field fieldName="Secondary Authority Amount" fieldRef="Secondary Authority Amount"/>
+		<field fieldName="Contract Authority Amount" fieldRef="Contract Authority Amount"/>
+		<field fieldName="Authority Amount for Project" fieldRef="Authority Amount for Project"/>
+		<field fieldName="Secondary Authority Amount for Contract" fieldRef="Secondary Authority Amount for Contract"/>
+		<field fieldName="Amendment Authority Amount for Contract" fieldRef="Amendment Authority Amount for Contract"/>
+		<field fieldName="Timezone" fieldRef="Timezone"/>
+		<field fieldName="Language" fieldRef="Language"/>
+		<field fieldName="Category Mapping" fieldRef="Category Mapping"/>
+		<field fieldName="Default Category" fieldRef="Default Category"/>
+		<field fieldName="Region Mapping" fieldRef="Region Mapping"/>
+		<field fieldName="Default Region" fieldRef="Default Region"/>
+		<field fieldName="Belonging Division" fieldRef="Belonging Division"/>
+		<field fieldName="Belonging Entities" fieldRef="Belonging Entities"/>
+		<field fieldName="Default Belonging Entity" fieldRef="Default Belonging Entity"/>
+		<field fieldName="Spend User Type" fieldRef="Spend User Type"/>
+		<field fieldName="Spend User Group" fieldRef="Spend User Group"/>
+		<field fieldName="Spend Dashboard" fieldRef="Spend Dashboard"/>
+		<field fieldName="Default Spend Dashboard" fieldRef="Default Spend Dashboard"/>
+		<field fieldName="Authentication Type" fieldRef="Authentication Type"/>
+		<field fieldName="Mark as Inactive" fieldRef="Mark as Inactive"/>
+		<field fieldName="Mark as Deleted" fieldRef="Mark as Deleted"/>
+	</service>
+	
+	<service serviceName="setupmanager.FillBuyerUserServingEntitiesSheet">
+		<field fieldName="Operation" fieldRef="Operation"/>
+		<field fieldName="User Name" fieldRef="User Name"/>
+		<field fieldName="Client Contact Code" fieldRef="Client Contact Code"/>
+		<field fieldName="Serving Division" fieldRef="Serving Division"/>
+		<field fieldName="Default Serving Division" fieldRef="Default Serving Division"/>
+		<field fieldName="Serving Entities" fieldRef="Serving Entities"/>
+		<field fieldName="Default Serving Entity" fieldRef="Default Serving Entity"/>
+	</service>
+	
+	<service serviceName="setupmanager.VerifyBuyerUserBasicDetailsSheet">
+		<field fieldName="Download Type" fieldRef="Download Type"/>
+		<field fieldName="Is Full Data" fieldRef="Is Full Data"/>
+		<field fieldName="Operation" fieldRef="Operation"/>	
+		<field fieldName="First Name" fieldRef="First Name"/>
+		<field fieldName="Last Name" fieldRef="Last Name"/>
+		<field fieldName="User Name" fieldRef="User Name"/>
+		<field fieldName="Client Contact Code" fieldRef="Client Contact Code"/>
+		<field fieldName="Email ID" fieldRef="Email ID"/>
+		<field fieldName="Currency User Profile" fieldRef="Currency User Profile"/>
+		<field fieldName="Phone 1" fieldRef="Phone 1"/>
+		<field fieldName="Phone 2" fieldRef="Phone 2"/>
+		<field fieldName="Persona" fieldRef="Persona"/>
+		<field fieldName="Manager Username" fieldRef="Manager Username"/>
+		<field fieldName="Designation" fieldRef="Designation"/>
+		<field fieldName="Country" fieldRef="Country"/>
+		<field fieldName="Ship To Location Code | Name" fieldRef="Ship To Location Code | Name"/>
+		<field fieldName="Currency Authority Amounts" fieldRef="Currency Authority Amounts"/>
+		<field fieldName="Primary Authority Amount" fieldRef="Primary Authority Amount"/>
+		<field fieldName="Secondary Authority Amount" fieldRef="Secondary Authority Amount"/>
+		<field fieldName="Contract Authority Amount" fieldRef="Contract Authority Amount"/>
+		<field fieldName="Authority Amount for Project" fieldRef="Authority Amount for Project"/>
+		<field fieldName="Secondary Authority Amount for Contract" fieldRef="Secondary Authority Amount for Contract"/>
+		<field fieldName="Amendment Authority Amount for Contract" fieldRef="Amendment Authority Amount for Contract"/>
+		<field fieldName="Timezone" fieldRef="Timezone"/>
+		<field fieldName="Language" fieldRef="Language"/>
+		<field fieldName="Category Mapping" fieldRef="Category Mapping"/>
+		<field fieldName="Default Category" fieldRef="Default Category"/>
+		<field fieldName="Region Mapping" fieldRef="Region Mapping"/>
+		<field fieldName="Default Region" fieldRef="Default Region"/>
+		<field fieldName="Belonging Division" fieldRef="Belonging Division"/>
+		<field fieldName="Belonging Entities" fieldRef="Belonging Entities"/>
+		<field fieldName="Default Belonging Entity" fieldRef="Default Belonging Entity"/>
+		<field fieldName="Spend User Type" fieldRef="Spend User Type"/>
+		<field fieldName="Spend User Group" fieldRef="Spend User Group"/>
+		<field fieldName="Spend Dashboard" fieldRef="Spend Dashboard"/>
+		<field fieldName="Default Spend Dashboard" fieldRef="Default Spend Dashboard"/>
+		<field fieldName="Authentication Type" fieldRef="Authentication Type"/>
+		<field fieldName="Mark as Inactive" fieldRef="Mark as Inactive"/>
+		<field fieldName="Mark as Deleted" fieldRef="Mark as Deleted"/>
+		<field fieldName="Error Message" fieldRef="Error Message"/>
+	</service>
+	
+	<service serviceName="setupmanager.VerifyBuyerUserServingEntitiesSheet">
+		<field fieldName="Download Type" fieldRef="Download Type"/>
+		<field fieldName="Is Full Data" fieldRef="Is Full Data"/>
+		<field fieldName="Operation" fieldRef="Operation"/>
+		<field fieldName="User Name" fieldRef="User Name"/>
+		<field fieldName="Client Contact Code" fieldRef="Client Contact Code"/>
+		<field fieldName="Serving Division" fieldRef="Serving Division"/>
+		<field fieldName="Default Serving Division" fieldRef="Default Serving Division"/>
+		<field fieldName="Serving Entities" fieldRef="Serving Entities"/>
+		<field fieldName="Default Serving Entity" fieldRef="Default Serving Entity"/>
+	</service>
+	
+	<service serviceName="setupmanager.VerifyBuyerUserEntitiesOnGrid">
+		<field fieldName="Division" fieldRef="Division"/>
+		<field fieldName="Default Division Preference" fieldRef="Default Division Preference"/>
+		<field fieldName="Entity Name" fieldRef="Entity Name"/>
+		<field fieldName="Entity Code" fieldRef="Entity Code"/>
+		<field fieldName="Default Preference" fieldRef="Default Preference"/>
+		<field fieldName="Default Entity Preference" fieldRef="Default Serving Division"/>
+	</service>	
+	
+	<service serviceName="setupmanager.FillShipToLocationDetailsInSheet">
+		<field fieldName="Operation" fieldRef="Operation"/>
+		<field fieldName="Ship To Location ID" fieldRef="Ship To Location ID"/>
+		<field fieldName="Ship To Location Name" fieldRef="Ship To Location Name"/>
+		<field fieldName="Ship To Location Number" fieldRef="Ship To Location Number"/>
+		<field fieldName="Contact Person" fieldRef="Contact Person"/>
+		<field fieldName="Address Line 1" fieldRef="Address Line 1"/>
+		<field fieldName="Address Line 2" fieldRef="Address Line 2"/>
+		<field fieldName="Address Line 3" fieldRef="Address Line 3"/>
+		<field fieldName="City" fieldRef="City"/>
+		<field fieldName="State" fieldRef="State"/>
+		<field fieldName="ZIPPIN Code" fieldRef="ZIPPIN Code"/>
+		<field fieldName="Country" fieldRef="Country"/>
+		<field fieldName="Phone Number" fieldRef="Phone Number"/>
+		<field fieldName="Divisions" fieldRef="Divisions"/>
+		<field fieldName="Entities" fieldRef="Entities"/>
+		<field fieldName="Mark as Default" fieldRef="Mark as Default"/>
+		<field fieldName="Entityies which will default" fieldRef="Entityies which will default"/>
+		<field fieldName="Allow For Future Reference" fieldRef="Allow For Future Reference"/>
+		<field fieldName="Mark as Deleted" fieldRef="Mark as Deleted"/>
+	</service>
+	
+	<service serviceName="setupmanager.VerifyShipToLocationDetailsInSheet">
+		<field fieldName="Download Type" fieldRef="Download Type"/>
+		<field fieldName="Operation" fieldRef="Operation"/>
+		<field fieldName="Ship To Location ID" fieldRef="Ship To Location ID"/>
+		<field fieldName="Ship To Location Name" fieldRef="Ship To Location Name"/>
+		<field fieldName="Ship To Location Number" fieldRef="Ship To Location Number"/>
+		<field fieldName="Contact Person" fieldRef="Contact Person"/>
+		<field fieldName="Address Line 1" fieldRef="Address Line 1"/>
+		<field fieldName="Address Line 2" fieldRef="Address Line 2"/>
+		<field fieldName="Address Line 3" fieldRef="Address Line 3"/>
+		<field fieldName="City" fieldRef="City"/>
+		<field fieldName="State" fieldRef="State"/>
+		<field fieldName="ZIPPIN Code" fieldRef="ZIPPIN Code"/>
+		<field fieldName="Country" fieldRef="Country"/>
+		<field fieldName="Phone Number" fieldRef="Phone Number"/>
+		<field fieldName="Divisions" fieldRef="Divisions"/>
+		<field fieldName="Entities" fieldRef="Entities"/>
+		<field fieldName="Mark as Default" fieldRef="Mark as Default"/>
+		<field fieldName="Entityies which will default" fieldRef="Entityies which will default"/>
+		<field fieldName="Allow For Future Reference" fieldRef="Allow For Future Reference"/>
+		<field fieldName="Mark as Deleted" fieldRef="Mark as Deleted"/>
+		<field fieldName="ValidationMessage" fieldRef="ValidationMessage"/>
+	</service>
+
+	<service serviceName="setupmanager.FillBillToLocationDetailsInSheet">
+		<field fieldName="Operation" fieldRef="Operation"/>
+		<field fieldName="Bill To Location ID " fieldRef="Bill To Location ID "/>
+		<field fieldName="Bill To Location Name" fieldRef="Bill To Location Name"/>
+		<field fieldName="Bill To Location Number" fieldRef="Bill To Location Number"/>
+		<field fieldName="Address Line 1" fieldRef="Address Line 1"/>
+		<field fieldName="Address Line 2" fieldRef="Address Line 2"/>
+		<field fieldName="Address Line 3" fieldRef="Address Line 3"/>
+		<field fieldName="City" fieldRef="City"/>
+		<field fieldName="State" fieldRef="State"/>
+		<field fieldName="ZIPPIN Code" fieldRef="ZIPPIN Code"/>
+		<field fieldName="Country" fieldRef="Country"/>
+		<field fieldName="Phone Number" fieldRef="Phone Number"/>
+		<field fieldName="Email Address" fieldRef="Email Address"/>
+		<field fieldName="Divisions" fieldRef="Divisions"/>
+		<field fieldName="Entities" fieldRef="Entities"/>
+		<field fieldName="Mark as Default" fieldRef="Mark as Default"/>
+		<field fieldName="Entity(ies) which will default" fieldRef="Entity(ies) which will default"/>
+		<field fieldName="Mark as Deleted" fieldRef="Mark as Deleted"/>
+	</service>
+	
+	<service serviceName="setupmanager.FillAccountingStructureDetailsSheet">
+		<field fieldName="Operation" fieldRef="Operation"/>
+		<field fieldName="Accounting Structure Name" fieldRef="Accounting Structure Name"/>
+		<field fieldName="LOB Name" fieldRef="LOB Name"/>
+		<field fieldName="Entity Name" fieldRef="Entity Name"/>
+		<field fieldName="Accounting structure Mapping entity" fieldRef="Accounting structure Mapping entity"/>
+		<field fieldName="Entity Display level HeaderAccounting" fieldRef="Entity Display level HeaderAccounting"/>
+		<field fieldName="Entity Data Source" fieldRef="Entity Data Source"/>
+		<field fieldName="Entity Value Display Format" fieldRef="Entity Value Display Format"/>
+		<field fieldName="Entity  Field Type" fieldRef="Entity  Field Type"/>
+		<field fieldName="Display Order in P2P document" fieldRef="Display Order in P2P document"/>
+		<field fieldName="Mandatory" fieldRef="Mandatory"/>
+		<field fieldName="Code Combination column sequence" fieldRef="Code Combination column sequence"/>
+		<field fieldName="Enable Show Lookup Functionality" fieldRef="Enable Show Lookup Functionality"/>
+		<field fieldName="Make Entity Available For" fieldRef="Make Entity Available For"/>
+		<field fieldName="Enable Default Value for Entity in P2P Documents" fieldRef="Enable Default Value for Entity in P2P Documents"/>
+	</service>
+	
+	<service serviceName="setupmanager.VerifyAccountingStructureDetailsInSheet">
+		<field fieldName="Download Type" fieldRef="Download Type"/>
+		<field fieldName="Operation" fieldRef="Operation"/>
+		<field fieldName="Accounting Structure Name" fieldRef="Accounting Structure Name"/>
+		<field fieldName="LOB Name" fieldRef="LOB Name"/>
+		<field fieldName="Entity Name" fieldRef="Entity Name"/>
+		<field fieldName="Accounting structure Mapping entity" fieldRef="Accounting structure Mapping entity"/>
+		<field fieldName="Entity Display level HeaderAccounting" fieldRef="Entity Display level HeaderAccounting"/>
+		<field fieldName="Entity Data Source" fieldRef="Entity Data Source"/>
+		<field fieldName="Entity Value Display Format" fieldRef="Entity Value Display Format"/>
+		<field fieldName="Entity  Field Type" fieldRef="Entity  Field Type"/>
+		<field fieldName="Display Order in P2P document" fieldRef="Display Order in P2P document"/>
+		<field fieldName="Mandatory" fieldRef="Mandatory"/>
+		<field fieldName="Code Combination column sequence" fieldRef="Code Combination column sequence"/>
+		<field fieldName="Enable Show Lookup Functionality" fieldRef="Enable Show Lookup Functionality"/>
+		<field fieldName="Make Entity Available For" fieldRef="Make Entity Available For"/>
+		<field fieldName="Enable Default Value for Entity in P2P Documents" fieldRef="Enable Default Value for Entity in P2P Documents"/>
+		<field fieldName="Error Message" fieldRef="Error Message"/>
+	</service>
+
+	<service serviceName="setupmanager.VerifyBillToLocationDetailsInSheet">
+		<field fieldName="Download Type" fieldRef="Download Type"/>
+		<field fieldName="Operation" fieldRef="Operation"/>
+		<field fieldName="Bill To Location ID" fieldRef="Bill To Location ID"/>
+		<field fieldName="Bill To Location Name" fieldRef="Bill To Location Name"/>
+		<field fieldName="Bill To Location Number" fieldRef="Bill To Location Number"/>
+		<field fieldName="Address Line 1" fieldRef="Address Line 1"/>
+		<field fieldName="Address Line 2" fieldRef="Address Line 2"/>
+		<field fieldName="Address Line 3" fieldRef="Address Line 3"/>
+		<field fieldName="City" fieldRef="City"/>
+		<field fieldName="State" fieldRef="State"/>
+		<field fieldName="ZIPPIN Code" fieldRef="ZIPPIN Code"/>
+		<field fieldName="Country" fieldRef="Country"/>
+		<field fieldName="Phone Number" fieldRef="Phone Number"/>
+		<field fieldName="Email Address" fieldRef="Email Address"/>
+		<field fieldName="Divisions" fieldRef="Divisions"/>
+		<field fieldName="Entities" fieldRef="Entities"/>
+		<field fieldName="Mark as Default" fieldRef="Mark as Default"/>
+		<field fieldName="Entityies which will default" fieldRef="Entityies which will default"/>
+		<field fieldName="Mark as Inactive" fieldRef="Mark as Inactive"/>
+		<field fieldName="Error Message" fieldRef="Error Message"/>
+	</service>
+	
+	<service serviceName="setupmanager.FillRegionDetailsSheet">
+		<field fieldName="Operation" fieldRef="Operation"/>
+		<field fieldName="Region Id" fieldRef="Region Id"/>
+		<field fieldName="Region Code" fieldRef="Region Code"/>
+		<field fieldName="Region Name" fieldRef="Region Name"/>
+		<field fieldName="Region Level" fieldRef="Region Level"/>
+		<field fieldName="Parent Region Code" fieldRef="Parent Region Code"/>
+		<field fieldName="Mark as Inactive" fieldRef="Mark as Inactive"/>
+	</service>
+	
+	<service serviceName="setupmanager.VerifyRegionDetailsSheet">
+		<field fieldName="Download Type" fieldRef="Download Type"/>
+		<field fieldName="Is Full Data" fieldRef="Is Full Data"/>
+		<field fieldName="Operation" fieldRef="Operation"/>
+		<field fieldName="Region Id" fieldRef="Region Id"/>
+		<field fieldName="Region Code" fieldRef="Region Code"/>
+		<field fieldName="Region Name" fieldRef="Region Name"/>
+		<field fieldName="Region Level" fieldRef="Region Level"/>
+		<field fieldName="Parent Region Code" fieldRef="Parent Region Code"/>
+		<field fieldName="Mark as Inactive" fieldRef="Mark as Inactive"/>
+		<field fieldName="Error Message" fieldRef="Error Message"/>
+	</service>
+	
+	<service serviceName="setupmanager.FillFeatureBasicDetailsSheet">
+		<field fieldName="Operation" fieldRef="Operation"/>
+		<field fieldName="Product" fieldRef="Product"/>
+		<field fieldName="ObjectType" fieldRef="ObjectType"/>
+		<field fieldName="Feature Name" fieldRef="Feature Name"/>
+		<field fieldName="Feature Description" fieldRef="Feature Description"/>
+		<field fieldName="Feature Type" fieldRef="Feature Type"/>
+		<field fieldName="Feature Classification" fieldRef="Feature Classification"/>
+	</service>	
+	
+	<service serviceName="setupmanager.VerifyFeatureBasicDetailsInSheet">
+		<field fieldName="Download Type" fieldRef="Download Type"/>
+		<field fieldName="Is Full Data" fieldRef="Is Full Data"/>
+		<field fieldName="Operation" fieldRef="Operation"/>
+		<field fieldName="Product" fieldRef="Product"/>
+		<field fieldName="ObjectType" fieldRef="ObjectType"/>
+		<field fieldName="Feature Name" fieldRef="Feature Name"/>
+		<field fieldName="Feature Description" fieldRef="Feature Description"/>
+		<field fieldName="Feature Type" fieldRef="Feature Type"/>
+		<field fieldName="Feature Classification" fieldRef="Feature Classification"/>
+		<field fieldName="Error Message" fieldRef="Error Message"/>
+	</service>	
+	
+	<service serviceName="setupmanager.FillSettingsBasicDetailsSheet">
+		<field fieldName="Operation" fieldRef="Operation"/>
+		<field fieldName="Product" fieldRef="Product"/>
+		<field fieldName="ObjectType" fieldRef="ObjectType"/>
+		<field fieldName="Feature Name" fieldRef="Feature Name"/>
+		<field fieldName="Setting Database Name" fieldRef="Setting Database Name"/>
+		<field fieldName="Setting Display Name" fieldRef="Setting Display Name"/>
+		<field fieldName="Setting Description" fieldRef="Setting Description"/>
+		<field fieldName="OptionType" fieldRef="OptionType"/>
+		<field fieldName="Mark as Master Setting" fieldRef="Mark as Master Setting"/>
+		<field fieldName="Setting Type" fieldRef="Setting Type"/>
+		<field fieldName="Setting Default Value" fieldRef="Setting Default Value"/>
+		<field fieldName="OwnerTypeInfo" fieldRef="OwnerTypeInfo"/>
+		<field fieldName="Setting Cache Key" fieldRef="Setting Cache Key"/>
+	</service>
+	
+	<service serviceName="setupmanager.VerifySettingsBasicDetailsInSheet">
+		<field fieldName="Download Type" fieldRef="Download Type"/>
+		<field fieldName="Is Full Data" fieldRef="Is Full Data"/>
+		<field fieldName="Operation" fieldRef="Operation"/>
+		<field fieldName="Product" fieldRef="Product"/>
+		<field fieldName="ObjectType" fieldRef="ObjectType"/>
+		<field fieldName="Feature Name" fieldRef="Feature Name"/>
+		<field fieldName="Setting Database Name" fieldRef="Setting Database Name"/>
+		<field fieldName="Setting Display Name" fieldRef="Setting Display Name"/>
+		<field fieldName="Setting Description" fieldRef="Setting Description"/>
+		<field fieldName="OptionType" fieldRef="OptionType"/>
+		<field fieldName="Mark as Master Setting" fieldRef="Mark as Master Setting"/>
+		<field fieldName="Setting Type" fieldRef="Setting Type"/>
+		<field fieldName="Setting Default Value" fieldRef="Setting Default Value"/>
+		<field fieldName="OwnerTypeInfo" fieldRef="OwnerTypeInfo"/>
+		<field fieldName="Error Message" fieldRef="Error Message"/>
+		<field fieldName="Setting Cache Key" fieldRef="Setting Cache Key"/>
+	</service>
+	
+	<service serviceName="setupmanager.FillCustomValuesOptionsSheet">
+		<field fieldName="Operation" fieldRef="Operation"/>
+		<field fieldName="Product" fieldRef="Product"/>
+		<field fieldName="ObjectType" fieldRef="ObjectType"/>
+		<field fieldName="Setting Database Name" fieldRef="Setting Database Name"/>
+		<field fieldName="Option Database Value" fieldRef="Option Database Value"/>
+		<field fieldName="Option Display Text" fieldRef="Option Display Text"/>
+	</service>
+	
+	<service serviceName="setupmanager.VerifyCustomValuesOptionsInSheet">
+		<field fieldName="Download Type" fieldRef="Download Type"/>
+		<field fieldName="Is Full Data" fieldRef="Is Full Data"/>
+		<field fieldName="Operation" fieldRef="Operation"/>
+		<field fieldName="Product" fieldRef="Product"/>
+		<field fieldName="ObjectType" fieldRef="ObjectType"/>
+		<field fieldName="Setting Database Name" fieldRef="Setting Database Name"/>
+		<field fieldName="Option Database Value" fieldRef="Option Database Value"/>
+		<field fieldName="Option Display Text" fieldRef="Option Display Text"/>
+		<field fieldName="Error Message" fieldRef="Error Message"/>
+	</service>
+	
+	<service serviceName="setupmanager.FillTableDrivenOptionsSheet">
+		<field fieldName="Operation" fieldRef="Operation"/>
+		<field fieldName="Product" fieldRef="Product"/>
+		<field fieldName="ObjectType" fieldRef="ObjectType"/>
+		<field fieldName="Setting Database Name" fieldRef="Setting Database Name"/>
+		<field fieldName="MasterTableName" fieldRef="MasterTableName"/>
+		<field fieldName="OptionValueColumnName" fieldRef="OptionValueColumnName"/>
+		<field fieldName="OptionDisplayColumnName" fieldRef="OptionDisplayColumnName"/>
+		<field fieldName="ControllingCondition" fieldRef="ControllingCondition"/>
+	</service>
+	
+	<service serviceName="setupmanager.VerifyTableDrivenOptionsInSheet">
+		<field fieldName="Download Type" fieldRef="Download Type"/>
+		<field fieldName="Is Full Data" fieldRef="Is Full Data"/>
+		<field fieldName="Operation" fieldRef="Operation"/>
+		<field fieldName="Product" fieldRef="Product"/>
+		<field fieldName="ObjectType" fieldRef="ObjectType"/>
+		<field fieldName="Setting Database Name" fieldRef="Setting Database Name"/>
+		<field fieldName="MasterTableName" fieldRef="MasterTableName"/>
+		<field fieldName="OptionValueColumnName" fieldRef="OptionValueColumnName"/>
+		<field fieldName="OptionDisplayColumnName" fieldRef="OptionDisplayColumnName"/>
+		<field fieldName="ControllingCondition" fieldRef="ControllingCondition"/>
+		<field fieldName="Error Message" fieldRef="Error Message"/>
+	</service>
+
+	<service serviceName="setupmanager.FillPaymentTermDetailsSheet">
+		<field fieldName="Operation" fieldRef="Operation"/>
+		<field fieldName="Payment Term ID" fieldRef="Payment Term ID"/>
+		<field fieldName="Payment Term Name" fieldRef="Payment Term Name"/>	
+		<field fieldName="Number of Days" fieldRef="Number of Days"/>
+		<field fieldName="Discount" fieldRef="Discount"/>
+		<field fieldName="Discount Days" fieldRef="Discount Days"/>
+		<field fieldName="Payment Term Code" fieldRef="Payment Term Code"/>
+		<field fieldName="Division" fieldRef="Division"/>	
+		<field fieldName="Entities" fieldRef="Entities"/>
+		<field fieldName="Mark as Default" fieldRef="Mark as Default"/>
+		<field fieldName="Mark as Inactive" fieldRef="Mark as Inactive"/>
+	</service>
+	
+	<service serviceName="setupmanager.VerifyPaymentTermDetailsInSheet">
+		<field fieldName="Download Type" fieldRef="Download Type"/>
+		<field fieldName="Is Full Data" fieldRef="Is Full Data"/>
+		<field fieldName="Operation" fieldRef="Operation"/>
+		<field fieldName="Payment Term ID" fieldRef="Payment Term ID"/>
+		<field fieldName="Payment Term Name" fieldRef="Payment Term Name"/>	
+		<field fieldName="Number of Days" fieldRef="Number of Days"/>
+		<field fieldName="Discount" fieldRef="Discount"/>
+		<field fieldName="Discount Days" fieldRef="Discount Days"/>
+		<field fieldName="Payment Term Code" fieldRef="Payment Term Code"/>
+		<field fieldName="Division" fieldRef="Division"/>	
+		<field fieldName="Entities" fieldRef="Entities"/>
+		<field fieldName="Mark as Default" fieldRef="Mark as Default"/>
+		<field fieldName="Mark as Inactive" fieldRef="Mark as Inactive"/>
+		<field fieldName="Error Message" fieldRef="Error Message"/>
+	</service>
+	
+	<service serviceName="setupmanager.FillAccountingStructureEntityMappingSheet">
+		<field fieldName="Operation" fieldRef="Operation"/>
+		<field fieldName="Mapping ID" fieldRef="Mapping ID"/>
+		<field fieldName="LOB Name" fieldRef="LOB Name"/>
+		<field fieldName="Accounting Entity Name" fieldRef="Accounting Entity Name"/>
+		<field fieldName="Accounting Structure Name" fieldRef="Accounting Structure Name"/>
+	</service>
+	
+	<service serviceName="setupmanager.VerifyAccountingStructureEntityMappingInSheet">
+		<field fieldName="Download Type" fieldRef="Download Type"/>
+		<field fieldName="Operation" fieldRef="Operation"/>
+		<field fieldName="Mapping ID" fieldRef="Mapping ID"/>
+		<field fieldName="LOB Name" fieldRef="LOB Name"/>
+		<field fieldName="Accounting Entity Name" fieldRef="Accounting Entity Name"/>
+		<field fieldName="Accounting Structure Name" fieldRef="Accounting Structure Name"/>
+		<field fieldName="Error Message" fieldRef="Error Message"/>
+	</service>
+	
+	<service serviceName="setupmanager.FillManageOrganizationEntityData">
+		<field fieldName="Operation" fieldRef="Operation"/>
+		<field fieldName="LOB Code" fieldRef="LOB Code"/>
+		<field fieldName="Entity" fieldRef="Entity"/>
+		<field fieldName="Entity Name" fieldRef="Entity Name"/>
+		<field fieldName="Entity Code" fieldRef="Entity Code"/>
+		<field fieldName="Parent Entity" fieldRef="Parent Entity"/>
+		<field fieldName="Parent Entity Code" fieldRef="Parent Entity Code"/>
+		<field fieldName="Mark as Inactive" fieldRef="Mark as Inactive"/>
+		<field fieldName="Address Line 1" fieldRef="Address Line 1"/>
+		<field fieldName="Address Line 2" fieldRef="Address Line 2"/>
+		<field fieldName="City" fieldRef="City"/>
+		<field fieldName="State" fieldRef="State"/>
+		<field fieldName="Country" fieldRef="Country"/>
+		<field fieldName="Zip Code" fieldRef="Zip Code"/>
+		<field fieldName="Phone 1" fieldRef="Phone 1"/>
+		<field fieldName="Phone 2" fieldRef="Phone 2"/>
+		<field fieldName="Email" fieldRef="Email"/>
+		<field fieldName="Fax" fieldRef="Fax"/>
+		<field fieldName="URL" fieldRef="URL"/>
+		<field fieldName="Logo" fieldRef="Logo"/>
+		<field fieldName="StartDate" fieldRef="StartDate"/>
+		<field fieldName="EndDate" fieldRef="EndDate"/>
+	</service>
+
+	<service serviceName="setupmanager.FillSupplierBasicDetailsSheet">
+		<field fieldName="Operation" fieldRef="Operation"/>
+		<field fieldName="Legal Company Name" fieldRef="Legal Company Name"/>
+		<field fieldName="Parent Company Name" fieldRef="Parent Company Name"/>
+		<field fieldName="Category" fieldRef="Category"/>
+		<field fieldName="Region" fieldRef="Region"/>
+		<field fieldName="Doing Business As" fieldRef="Doing Business As"/>
+		<field fieldName="Normalized Name" fieldRef="Normalized Name"/>
+		<field fieldName="Supplier Manager Preference" fieldRef="Supplier Manager Preference"/>
+		<field fieldName="Supplier Managers" fieldRef="Supplier Managers"/>
+		<field fieldName="Website" fieldRef="Website"/>
+		<field fieldName="Duns No" fieldRef="Duns No"/>
+		<field fieldName="Supplier Code" fieldRef="Client Supplier Code"/>
+		<field fieldName="Partner Status" fieldRef="Partner Status"/>
+		<field fieldName="Headquarter" fieldRef="Headquarter"/>
+		<field fieldName="Address Line 1" fieldRef="Address Line 1"/>
+		<field fieldName="Address Line 2" fieldRef="Address Line 2"/>
+		<field fieldName="City" fieldRef="City"/>
+		<field fieldName="State" fieldRef="State"/>
+		<field fieldName="Zip Code" fieldRef="Zip Code"/>
+		<field fieldName="Company Phone" fieldRef="Company Phone"/>
+		<field fieldName="Fax" fieldRef="Fax"/>	
+		<field fieldName="Sent through Interface" fieldRef="Sent through Interface"/>
+		<field fieldName="Primary EmailID" fieldRef="Primary EmailID"/>			
+	</service>
+	
+	<service serviceName="setupmanager.FillSupplierDivisionAndOrgEntitiesSheet">
+			<field fieldName="Operation" fieldRef="Operation"/>
+			<field fieldName="Legal Company Name" fieldRef="Legal Company Name"/>
+			<field fieldName="Divisions" fieldRef="Divisions"/>
+			<field fieldName="Organization Entities" fieldRef="Organization Entities"/>	
+			<field fieldName="Primary EmailID" fieldRef="Primary EmailID"/>	
+	</service>
+	
+	<service serviceName="setupmanager.FillSupplierContactsSheet">
+			<field fieldName="Operation" fieldRef="Operation"/>
+			<field fieldName="Legal Company Name" fieldRef="Legal Company Name"/>
+			<field fieldName="First Name" fieldRef="First Name"/>
+			<field fieldName="Last Name" fieldRef="Last Name"/>
+			<field fieldName="Email ID" fieldRef="Email ID"/>
+			<field fieldName="Designation" fieldRef="Designation"/>
+			<field fieldName="Default Role" fieldRef="Default Role"/>
+			<field fieldName="PrimaryBusiness PhoneNumber" fieldRef="PrimaryBusiness PhoneNumber"/>
+			<field fieldName="Primary Business Extension" fieldRef="Primary Business Extension"/>
+			<field fieldName="SecondaryBusiness PhoneNumber" fieldRef="SecondaryBusiness PhoneNumber"/>
+			<field fieldName="Secondary Business Extension" fieldRef="Secondary Business Extension"/>
+			<field fieldName="Mobile Number" fieldRef="Mobile Number"/>
+			<field fieldName="Fax" fieldRef="Fax"/>
+			<field fieldName="Language" fieldRef="Language"/>
+			<field fieldName="Time Zone" fieldRef="Time Zone"/>
+			<field fieldName="IsPrimary" fieldRef="IsPrimary"/>
+			<field fieldName="Category" fieldRef="Category"/>
+			<field fieldName="Region" fieldRef="Region"/>
+			<field fieldName="Tracking Option" fieldRef="Tracking Option"/>
+			<field fieldName="Location" fieldRef="Location"/>
+			<field fieldName="Location Code" fieldRef="Location Code"/>
+			<field fieldName="Roles" fieldRef="Roles"/>
+			<field fieldName="Contact Code" fieldRef="Contact Code"/>
+			<field fieldName="Primary EmailID" fieldRef="Primary EmailID"/>
+	</service>
+	
+	
+	<service serviceName="setupmanager.VerifySupplierBasicDetailsSheet">
+		<field fieldName="Download Type" fieldRef="Download Type"/>
+		<field fieldName="Operation" fieldRef="Operation"/>
+		<field fieldName="Legal Company Name" fieldRef="Legal Company Name"/>
+		<field fieldName="Parent Company Name" fieldRef="Parent Company Name"/>
+		<field fieldName="Category" fieldRef="Category"/>
+		<field fieldName="Region" fieldRef="Region"/>
+		<field fieldName="Doing Business As" fieldRef="Doing Business As"/>
+		<field fieldName="Normalized Name" fieldRef="Normalized Name"/>
+		<field fieldName="Supplier Managers" fieldRef="Supplier Managers"/>
+		<field fieldName="Website" fieldRef="Website"/>
+		<field fieldName="Duns No" fieldRef="Duns No"/>
+		<field fieldName="Supplier Code" fieldRef="Supplier Code"/>
+		<field fieldName="Partner Status" fieldRef="Partner Status"/>
+		<field fieldName="Headquarter" fieldRef="Headquarter"/>
+		<field fieldName="Address Line 1" fieldRef="Address Line 1"/>
+		<field fieldName="Address Line 2" fieldRef="Address Line 2"/>
+		<field fieldName="City" fieldRef="City"/>
+		<field fieldName="State" fieldRef="State"/>
+		<field fieldName="Zip Code" fieldRef="Zip Code"/>
+		<field fieldName="Company Phone" fieldRef="Company Phone"/>
+		<field fieldName="Fax" fieldRef="Fax"/>	
+		<field fieldName="Primary EmailID" fieldRef="Primary EmailID"/>	
+		<field fieldName="Status" fieldRef="Status"/>
+	</service>
+	
+	<service serviceName="setupmanager.VerifySupplierDivisionAndOrgEntitiesSheet">
+			<field fieldName="Download Type" fieldRef="Download Type"/>
+			<field fieldName="Operation" fieldRef="Operation"/>
+			<field fieldName="Legal Company Name" fieldRef="Legal Company Name"/>
+			<field fieldName="Divisions" fieldRef="Divisions"/>
+			<field fieldName="Organization Entities" fieldRef="Organization Entities"/>	
+			<field fieldName="Primary EmailID" fieldRef="Primary EmailID"/>
+			<field fieldName="Status" fieldRef="Status"/>
+	</service>
+	
+	<service serviceName="setupmanager.VerifySupplierContactsSheet">
+			<field fieldName="Download Type" fieldRef="Download Type"/>
+			<field fieldName="Operation" fieldRef="Operation"/>
+			<field fieldName="Legal Company Name" fieldRef="Legal Company Name"/>
+			<field fieldName="First Name" fieldRef="First Name"/>
+			<field fieldName="Last Name" fieldRef="Last Name"/>
+			<field fieldName="Email ID" fieldRef="Email ID"/>
+			<field fieldName="Designation" fieldRef="Designation"/>
+			<field fieldName="Default Role" fieldRef="Default Role"/>
+			<field fieldName="PrimaryBusiness PhoneNumber" fieldRef="PrimaryBusiness PhoneNumber"/>
+			<field fieldName="Primary Business Extension" fieldRef="Primary Business Extension"/>
+			<field fieldName="SecondaryBusiness PhoneNumber" fieldRef="SecondaryBusiness PhoneNumber"/>
+			<field fieldName="Secondary Business Extension" fieldRef="Secondary Business Extension"/>
+			<field fieldName="Mobile Number" fieldRef="Mobile Number"/>
+			<field fieldName="Fax" fieldRef="Fax"/>
+			<field fieldName="Language" fieldRef="Language"/>
+			<field fieldName="Time Zone" fieldRef="Time Zone"/>
+			<field fieldName="IsPrimary" fieldRef="IsPrimary"/>
+			<field fieldName="Category" fieldRef="Category"/>
+			<field fieldName="Region" fieldRef="Region"/>
+			<field fieldName="Tracking Option" fieldRef="Tracking Option"/>
+			<field fieldName="Location" fieldRef="Location"/>
+			<field fieldName="Location Code" fieldRef="Location Code"/>
+			<field fieldName="Roles" fieldRef="Roles"/>
+			<field fieldName="Contact Code" fieldRef="Contact Code"/>
+			<field fieldName="Primary EmailID" fieldRef="Primary EmailID"/>
+			<field fieldName="Status" fieldRef="Status"/>
+	</service>
+	
+	<service serviceName="setupmanager.FillJurisdictionSheet">
+		<field fieldName="JurisdictionId" fieldRef="JurisdictionId"/>
+		<field fieldName="JurisdictionName" fieldRef="JurisdictionName"/>
+		<field fieldName="JurisdictionCode" fieldRef="JurisdictionCode"/>
+		<field fieldName="Action" fieldRef="Action"/>
+	</service>
+	
+	<service serviceName="setupmanager.VerifyJurisdictionSheet">
+		<field fieldName="Download Type" fieldRef="Download Type"/>
+		<field fieldName="JurisdictionId" fieldRef="JurisdictionId"/>
+		<field fieldName="JurisdictionName" fieldRef="JurisdictionName"/>
+		<field fieldName="JurisdictionCode" fieldRef="JurisdictionCode"/>
+		<field fieldName="Action" fieldRef="Action"/>
+		<field fieldName="Error Message" fieldRef="Error Message"/>
+	</service>
+	
+	<service serviceName="setupmanager.FillGLCodeSheet">
+		<field fieldName="Operation" fieldRef="Operation"/>
+		<field fieldName="GL Detail Id" fieldRef="GL Detail Id"/>
+		<field fieldName="GL Name" fieldRef="GL Name"/>
+		<field fieldName="GL Code" fieldRef="GL Code"/>
+		<field fieldName="GL Description" fieldRef="GL Description"/>
+		<field fieldName="Mark as Inactive" fieldRef="Mark as Inactive"/>
+		<field fieldName="Mark as Deleted" fieldRef="Mark as Deleted"/>
+	</service>
+
+	<service serviceName="setupmanager.VerifyGLCodeSheet">
+		<field fieldName="Download Type" fieldRef="Download Type"/>
+		<field fieldName="GLDetailId" fieldRef="GLDetailId"/>
+		<field fieldName="GLName" fieldRef="GLName"/>
+		<field fieldName="GLCode" fieldRef="GLCode"/>
+		<field fieldName="GLDescription" fieldRef="GLDescription"/>
+		<field fieldName="IsActive" fieldRef="IsActive"/>
+		<field fieldName="Action" fieldRef="Action"/>
+		<field fieldName="Error Message" fieldRef="Error Message"/>
+	</service>	
+	
+	<service serviceName="setupmanager.FillShippingMethodSheet">
+		<field fieldName="ShippingMethodId" fieldRef="ShippingMethodId"/>
+		<field fieldName="ShippingMethodName" fieldRef="ShippingMethodName"/>
+		<field fieldName="Action" fieldRef="Action"/>
+	</service>
+	
+	<service serviceName="setupmanager.VerifyShippingMethodSheet">
+		<field fieldName="Download Type" fieldRef="Download Type"/>
+		<field fieldName="ShippingMethodId" fieldRef="ShippingMethodId"/>
+		<field fieldName="ShippingMethodName" fieldRef="ShippingMethodName"/>
+		<field fieldName="Action" fieldRef="Action"/>
+		<field fieldName="Error Message" fieldRef="Error Message"/>
+
+	</service>
+	
+	<service serviceName="setupmanager.FillCategoryMasterSheet">
+		<field fieldName="Operation" fieldRef="Operation"/>
+		<field fieldName="Level1" fieldRef="Level1"/>
+		<field fieldName="Level1 Code" fieldRef="Level1 Code"/>
+		<field fieldName="Level2" fieldRef="Level2"/>
+		<field fieldName="Level2 Code" fieldRef="Level2 Code"/>
+		<field fieldName="Level3" fieldRef="Level3"/>
+		<field fieldName="Level3 Code" fieldRef="Level3 Code"/>
+		<field fieldName="Level4" fieldRef="Level4"/>
+		<field fieldName="Level4 Code" fieldRef="Level4 Code"/>
+		<field fieldName="Level5" fieldRef="Level5"/>
+		<field fieldName="Level5 Code" fieldRef="Level5 Code"/>
+		<field fieldName="Level6" fieldRef="Level6"/>
+		<field fieldName="Level6 Code" fieldRef="Level6 Code"/>
+		<field fieldName="Level7" fieldRef="Level7"/>
+		<field fieldName="Level7 Code" fieldRef="Level7 Code"/>
+		<field fieldName="Hierarchy" fieldRef="Hierarchy"/>
+	</service>
+	
+	<service serviceName="setupmanager.VerifyCategoryMasterSheet">
+		<field fieldName="Download Type" fieldRef="Download Type"/>
+		<field fieldName="Is Full Data" fieldRef="Is Full Data"/>
+		<field fieldName="Operation" fieldRef="Operation"/>
+		<field fieldName="Level1" fieldRef="Level1"/>
+		<field fieldName="Level1 Code" fieldRef="Level1 Code"/>
+		<field fieldName="Level2" fieldRef="Level2"/>
+		<field fieldName="Level2 Code" fieldRef="Level2 Code"/>
+		<field fieldName="Level3" fieldRef="Level3"/>
+		<field fieldName="Level3 Code" fieldRef="Level3 Code"/>
+		<field fieldName="Level4" fieldRef="Level4"/>
+		<field fieldName="Level4 Code" fieldRef="Level4 Code"/>
+		<field fieldName="Level5" fieldRef="Level5"/>
+		<field fieldName="Level5 Code" fieldRef="Level5 Code"/>
+		<field fieldName="Level6" fieldRef="Level6"/>
+		<field fieldName="Level6 Code" fieldRef="Level6 Code"/>
+		<field fieldName="Level7" fieldRef="Level7"/>
+		<field fieldName="Level7 Code" fieldRef="Level7 Code"/>
+		<field fieldName="Hierarchy" fieldRef="Hierarchy"/>
+		<field fieldName="Error Message" fieldRef="Error Message"/>
+	</service>
+	
+	<service serviceName="setupmanager.VerifyManageOrganizationEntityData">
+		<field fieldName="Download Type" fieldRef="Download Type"/>
+		<field fieldName="Operation" fieldRef="Operation"/>
+		<field fieldName="LOB Code" fieldRef="LOB Code"/>
+		<field fieldName="Entity" fieldRef="Entity"/>
+		<field fieldName="Entity Name" fieldRef="Entity Name"/>
+		<field fieldName="Entity Code" fieldRef="Entity Code"/>
+		<field fieldName="Parent Entity" fieldRef="Parent Entity"/>
+		<field fieldName="Parent Entity Code" fieldRef="Parent Entity Code"/>
+		<field fieldName="Mark as Inactive" fieldRef="Mark as Inactive"/>
+		<field fieldName="Address Line 1" fieldRef="Address Line 1"/>
+		<field fieldName="Address Line 2" fieldRef="Address Line 2"/>
+		<field fieldName="City" fieldRef="City"/>
+		<field fieldName="State" fieldRef="State"/>
+		<field fieldName="Country" fieldRef="Country"/>
+		<field fieldName="Zip Code" fieldRef="Zip Code"/>
+		<field fieldName="Phone 1" fieldRef="Phone 1"/>
+		<field fieldName="Phone 2" fieldRef="Phone 2"/>
+		<field fieldName="Email" fieldRef="Email"/>
+		<field fieldName="Fax" fieldRef="Fax"/>
+		<field fieldName="URL" fieldRef="URL"/>
+		<field fieldName="Logo" fieldRef="Logo"/>
+		<field fieldName="StartDate" fieldRef="StartDate"/>
+		<field fieldName="EndDate" fieldRef="EndDate"/>
+		<field fieldName="Error Message" fieldRef="Error Message"/>
+	</service>
+	
+	<service serviceName="setupmanager.FillTaxMasterSheet">
+		<field fieldName="Operation" fieldRef="Operation"/>
+		<field fieldName="Tax ID" fieldRef="Tax ID"/>
+		<field fieldName="Tax Type" fieldRef="Tax Type"/>
+		<field fieldName="Tax Description" fieldRef="Tax Description"/>
+		<field fieldName="Tax Code" fieldRef="Tax Code"/>
+		<field fieldName="Tax Percentage" fieldRef="Tax Percentage"/>
+		<field fieldName="Country" fieldRef="Country"/>
+		<field fieldName="Include Shipping" fieldRef="Include Shipping"/>
+	</service>
+	
+	<service serviceName="setupmanager.FillTaxCodeLOBMappingSheet">
+		<field fieldName="Tax Code" fieldRef="Tax Code"/>
+		<field fieldName="LOB" fieldRef="LOB"/>
+		<field fieldName="Entity" fieldRef="Entity"/>
+		<field fieldName="Tax Percentage" fieldRef="Tax Percentage"/>
+		<field fieldName="Tax Description" fieldRef="Tax Description"/>
+	</service>
+	
+	<service serviceName="setupmanager.VerifyTaxMasterSheet">
+		<field fieldName="Download Type" fieldRef="Download Type"/>
+		<field fieldName="Operation" fieldRef="Operation"/>
+		<field fieldName="Tax ID" fieldRef="Tax ID"/>
+		<field fieldName="Tax Type" fieldRef="Tax Type"/>
+		<field fieldName="Tax Description" fieldRef="Tax Description"/>
+		<field fieldName="Tax Code" fieldRef="Tax Code"/>
+		<field fieldName="Tax Percentage" fieldRef="Tax Percentage"/>
+		<field fieldName="Country" fieldRef="Country"/>
+		<field fieldName="Include Shipping" fieldRef="Include Shipping"/>
+		<field fieldName="Error Message" fieldRef="Error Message"/>
+	</service>
+	
+	<service serviceName="setupmanager.VerifyTaxCodeLOBMappingSheet">
+		<field fieldName="Download Type" fieldRef="Download Type"/>
+		<field fieldName="Tax Code" fieldRef="Tax Code"/>
+		<field fieldName="LOB" fieldRef="LOB"/>
+		<field fieldName="Entity" fieldRef="Entity"/>
+		<field fieldName="Tax Percentage" fieldRef="Tax Percentage"/>
+		<field fieldName="Tax Description" fieldRef="Tax Description"/>
+		<field fieldName="Error Message" fieldRef="Error Message"/>
+	</service>
+		
+	<service serviceName="setupmanager.FillUnitofMeasuresSheet">
+		<field fieldName="Operation" fieldRef="Operation"/>
+		<field fieldName="UoM Code" fieldRef="UoM Code"/>
+		<field fieldName="UoM Description" fieldRef="UoM Description"/>
+		<field fieldName="Allow Decimal Value" fieldRef="Allow Decimal Value"/>
+		<field fieldName="Mark as Preferred" fieldRef="Mark as Preferred"/>
+		<field fieldName="Standard UoM Code" fieldRef="Standard UoM Code"/>
+		<field fieldName="Mark as Inactive" fieldRef="Mark as Inactive"/>
+	</service>
+	
+	<service serviceName="setupmanager.FillReasonCodeTemplateSheet">
+		<field fieldName="Operation" fieldRef="Operation"/>
+		<field fieldName="Reason For Return" fieldRef="Reason For Return"/>
+		<field fieldName="Is Default" fieldRef="Is Default"/>
+		<field fieldName="Is Internal" fieldRef="Is Internal"/>
+		<field fieldName="Reason For ReturnCode" fieldRef="Reason For ReturnCode"/>
+		<field fieldName="New Reason For Return" fieldRef="New Reason For Return"/>
+	</service>
+	
+	<service serviceName="setupmanager.VerifyReasonCodeTemplateSheet">
+		<field fieldName="Download Type" fieldRef="Download Type"/>
+		<field fieldName="Operation" fieldRef="Operation"/>
+		<field fieldName="Reason For Return" fieldRef="Reason For Return"/>
+		<field fieldName="Is Default" fieldRef="Is Default"/>
+		<field fieldName="Is Internal" fieldRef="Is Internal"/>
+		<field fieldName="Reason For ReturnCode" fieldRef="Reason For ReturnCode"/>
+		<field fieldName="New Reason For Return" fieldRef="New Reason For Return"/>
+		<field fieldName="Error Message" fieldRef="Error Message"/>
+	</service>
+	
+	<service serviceName="setupmanager.FillEmailNotificationForBuyerSheet">
+		<field fieldName="Specify UserName to whom email should be sent" fieldRef="Specify UserName to whom email should be sent"/>
+	</service>	
+	
+	<service serviceName="setupmanager.VerifyEmailNotificationForBuyerSheet">
+		<field fieldName="Download Type" fieldRef="Download Type"/>
+		<field fieldName="Specify UserName to whom email should be sent" fieldRef="Specify UserName to whom email should be sent"/>
+		<field fieldName="Error Message" fieldRef="Error Message"/>
+	</service>
+	
+	<service serviceName="setupmanager.VerifyUnitofMeasuresSheet">
+		<field fieldName="Download Type" fieldRef="Download Type"/>
+		<field fieldName="Is Full Data" fieldRef="Is Full Data"/>
+		<field fieldName="Operation" fieldRef="Operation"/>
+		<field fieldName="UoM Code" fieldRef="UoM Code"/>
+		<field fieldName="UoM Description" fieldRef="UoM Description"/>
+		<field fieldName="Allow Decimal Value" fieldRef="Allow Decimal Value"/>
+		<field fieldName="Mark as Preferred" fieldRef="Mark as Preferred"/>
+		<field fieldName="Standard UoM Code" fieldRef="Standard UoM Code"/>
+		<field fieldName="Mark as Inactive" fieldRef="Mark as Inactive"/>
+		<field fieldName="Error Message" fieldRef="Error Message"/>
+	</service>
+	
+	<service serviceName="setupmanager.FillApprovalGroupSheet">
+		<field fieldName="Operation" fieldRef="Operation"/>
+		<field fieldName="Group Id" fieldRef="Group Id"/>
+		<field fieldName="Group Name" fieldRef="Group Name"/>
+		<field fieldName="Group members" fieldRef="Group members"/>
+		<field fieldName="Mark as Inactive" fieldRef="Mark as Inactive"/>
+	</service>
+	
+	<service serviceName="setupmanager.VerifyApprovalGroupSheet">
+		<field fieldName="Download Type" fieldRef="Download Type"/>
+		<field fieldName="Is Full Data" fieldRef="Is Full Data"/>
+		<field fieldName="Operation" fieldRef="Operation"/>
+		<field fieldName="Group Id" fieldRef="Group Id"/>
+		<field fieldName="Group Name" fieldRef="Group Name"/>
+		<field fieldName="Group members" fieldRef="Group members"/>
+		<field fieldName="Mark as Inactive" fieldRef="Mark as Inactive"/>
+		<field fieldName="Error Message" fieldRef="Error Message"/>
+	</service>
+	
+	<service serviceName="setupmanager.FillCurrencyConversionRateSheet">
+		<field fieldName="Operation" fieldRef="Operation"/>
+		<field fieldName="ExchangeRate ID" fieldRef="ExchangeRate ID"/>
+		<field fieldName="From Currency" fieldRef="From Currency"/>
+		<field fieldName="To Currency" fieldRef="To Currency"/>
+		<field fieldName="Exchange Rate" fieldRef="Exchange Rate"/>
+		<field fieldName="Effective Date" fieldRef="Effective Date"/>
+	</service>
+	
+	<service serviceName="setupmanager.VerifyCurrencyConversionRateSheet">
+		<field fieldName="Download Type" fieldRef="Download Type"/>
+		<field fieldName="Is Full Data" fieldRef="Is Full Data"/>
+		<field fieldName="Operation" fieldRef="Operation"/>
+		<field fieldName="ExchangeRate ID" fieldRef="ExchangeRate ID"/>
+		<field fieldName="From Currency" fieldRef="From Currency"/>
+		<field fieldName="To Currency" fieldRef="To Currency"/>
+		<field fieldName="Exchange Rate" fieldRef="Exchange Rate"/>
+		<field fieldName="Effective Date" fieldRef="Effective Date"/>
+		<field fieldName="Error Message" fieldRef="Error Message"/>
+	</service>
+	
+	<service serviceName="setupmanager.FillCurrencyMasterInSheet">
+		<field fieldName="Operation" fieldRef="Operation"/>
+		<field fieldName="Currency Id" fieldRef="Currency Id"/>
+		<field fieldName="Currency Code" fieldRef="Currency Code"/>
+		<field fieldName="Currency Name" fieldRef="Currency Name"/>
+		<field fieldName="Currency Symbol" fieldRef="Currency Symbol"/>
+		<field fieldName="Country" fieldRef="Country"/>
+		<field fieldName="Preference Order" fieldRef="Preference Order"/>
+		<field fieldName="Mark as Default" fieldRef="Mark as Default"/>	
+		<field fieldName="Mark as Inactive" fieldRef="Mark as Inactive"/>
+	</service>
+	
+	<service serviceName="setupmanager.VerifyCurrencyMasterSheet">
+		<field fieldName="Download Type" fieldRef="Download Type"/>
+		<field fieldName="Is Full Data" fieldRef="Is Full Data"/>
+		<field fieldName="Operation" fieldRef="Operation"/>
+		<field fieldName="Currency Id" fieldRef="Currency Id"/>
+		<field fieldName="Currency Code" fieldRef="Currency Code"/>
+		<field fieldName="Currency Name" fieldRef="Currency Name"/>
+		<field fieldName="Currency Symbol" fieldRef="Currency Symbol"/>
+		<field fieldName="Country" fieldRef="Country"/>
+		<field fieldName="Preference Order" fieldRef="Preference Order"/>
+		<field fieldName="Mark as Default" fieldRef="Mark as Default"/>
+		<field fieldName="Mark as Inactive" fieldRef="Mark as Inactive"/>
+		<field fieldName="Error Message" fieldRef="Error Message"/>
+	</service>
+	
+	<service serviceName="setupmanager.FillSupplierStatusesMasterData">
+		<field fieldName="Is Edit" fieldRef="isEdit"/>
+		<field fieldName="Status Name" fieldRef="statusName"/>
+		<field fieldName="Status Description" fieldRef="statusDescription"/>
+		<field fieldName="Allow Status Change" fieldRef="allowStatusChange"/>
+		<field fieldName="Selectable in Status Change List" fieldRef="selectableInStatusChangeList"/>
+		<field fieldName="Order in Status Change List" fieldRef="orderInStatusChangeList"/>
+		<field fieldName="Set as Permitted Status" fieldRef="setAsPermittedStatus"/>
+	</service>
+	
+	<service serviceName="setupmanager.VerifyMasterDataAuditLog">
+		<field fieldName="Login Id" fieldRef="loginId"/>
+		<field fieldName="Field Name" fieldRef="fieldName"/>
+		<field fieldName="Previous Value" fieldRef="previousValue"/>
+		<field fieldName="New Value" fieldRef="newValue"/>
+	</service>
+
+	<service serviceName="setupmanager.FillSupplierBusinessType">
+		<field fieldName="Is Edit" fieldRef="isEdit"/>
+		<field fieldName="Business Type" fieldRef="businessType"/>
+	</service>
+	
+	 <service serviceName="setupmanager.FillProjectType">
+		<field fieldName="Is Edit" fieldRef="isEdit"/>
+		<field fieldName="Project Type" fieldRef="projectType"/>
+		<field fieldName="Tracking Type" fieldRef="trackingType"/>
+		<field fieldName="Set as Default" fieldRef="setAsDefault"/>
+		<field fieldName="Supplier Linking" fieldRef="supplierLinking"/>
+		<field fieldName="Phase for Supplier Linking" fieldRef="phaseForSupplierLinking"/>
+		<field fieldName="Applicable for Contract to Project Flip" fieldRef="applicableForContractToProjectFlip"/>
+		<field fieldName="Line Item Savings Upload" fieldRef="lineItemSavingsUpload"/>	
+		<field fieldName="Nature of Project" fieldRef="natureOfProject"/>
+		<field fieldName="Allow Change of Nature of Project" fieldRef="allowChangeOfNatureOfProject"/>
+		<field fieldName="Allow Savings to Exceed Spend" fieldRef="allowSavingstoExceedSpend"/>
+		<field fieldName="Restrict Document Creation" fieldRef="restrictDocumentCreation"/>
+	</service>
+	
+	<service serviceName="setupmanager.FillSupplierStatusTranslationMasterData">
+		<field fieldName="Is Edit" fieldRef="isEdit"/>
+		<field fieldName="Language" fieldRef="languageDropdown"/>
+		<field fieldName="Status Name" fieldRef="statusNameDropdown"/>
+		<field fieldName="Status Description" fieldRef="statusDescription"/>
+		<field fieldName="Status Name Translation" fieldRef="statusNameTranslation"/>
+		<field fieldName="Status Description Translation" fieldRef="statusDescriptionTranslation"/>
+	</service>
+	
+	<service serviceName="setupmanager.FillProjectStrategyMasterData">
+		<field fieldName="Is Edit" fieldRef="isEdit"/>
+		<field fieldName="Project Strategy" fieldRef="projectStrategy"/>
+		<field fieldName="Project Strategy Description" fieldRef="projectStrategyDescription"/>
+		<field fieldName="Set as Default" fieldRef="setAsDefault"/>
+	</service>
+	
+	<service serviceName="setupmanager.FillProjectStrategyTranslationMasterData">
+		<field fieldName="Is Edit" fieldRef="isEdit"/>
+		<field fieldName="Language" fieldRef="languageDropdown"/>
+		<field fieldName="Project Strategy" fieldRef="projectStrategyDropdown"/>
+		<field fieldName="Project Strategy Description" fieldRef="projectStrategyDescription"/>
+		<field fieldName="Project Strategy Translation" fieldRef="projectStrategyTranslation"/>
+		<field fieldName="Project Strategy Description Translation" fieldRef="projectStrategyDescriptionTranslation"/>
+	</service>
+	
+	<service serviceName="setupmanager.FillSupplierBusinessTypeTranslation">
+		<field fieldName="Is Edit" fieldRef="isEdit"/>
+		<field fieldName="Language" fieldRef="languageDropdown"/>
+		<field fieldName="Business Type" fieldRef="businessTypeDropdown"/>
+		<field fieldName="Business Type Translation" fieldRef="businessTypeTranslation"/>
+	</service>
+	
+	<service serviceName="setupmanager.FillProjectStatus">
+		<field fieldName="Is Edit" fieldRef="isEdit"/>
+		<field fieldName="Project Status" fieldRef="projectStatus"/>
+		<field fieldName="Project Status Description" fieldRef="projectStatusDescription"/>
+		<field fieldName="Display Order" fieldRef="displayOrder"/>
+		<field fieldName="Allow Editing of Project Data" fieldRef="allowEditingOfProjectData"/>
+		<field fieldName="Include Project Data in Reports" fieldRef="includeProjectDataInReports"/>
+		<field fieldName="Allow Status Change" fieldRef="allowStatusChange"/>
+		<field fieldName="Allow Notifications" fieldRef="allowNotifications"/>
+		<field fieldName="Display Risk" fieldRef="displayRisk"/>
+		<field fieldName="Approval Required" fieldRef="approvalRequired"/>
+		<field fieldName="Mandatory Comment on Select" fieldRef="mandatoryCommentonSelect"/>
+	</service>
+	
+	<service serviceName="setupmanager.FillProjectPhaseStatusMappingMasterData">
+		<field fieldName="Is Edit" fieldRef="isEdit"/>
+		<field fieldName="Project Phase" fieldRef="projectPhaseDropdown"/>
+		<field fieldName="Project Status" fieldRef="projectStatusDropdown"/>
+	</service>
+	
+	<service serviceName="setupmanager.FillProjectPhaseTranslationsMasterData">
+		<field fieldName="Is Edit" fieldRef="isEdit"/>
+		<field fieldName="Language" fieldRef="languageDropdown"/>
+		<field fieldName="Project Phase" fieldRef="projectPhaseDropdown"/>
+		<field fieldName="Project Phase Translation" fieldRef="projectPhaseTranslation"/>
+	</service>
+	
+	<service serviceName="setupmanager.FillProjectStatusTranslations">
+		<field fieldName="Is Edit" fieldRef="isEdit"/>
+		<field fieldName="Language" fieldRef="languageDropdown"/>
+		<field fieldName="Project Status" fieldRef="projectStatusDropdown"/>
+		<field fieldName="Project Status Translation" fieldRef="projectStatusTranslation"/>
+	</service>
+	
+	<service serviceName="setupmanager.FillProjectSavingType">
+		<field fieldName="Is Edit" fieldRef="isEdit"/>
+		<field fieldName="Savings Type" fieldRef="savingsType"/>
+		<field fieldName="Savings Type Description" fieldRef="savingsTypeDescription"/>
+		<field fieldName="Use in Calculations (Realization)" fieldRef="useInCalculations"/>
+		<field fieldName="Use in Spend Calculations (Actual/Projected Savings)" fieldRef="useInSpendCalculations"/>
+		<field fieldName="Allow Negative Savings" fieldRef="allowNegativeSavings"/>
+		<field fieldName="Savings Percent To Be Editable" fieldRef="savingsPercentToBeEditable"/>
+	</service>
+	
+	<service serviceName="setupmanager.FillProjectSavingTypeTranslations">
+		<field fieldName="Is Edit" fieldRef="isEdit"/>
+		<field fieldName="Language" fieldRef="languageDropdown"/>
+		<field fieldName="Savings Type" fieldRef="savingsTypeDropdown"/>
+		<field fieldName="Savings Type Translation" fieldRef="savingsTypeTranslation"/>
+	</service>
+	
+	<service serviceName="setupmanager.FillProjectSavingsImpact">
+		<field fieldName="Is Edit" fieldRef="isEdit"/>
+		<field fieldName="Savings Impact" fieldRef="savingsImpact"/>
+		<field fieldName="Savings Impact Description" fieldRef="savingsImpactDescription"/>
+		<field fieldName="Impact Type" fieldRef="impactType"/>
+	</service>
+	
+	<service serviceName="setupmanager.FillProjectSavingImpactTranslations">
+		<field fieldName="Is Edit" fieldRef="isEdit"/>
+		<field fieldName="Language" fieldRef="languageDropdown"/>
+		<field fieldName="Savings Impact" fieldRef="savingsImpactDropdown"/>
+		<field fieldName="Savings Impact Translation" fieldRef="savingsImpactTranslation"/>
+	</service>
+	
+	<service serviceName="setupmanager.VerifySupplierStatusesMasterData">
+		<field fieldName="Status Name" fieldRef="statusName"/>
+		<field fieldName="Status Description" fieldRef="statusDescription"/>
+		<field fieldName="Allow Status Change" fieldRef="allowStatusChange"/>
+		<field fieldName="Selectable in Status Change List" fieldRef="selectableInStatusChangeList"/>
+		<field fieldName="Order in Status Change List" fieldRef="orderInStatusChangeList"/>
+		<field fieldName="Set as Permitted Status" fieldRef="setAsPermittedStatus"/>
+	</service>
+	
+	<service serviceName="setupmanager.VerifySupplierStatusTranslationMasterData">
+		<field fieldName="Language" fieldRef="languageDropdown"/>
+		<field fieldName="Status Name" fieldRef="statusNameDropdown"/>
+		<field fieldName="Status Description" fieldRef="statusDescription"/>
+		<field fieldName="Status Name Translation" fieldRef="statusNameTranslation"/>
+		<field fieldName="Status Description Translation" fieldRef="statusDescriptionTranslation"/>
+	</service>
+	
+	<service serviceName="setupmanager.VerifySupplierBusinessTypeMasterData">
+		<field fieldName="Business Type" fieldRef="businessType"/>
+	</service>
+	
+	<service serviceName="setupmanager.VerifySupplierBusinessTypeTranslationMasterData">
+		<field fieldName="Language" fieldRef="languageDropdown"/>
+		<field fieldName="Business Type" fieldRef="businessTypeDropdown"/>
+		<field fieldName="Business Type Translation" fieldRef="businessTypeTranslation"/>
+	</service>
+	
+	<service serviceName="setupmanager.VerifyProjectTypeMasterData">
+		<field fieldName="Project Type" fieldRef="projectType"/>
+		<field fieldName="Tracking Type" fieldRef="trackingType"/>
+		<field fieldName="Set as Default" fieldRef="setAsDefault"/>
+		<field fieldName="Supplier Linking" fieldRef="supplierLinking"/>
+		<field fieldName="Phase for Supplier Linking" fieldRef="phaseForSupplierLinking"/>
+		<field fieldName="Applicable for Contract to Project Flip" fieldRef="applicableForContractToProjectFlip"/>
+		<field fieldName="Line Item Savings Upload" fieldRef="lineItemSavingsUpload"/>	
+		<field fieldName="Nature of Project" fieldRef="natureOfProject"/>
+		<field fieldName="Allow Change of Nature of Project" fieldRef="allowChangeOfNatureOfProject"/>
+		<field fieldName="Allow Savings to Exceed Spend" fieldRef="allowSavingstoExceedSpend"/>
+		<field fieldName="Restrict Document Creation" fieldRef="restrictDocumentCreation"/>
+	</service>
+	
+	<service serviceName="setupmanager.VerifyProjectStrategyMasterData">
+		<field fieldName="Project Strategy" fieldRef="projectStrategy"/>
+		<field fieldName="Project Strategy Description" fieldRef="projectStrategyDescription"/>
+		<field fieldName="Set as Default" fieldRef="setAsDefault"/>
+	</service>
+	
+	<service serviceName="setupmanager.VerifyProjectStrategyTranslationMasterData">
+		<field fieldName="Language" fieldRef="languageDropdown"/>
+		<field fieldName="Project Strategy" fieldRef="projectStrategyDropdown"/>
+		<field fieldName="Project Strategy Description" fieldRef="projectStrategyDescription"/>
+		<field fieldName="Project Strategy Translation" fieldRef="projectStrategyTranslation"/>
+		<field fieldName="Project Strategy Description Translation" fieldRef="projectStrategyDescriptionTranslation"/>
+	</service>
+	
+	<service serviceName="setupmanager.VerifyProjectTypeStrategyMappingMasterData">
+		<field fieldName="Project Type" fieldRef="projectType"/>
+		<field fieldName="Project Strategy" fieldRef="projectStrategy"/>
+	</service>
+	
+	<service serviceName="setupmanager.VerifyProjectPhaseTranslationsMasterData">
+		<field fieldName="Language" fieldRef="languageDropdown"/>
+		<field fieldName="Project Phase" fieldRef="projectPhaseDropdown"/>
+		<field fieldName="Project Phase Translation" fieldRef="projectPhaseTranslation"/>
+	</service>
+	
+	<service serviceName="setupmanager.VerifyProjectStatusMasterData">
+		<field fieldName="Project Status" fieldRef="projectStatus"/>
+		<field fieldName="Project Status Description" fieldRef="projectStatusDescription"/>
+		<field fieldName="Display Order" fieldRef="displayOrder"/>
+		<field fieldName="Allow Editing of Project Data" fieldRef="allowEditingOfProjectData"/>
+		<field fieldName="Include Project Data in Reports" fieldRef="includeProjectDataInReports"/>
+		<field fieldName="Allow Status Change" fieldRef="allowStatusChange"/>
+		<field fieldName="Allow Notifications" fieldRef="allowNotifications"/>
+		<field fieldName="Display Risk" fieldRef="displayRisk"/>
+		<field fieldName="Approval Required" fieldRef="approvalRequired"/>
+		<field fieldName="Mandatory Comment on Select" fieldRef="mandatoryCommentonSelect"/>
+	</service>
+	
+	<service serviceName="setupmanager.VerifyProjectStatusTranslationsMasterData">
+		<field fieldName="Language" fieldRef="languageDropdown"/>
+		<field fieldName="Project Status" fieldRef="projectStatusDropdown"/>
+		<field fieldName="Project Status Translation" fieldRef="projectStatusTranslation"/>
+	</service>
+	
+	<service serviceName="setupmanager.VerifyProjectPhaseStatusMappingMasterData">
+		<field fieldName="Project Phase" fieldRef="projectPhaseDropdown"/>
+		<field fieldName="Project Status" fieldRef="projectStatusDropdown"/>
+	</service>
+	
+	<service serviceName="setupmanager.VerifyProjectSavingTypeMasterData">
+		<field fieldName="Savings Type" fieldRef="savingsType"/>
+		<field fieldName="Savings Type Description" fieldRef="savingsTypeDescription"/>
+		<field fieldName="Use in Calculations (Realization)" fieldRef="useInCalculations"/>
+		<field fieldName="Use in Spend Calculations (Actual/Projected Savings)" fieldRef="useInSpendCalculations"/>
+		<field fieldName="Allow Negative Savings" fieldRef="allowNegativeSavings"/>
+		<field fieldName="Savings Percent To Be Editable" fieldRef="savingsPercentToBeEditable"/>
+	</service>
+	
+	<service serviceName="setupmanager.VerifyProjectSavingTypeTranslationsMasterData">
+		<field fieldName="Language" fieldRef="languageDropdown"/>
+		<field fieldName="Savings Type" fieldRef="savingsTypeDropdown"/>
+		<field fieldName="Savings Type Translation" fieldRef="savingsTypeTranslation"/>
+	</service>
+	
+	<service serviceName="setupmanager.VerifyProjectSavingsImpactMasterData">
+		<field fieldName="Savings Impact" fieldRef="savingsImpact"/>
+		<field fieldName="Savings Impact Description" fieldRef="savingsImpactDescription"/>
+		<field fieldName="Impact Type" fieldRef="impactType"/>
+	</service>
+	
+	<service serviceName="setupmanager.FillJurisdictionTaxCodeMappingSheet">
+		<field fieldName="Operation" fieldRef="Operation"/>
+		<field fieldName="Tax Jurisdiction Id " fieldRef="Tax Jurisdiction Id "/>
+		<field fieldName="Jurisdiction Code" fieldRef="Jurisdiction Code"/>
+		<field fieldName="Jurisdiction Name" fieldRef="Jurisdiction Name"/>
+		<field fieldName="Tax id" fieldRef="Tax id"/>
+		<field fieldName="Tax Type" fieldRef="Tax Type"/>
+		<field fieldName="Tax Code" fieldRef="Tax Code"/>
+		<field fieldName="Country" fieldRef="Country"/>
+		<field fieldName="Mark as Deleted" fieldRef="Mark as Deleted"/>
+	</service>
+	
+	<service serviceName="setupmanager.VerifyJurisdictionTaxCodeMappingSheet">
+		<field fieldName="Download Type" fieldRef="Download Type"/>
+		<field fieldName="JurisdictionName" fieldRef="JurisdictionName"/>
+		<field fieldName="JurisdictionCode" fieldRef="JurisdictionCode"/>
+		<field fieldName="TaxCode" fieldRef="TaxCode"/>
+		<field fieldName="Error Message" fieldRef="Error Message"/>
+	</service>
+	
+	<service serviceName="setupmanager.VerifyProjectSavingsImpactTranslationMasterData">
+		<field fieldName="Language" fieldRef="languageDropdown"/>
+		<field fieldName="Savings Impact" fieldRef="savingsImpactDropdown"/>
+		<field fieldName="Savings Impact Translation" fieldRef="savingsImpactTranslation"/>
+	</service>
+	
+	<service serviceName="setupmanager.FillJurisdictionEntityMappingSheet">
+		<field fieldName="JurisdictionName" fieldRef="JurisdictionName"/>
+		<field fieldName="JurisdictionCode" fieldRef="JurisdictionCode"/>
+		<field fieldName="EntityTypeName" fieldRef="EntityTypeName"/>
+		<field fieldName="Entity" fieldRef="Entity"/>
+	</service>
+	
+	<service serviceName="setupmanager.VerifyJurisdictionEntityMappingSheet">
+		<field fieldName="Download Type" fieldRef="Download Type"/>
+		<field fieldName="JurisdictionName" fieldRef="JurisdictionName"/>
+		<field fieldName="JurisdictionCode" fieldRef="JurisdictionCode"/>
+		<field fieldName="EntityTypeName" fieldRef="EntityTypeName"/>
+		<field fieldName="Entity" fieldRef="Entity"/>
+		<field fieldName="Error Message" fieldRef="Error Message"/>
+	</service>
+	
+	<service serviceName="setupmanager.FillProjectPhaseMasterData">
+		<field fieldName="Is Edit" fieldRef="isEdit"/>
+		<field fieldName="Set as Default" fieldRef="setAsDefault"/>
+		<field fieldName="Default Status" fieldRef="defaultStatusDropdown"/>
+		<field fieldName="Approval Required" fieldRef="approvalRequired"/>
+		<field fieldName="Applicable for Quick Projects" fieldRef="applicableForQuickProjects"/>
+		<field fieldName="Set as Default for Quick Projects" fieldRef="setAsDefaultForQuickProjects"/>
+		<field fieldName="Allow Project Deletion" fieldRef="allowProjectDeletion"/>
+	</service>
+	
+	<service serviceName="setupmanager.VerifyAccountCodeCombinationSheet">
+		<field fieldName="Download Type" fieldRef="Download Type"/>
+		<field fieldName="Operation" fieldRef="Operation"/>
+		<field fieldName="Organization Field 1" fieldRef="Organization Field 1"/>
+		<field fieldName="Organization Field 2" fieldRef="Organization Field 2"/>
+		<field fieldName="Organization Field 3" fieldRef="Organization Field 3"/>
+		<field fieldName="Organization Field 4" fieldRef="Organization Field 4"/>
+		<field fieldName="Organization Field 5" fieldRef="Organization Field 5"/>
+		<field fieldName="Organization Field 6" fieldRef="Organization Field 6"/>
+		<field fieldName="Organization Field 7" fieldRef="Organization Field 7"/>
+		<field fieldName="Organization Field 8" fieldRef="Organization Field 8"/>
+		<field fieldName="Organization Field 9" fieldRef="Organization Field 9"/>
+		<field fieldName="Organization Field 10" fieldRef="Organization Field 10"/>
+		<field fieldName="Organization Field 11" fieldRef="Organization Field 11"/>
+		<field fieldName="Organization Field 12" fieldRef="Organization Field 12"/>
+		<field fieldName="Code Structure Name" fieldRef="Code Structure Name"/>
+		<field fieldName="Error Message" fieldRef="Error Message"/>
+	</service>
+	
+	<service serviceName="setupmanager.VerifyProjectPhaseMasterData">
+		<field fieldName="Set as Default" fieldRef="setAsDefault"/>
+		<field fieldName="Default Status" fieldRef="defaultStatusDropdown"/>
+		<field fieldName="Approval Required" fieldRef="approvalRequired"/>
+		<field fieldName="Applicable for Quick Projects" fieldRef="applicableForQuickProjects"/>
+		<field fieldName="Set as Default for Quick Projects" fieldRef="setAsDefaultForQuickProjects"/>
+		<field fieldName="Allow Project Deletion" fieldRef="allowProjectDeletion"/>
+	</service>
+	
+	<service serviceName="setupmanager.FillOrganizationEntityDataSheet">
+		<field fieldName="Operation" fieldRef="Operation"/>
+		<field fieldName="LOB Code" fieldRef="LOB Code"/>
+		<field fieldName="Entity Detail Code" fieldRef="Entity Detail Code"/>
+		<field fieldName="Entity" fieldRef="Entity"/>
+		<field fieldName="Entity Name" fieldRef="Entity Name"/>
+		<field fieldName="Entity Code" fieldRef="Entity Code"/>
+		<field fieldName="Parent Entity" fieldRef="Parent Entity"/>
+		<field fieldName="Parent Entity Code" fieldRef="Parent Entity Code"/>
+		<field fieldName="Mark as Inactive" fieldRef="Mark as Inactive"/>
+		<field fieldName="Address Line 1" fieldRef="Address Line 1"/>
+		<field fieldName="Address Line 2" fieldRef="Address Line 2"/>
+		<field fieldName="City" fieldRef="City"/>
+		<field fieldName="State" fieldRef="State"/>
+		<field fieldName="Country" fieldRef="Country"/>
+		<field fieldName="Zip Code" fieldRef="Zip Code"/>
+		<field fieldName="Phone 1" fieldRef="Phone 1"/>
+		<field fieldName="Phone 2" fieldRef="Phone 2"/>
+		<field fieldName="Email" fieldRef="Email"/>
+		<field fieldName="Fax" fieldRef="Fax"/>
+		<field fieldName="URL" fieldRef="URL"/>
+		<field fieldName="Logo" fieldRef="Logo"/>
+		<field fieldName="StartDate" fieldRef="StartDate"/>
+		<field fieldName="EndDate" fieldRef="EndDate"/>
+	</service>
+	
+	<service serviceName="setupmanager.VerifyOrganizationEntityDataSheet">
+		<field fieldName="Download Type" fieldRef="Download Type"/>
+		<field fieldName="Is Full Data" fieldRef="Is Full Data"/>
+		<field fieldName="Operation" fieldRef="Operation"/>
+		<field fieldName="LOB Code" fieldRef="LOB Code"/>
+		<field fieldName="Entity Detail Code" fieldRef="Entity Detail Code"/>
+		<field fieldName="Entity" fieldRef="Entity"/>
+		<field fieldName="Entity Name" fieldRef="Entity Name"/>
+		<field fieldName="Entity Code" fieldRef="Entity Code"/>
+		<field fieldName="Parent Entity" fieldRef="Parent Entity"/>
+		<field fieldName="Parent Entity Code" fieldRef="Parent Entity Code"/>
+		<field fieldName="Mark as Inactive" fieldRef="Mark as Inactive"/>
+		<field fieldName="Address Line 1" fieldRef="Address Line 1"/>
+		<field fieldName="Address Line 2" fieldRef="Address Line 2"/>
+		<field fieldName="City" fieldRef="City"/>
+		<field fieldName="State" fieldRef="State"/>
+		<field fieldName="Country" fieldRef="Country"/>
+		<field fieldName="Zip Code" fieldRef="Zip Code"/>
+		<field fieldName="Phone 1" fieldRef="Phone 1"/>
+		<field fieldName="Phone 2" fieldRef="Phone 2"/>
+		<field fieldName="Email" fieldRef="Email"/>
+		<field fieldName="Fax" fieldRef="Fax"/>
+		<field fieldName="URL" fieldRef="URL"/>
+		<field fieldName="Logo" fieldRef="Logo"/>
+		<field fieldName="StartDate" fieldRef="StartDate"/>
+		<field fieldName="EndDate" fieldRef="EndDate"/>
+		<field fieldName="Validation Message" fieldRef="Validation Message"/>
+	</service>
+
+	<service serviceName="setupmanager.FillOrganizationEntityManagerMappingSheet">
+		<field fieldName="Operation" fieldRef="Operation"/>
+		<field fieldName="Manager" fieldRef="Manager"/>
+		<field fieldName="Structure Name" fieldRef="Structure Name"/>
+		<field fieldName="Structure ID" fieldRef="Structure ID"/>
+		<field fieldName="Entity Name" fieldRef="Entity Name"/>
+		<field fieldName="Entity Code" fieldRef="Entity Code"/>
+		<field fieldName="Entity Detail Code" fieldRef="Entity Detail Code"/>
+		<field fieldName="Threshold Amount" fieldRef="Threshold Amount"/>
+		<field fieldName="Currency Code" fieldRef="Currency Code"/>
+	</service>
+
+	<service serviceName="setupmanager.VerifyOrganizationEntityManagerMappingSheet">
+		<field fieldName="Download Type" fieldRef="Download Type"/>
+		<field fieldName="Operation" fieldRef="Operation"/>
+		<field fieldName="Mapping ID" fieldRef="mappingID"/>
+		<field fieldName="Approver Username" fieldRef="Approver Username"/>
+		<field fieldName="Threshold Amount" fieldRef="Threshold Amount"/>
+		<field fieldName="Currency Code" fieldRef="Currency Code"/>
+		<field fieldName="Structure ID" fieldRef="Structure ID"/>
+		<field fieldName="LOB" fieldRef="LOB"/>
+		<field fieldName="Entity Type 1" fieldRef="Entity Type 1"/>
+		<field fieldName="Entity Code 1" fieldRef="Entity Code 1"/>
+		<field fieldName="Entity Detail Code 1" fieldRef="Entity Detail Code 1"/>
+		<field fieldName="Entity Type 2" fieldRef="Entity Type 2"/>
+		<field fieldName="Entity Code 2" fieldRef="Entity Code 2"/>
+		<field fieldName="Entity Detail Code 2" fieldRef="Entity Detail Code 2"/>
+		<field fieldName="Entity Type 3" fieldRef="Entity Type 3"/>
+		<field fieldName="Entity Code 3" fieldRef="Entity Code 3"/>
+		<field fieldName="Entity Detail Code 3" fieldRef="Entity Detail Code 3"/>
+		<field fieldName="Entity Type 4" fieldRef="Entity Type 4"/>
+		<field fieldName="Entity Code 4" fieldRef="Entity Code 4"/>
+		<field fieldName="Entity Detail Code 4" fieldRef="Entity Detail Code 4"/>
+		<field fieldName="Entity Type 5" fieldRef="Entity Type 5"/>
+		<field fieldName="Entity Code 5" fieldRef="Entity Code 5"/>
+		<field fieldName="Entity Detail Code 5" fieldRef="Entity Detail Code 5"/>
+		<field fieldName="Entity Type 6" fieldRef="Entity Type 6"/>
+		<field fieldName="Entity Code 6" fieldRef="Entity Code 6"/>
+		<field fieldName="Entity Detail Code 6" fieldRef="Entity Detail Code 6"/>
+		<field fieldName="Entity Type 7" fieldRef="Entity Type 7"/>
+		<field fieldName="Entity Code 7" fieldRef="Entity Code 7"/>
+		<field fieldName="Entity Detail Code 7" fieldRef="Entity Detail Code 7"/>
+		<field fieldName="ValidationMessage" fieldRef="ValidationMessage"/>
+	</service>
+	
+	<service serviceName="setupmanager.FillProfessionalCertificateMasterData">
+		<field fieldName="Is Edit" fieldRef="isEdit"/>
+		<field fieldName="Professional Certificate Name" fieldRef="professionalCertificateName"/>
+		<field fieldName="Enable Display" fieldRef="enableDisplay"/>
+		<field fieldName="Display Order" fieldRef="displayOrder"/>
+		<field fieldName="Applicable for Second Tier Suppliers" fieldRef="applicableforSecondTierSuppliers"/>
+	</service>
+	
+	<service serviceName="setupmanager.VerifyProfessionalCertificateMasterData">
+		<field fieldName="Professional Certificate Name" fieldRef="professionalCertificateName"/>
+		<field fieldName="Enable Display" fieldRef="enableDisplay"/>
+		<field fieldName="Display Order" fieldRef="displayOrder"/>
+		<field fieldName="Applicable for Second Tier Suppliers" fieldRef="applicableforSecondTierSuppliers"/>
+	</service>
+	
+	<service serviceName="setupmanager.FillProfessionalCertificateTranslationMasterData">
+		<field fieldName="Is Edit" fieldRef="isEdit"/>
+		<field fieldName="Language" fieldRef="languageDropdown"/>
+		<field fieldName="Professional Certificate Name" fieldRef="professionalCertificateNameDropDown"/>
+		<field fieldName="Professional Certificate Translation" fieldRef="professionalCertificateTranslation"/>
+	</service>
+	
+	<service serviceName="setupmanager.VerifyProfessionalCertificateTranslationMasterData">
+		<field fieldName="Language" fieldRef="languageDropdown"/>
+		<field fieldName="Professional Certificate Name" fieldRef="professionalCertificateNameDropDown"/>
+		<field fieldName="Professional Certificate Translation" fieldRef="professionalCertificateTranslation"/>
+	</service>
+	
+	<service serviceName="setupmanager.FillCertificateTypeMasterData">
+		<field fieldName="Is Edit" fieldRef="isEdit"/>
+		<field fieldName="Certificate Type Name" fieldRef="certificateTypeName"/>
+		<field fieldName="Display Order" fieldRef="displayOrder"/>
+		<field fieldName="Allow Deletion" fieldRef="allowDeletion"/>
+		<field fieldName="Applicable for Second Tier Suppliers" fieldRef="applicableforSecondTierSuppliers"/>
+	</service>
+	
+	<service serviceName="setupmanager.VerifyCertificateTypeMasterData">
+		<field fieldName="Certificate Type Name" fieldRef="certificateTypeName"/>
+		<field fieldName="Display Order" fieldRef="displayOrder"/>
+		<field fieldName="Allow Deletion" fieldRef="allowDeletion"/>
+		<field fieldName="Applicable for Second Tier Suppliers" fieldRef="applicableforSecondTierSuppliers"/>
+	</service>
+	
+	<service serviceName="setupmanager.FillCertificateTypeTranslationMasterData">
+		<field fieldName="Is Edit" fieldRef="isEdit"/>
+		<field fieldName="Language" fieldRef="languageDropdown"/>
+		<field fieldName="Certificate Type Name" fieldRef="certificateTypeNameDropDown"/>
+		<field fieldName="Certificate Type Translation" fieldRef="certificateTypeTranslation"/>
+	</service>
+	
+	<service serviceName="setupmanager.VerifyCertificateTypeTranslationMasterData">
+		<field fieldName="Language" fieldRef="languageDropdown"/>
+		<field fieldName="Certificate Type Name" fieldRef="certificateTypeNameDropDown"/>
+		<field fieldName="Certificate Type Translation" fieldRef="certificateTypeTranslation"/>
+	</service>
+	
+	<service serviceName="setupmanager.FillCompanyIdentificationTypeMasterData">
+		<field fieldName="Is Edit" fieldRef="isEdit"/>
+		<field fieldName="Company Identification Type" fieldRef="companyIdentificationType"/>
+		<field fieldName="Allow Editing" fieldRef="allowEditing"/>
+		<field fieldName="Allow Masking of Values" fieldRef="allowMaskingofValues"/>
+		<field fieldName="Applicable for Locations" fieldRef="applicableforLocations"/>
+		<field fieldName="Allow Encryption of Values" fieldRef="allowEncryptionofValues"/>
+		<field fieldName="Allowed Value" fieldRef="allowedValue"/>
+	</service>
+	
+	<service serviceName="setupmanager.VerifyCompanyIdentificationTypeMasterData">
+		<field fieldName="Company Identification Type" fieldRef="companyIdentificationType"/>
+		<field fieldName="Allow Editing" fieldRef="allowEditing"/>
+		<field fieldName="Allow Masking of Values" fieldRef="allowMaskingofValues"/>
+		<field fieldName="Applicable for Locations" fieldRef="applicableforLocations"/>
+		<field fieldName="Allow Encryption of Values" fieldRef="allowEncryptionofValues"/>
+		<field fieldName="Allowed Value" fieldRef="allowedValue"/>
+	</service>
+	
+	<service serviceName="setupmanager.FillCompanyIdentificationTypeTranslationsMasterData">
+		<field fieldName="Is Edit" fieldRef="isEdit"/>
+		<field fieldName="Language" fieldRef="languageDropdown"/>
+		<field fieldName="Company Identification Type" fieldRef="companyIdentificationTypeDropDown"/>
+		<field fieldName="Company Identification Type Translation" fieldRef="companyIdentificationTypeTranslation"/>
+	</service>
+	
+	<service serviceName="setupmanager.VerifyCompanyIdentificationTypeTranslationsMasterData">
+		<field fieldName="Language" fieldRef="languageDropdown"/>
+		<field fieldName="Company Identification Type" fieldRef="companyIdentificationTypeDropDown"/>
+		<field fieldName="Company Identification Type Translation" fieldRef="companyIdentificationTypeTranslation"/>
+	</service>
+	
+	<service serviceName="setupmanager.AddNewLOBCompanyStructure">
+		<field fieldName="LOBName" fieldRef="LOBName"/>
+		<field fieldName="Duplicate from" fieldRef="Duplicate from"/>
+		<field fieldName="Parent" fieldRef="Parent"/>
+		<field fieldName="Entity Code" fieldRef="Entity Code"/>
+		<field fieldName="Error Message" fieldRef="Error Message"/>
+	</service>
+
+	<service serviceName="setupmanager.FillProjectTypeStrategyMapping">
+		<field fieldName="Is Edit" fieldRef="isEdit"/>
+		<field fieldName="Project Type" fieldRef="projectTypeDropDown"/>
+		<field fieldName="Project Strategy" fieldRef="projectStrategyDropdown"/>
+	</service>
+	
+	<service serviceName="setupmanager.VerifyProjectTypeStrategyMappingMasterData">
+		<field fieldName="Project Type" fieldRef="projectTypeDropDown"/>
+		<field fieldName="Project Strategy" fieldRef="projectStrategyDropdown"/>
+	</service>
+	
+	<service serviceName="setupmanager.FillProjectSavingsTypeImpactMappingMasterData">
+		<field fieldName="Is Edit" fieldRef="isEdit"/>
+		<field fieldName="Savings Type" fieldRef="savingsTypeDropdown"/>
+		<field fieldName="Savings Impact" fieldRef="savingsImpactDropdown"/>
+		<field fieldName="Set as Default" fieldRef="setAsDefault"/>
+	</service>
+	
+	<service serviceName="setupmanager.VerifyProjectSavingsTypeImpactMappingMasterData">
+		<field fieldName="Savings Type" fieldRef="savingsTypeDropdown"/>
+		<field fieldName="Savings Impact" fieldRef="savingsImpactDropdown"/>
+		<field fieldName="Set as Default" fieldRef="setAsDefault"/>
+	</service>
+	
+	<service serviceName="setupmanager.FillDocumentNumberingFormatSheet">							
+		<field fieldName="EntityType" fieldRef="EntityType"/>
+		<field fieldName="LOBID" fieldRef="LOBID"/>
+		<field fieldName="IsActive" fieldRef="IsActive"/>
+		<field fieldName="StartNumber" fieldRef="StartNumber"/>
+		<field fieldName="FormatDisplayValue" fieldRef="FormatDisplayValue"/>
+		<field fieldName="newEntityType" fieldRef="newEntityType"/>
+		<field fieldName="newLOBID" fieldRef="newLOBID"/>
+		<field fieldName="action" fieldRef="action"/>
+	</service>
+	
+	<service serviceName="setupmanager.VerifyDocumentNumberingFormatSheet">		
+		<field fieldName="Download Type" fieldRef="Download Type"/>
+		<field fieldName="Is Full Data" fieldRef="Is Full Data"/>
+		<field fieldName="EntityType" fieldRef="EntityType"/>
+		<field fieldName="LOBID" fieldRef="LOBID"/>
+		<field fieldName="IsActive" fieldRef="IsActive"/>
+		<field fieldName="StartNumber" fieldRef="StartNumber"/>
+		<field fieldName="FormatDisplayValue" fieldRef="FormatDisplayValue"/>
+		<field fieldName="newEntityType" fieldRef="newEntityType"/>
+		<field fieldName="newLOBID" fieldRef="newLOBID"/>
+		<field fieldName="action" fieldRef="action"/>
+		<field fieldName="Error Message" fieldRef="Error Message"/>
+	</service>
+	
+	<service serviceName="setupmanager.FillAttributesOfAttachmentsMasterData">
+		<field fieldName="Is Edit" fieldRef="isEdit"/>
+		<field fieldName="Object Type Description" fieldRef="objectTypeDescription"/>
+		<field fieldName="Max Size of an Attachment (MB)" fieldRef="maxSizeofanAttachment"/>
+		<field fieldName="Max No of Attachments Allowed Simultaneously" fieldRef="maxNoofAttachmentsAllowedSimultaneously"/>
+		<field fieldName="File Extensions Allowed in Attachments" fieldRef="fileExtensionsAllowedinAttachments"/>
+		<field fieldName="Enable Password Protection" fieldRef="enablePasswordProtection"/>
+	</service>
+	
+	<service serviceName="setupmanager.VerifyAttributesOfAttachmentsMasterData">
+		<field fieldName="Product" fieldRef="product"/>
+		<field fieldName="Object Type" fieldRef="objectType"/>
+		<field fieldName="Object Type Description" fieldRef="objectTypeDescription"/>
+		<field fieldName="Max Size of an Attachment (MB)" fieldRef="maxSizeofanAttachment"/>
+		<field fieldName="Max No of Attachments Allowed Simultaneously" fieldRef="maxNoofAttachmentsAllowedSimultaneously"/>
+		<field fieldName="File Extensions Allowed in Attachments" fieldRef="fileExtensionsAllowedinAttachments"/>
+		<field fieldName="Enable Password Protection" fieldRef="enablePasswordProtection"/>
+	</service>
+	
+	<service serviceName="setupmanager.FillProjectBuyerConfidenceMasterData">
+		<field fieldName="Is Edit" fieldRef="isEdit"/>
+		<field fieldName="Value" fieldRef="value"/>
+		<field fieldName="Description" fieldRef="description"/>
+	</service>
+	
+	<service serviceName="setupmanager.VerifyProjectBuyerConfidenceMasterData">
+		<field fieldName="Value" fieldRef="value"/>
+		<field fieldName="Description" fieldRef="description"/>
+	</service>
+
+	<service serviceName="setupmanager.FillCategoryGpnPasCodeMappingSheet">
+		<field fieldName="Operation" fieldRef="Operation"/>
+		<field fieldName="Category Name" fieldRef="Category Name"/>
+		<field fieldName="Category PAS Code" fieldRef="Category PAS Code"/>
+		<field fieldName="GPN PAS Code" fieldRef="GPN PAS Code"/>
+	</service>
+	
+	<service serviceName="setupmanager.VerifyCategoryGpnPasCodeMappingSheet">
+		<field fieldName="Download Type" fieldRef="Download Type"/>
+		<field fieldName="Is Full Data" fieldRef="Is Full Data"/>
+		<field fieldName="Operation" fieldRef="Operation"/>
+		<field fieldName="Category Name" fieldRef="Category Name"/>
+		<field fieldName="Category PAS Code" fieldRef="Category PAS Code"/>
+		<field fieldName="GPN PAS Code" fieldRef="GPN PAS Code"/>
+		<field fieldName="Error Message" fieldRef="Error Message"/>
+	</service>
+
+	<service serviceName="setupmanager.FillProjectProgramNameMasterData">
+		<field fieldName="Is Edit" fieldRef="isEdit"/>
+		<field fieldName="Program Name" fieldRef="programName"/>
+		<field fieldName="Program Description" fieldRef="programDescription"/>
+	</service>
+	
+	<service serviceName="setupmanager.VerifyProjectProgramNameMasterData">
+		<field fieldName="Program Name" fieldRef="programName"/>
+		<field fieldName="Program Description" fieldRef="programDescription"/>
+		<field fieldName="Set as Default" fieldRef="setAsDefault"/>		
+	</service>
+
+	<service serviceName="setupmanager.FillProjectAPIFieldsMasterData">
+		<field fieldName="Is Edit" fieldRef="isEdit"/>
+		<field fieldName="Field Name" fieldRef="fieldName"/>
+		<field fieldName="Field Description" fieldRef="fieldDescription"/>
+	</service>
+	
+	<service serviceName="setupmanager.VerifyProjectAPIFieldsMasterData">
+		<field fieldName="Field Name" fieldRef="fieldName"/>
+		<field fieldName="Field Description" fieldRef="fieldDescription"/>
+		<field fieldName="Field Type" fieldRef="fieldType"/>		
+	</service>
+	
+	<service serviceName="setupmanager.VerifySmartViewLog">
+		<field fieldName="Sr No" fieldRef="srNo"/>
+		<field fieldName="Login Id" fieldRef="loginId"/>
+		<field fieldName="Action" fieldRef="action"/>
+		<field fieldName="Status" fieldRef="status"/>
+		<field fieldName="Is Document Name Expected" fieldRef="documentName"/>
+		<field fieldName="Total Count" fieldRef="totalCount"/>
+		<field fieldName="Success Count" fieldRef="successCount"/>
+		<field fieldName="Is Error Log Expected" fieldRef="errorLog"/>
+		<field fieldName="Error Message" fieldRef="errorMessage"/>
+	</service>
+	
+	<service serviceName="setupmanager.VerifyEmailNotificationTemplate">
+		<field fieldName="Download Type" fieldRef="Download Type"/>
+		<field fieldName="Is Full Data" fieldRef="Is Full Data"/>
+		<field fieldName="Product" fieldRef="Product"/>
+		<field fieldName="Document Type" fieldRef="Document Type"/>
+		<field fieldName="Event ID" fieldRef="Event ID"/>
+		<field fieldName="Event Code" fieldRef="Event Code"/>
+		<field fieldName="Event Name" fieldRef="Event Name"/>
+		<field fieldName="Notification Name" fieldRef="Notification Name"/>
+		<field fieldName="Notification Id" fieldRef="Notification Id"/>
+		<field fieldName="Language" fieldRef="Language"/>
+		<field fieldName="Subject" fieldRef="Subject"/>
+		<field fieldName="Body" fieldRef="Body"/>
+		<field fieldName="Variable" fieldRef="Variable"/>
+		<field fieldName="Recipients" fieldRef="Recipients"/>
+		<field fieldName="Status" fieldRef="Status"/>
+		<field fieldName="Action" fieldRef="Action"/>
+		<field fieldName="Error Message" fieldRef="Error Message"/>
+	</service>
+	
+	<service serviceName="setupmanager.FillEmailNotificationTemplate">
+		<field fieldName="Product" fieldRef="Product"/>
+		<field fieldName="Document Type" fieldRef="Document Type"/>
+		<field fieldName="Event ID" fieldRef="Event ID"/>
+		<field fieldName="Event Code" fieldRef="Event Code"/>
+		<field fieldName="Event Name" fieldRef="Event Name"/>
+		<field fieldName="Notification Name" fieldRef="Notification Name"/>
+		<field fieldName="Notification Id" fieldRef="Notification Id"/>
+		<field fieldName="Language" fieldRef="Language"/>
+		<field fieldName="Subject" fieldRef="Subject"/>
+		<field fieldName="Body" fieldRef="Body"/>
+		<field fieldName="Variable" fieldRef="Variable"/>
+		<field fieldName="Recipients" fieldRef="Recipients"/>
+		<field fieldName="Status" fieldRef="Status"/>
+		<field fieldName="Action" fieldRef="Action"/>
+	</service>
+	
+	<service serviceName="setupmanager.FillShippingMethodMasterData">
+		<field fieldName="Is Edit" fieldRef="isEdit"/>
+		<field fieldName="Shipping Method Name" fieldRef="shippingMethodName"/>
+	</service>
+	
+	<service serviceName="setupmanager.VerifyShippingMethodMasterData">
+		<field fieldName="Shipping Method Name" fieldRef="shippingMethodName"/>
+	</service>
+	
+	<service serviceName="setupmanager.FillBuyerUserCustomAttributeMappingSheet">
+		<field fieldName="UserName" fieldRef="UserName"/>
+		<field fieldName="Q1 FreeText  Free Form  Single line Text" fieldRef="Q1 FreeText  Free Form  Single line Text"/>
+		<field fieldName="Q2 DropDown  Drop Down" fieldRef="Q2 DropDown  Drop Down"/>
+		<field fieldName="Q3 Radio  Radio Buttons  Single Answer" fieldRef="Q3 Radio  Radio Buttons  Single Answer"/>
+		<field fieldName="Q5 ListBox  List Box" fieldRef="Q5 ListBox  List Box"/>
+		<field fieldName="Q4 Checkbox  Check Boxes  Multiple Answer" fieldRef="Q4 Checkbox  Check Boxes  Multiple Answer"/>
+	</service>
+	
+	<service serviceName="setupmanager.VerifyBuyerUserCustomAttributeMappingSheet">
+		<field fieldName="Download Type" fieldRef="Download Type"/>
+		<field fieldName="Is Full Data" fieldRef="Is Full Data"/>
+		<field fieldName="UserName" fieldRef="UserName"/>
+		<field fieldName="Q1 FreeText  Free Form  Single line Text" fieldRef="Q1 FreeText  Free Form  Single line Text"/>
+		<field fieldName="Q2 DropDown  Drop Down" fieldRef="Q2 DropDown  Drop Down"/>
+		<field fieldName="Q3 Radio  Radio Buttons  Single Answer" fieldRef="Q3 Radio  Radio Buttons  Single Answer"/>
+		<field fieldName="Q5 ListBox  List Box" fieldRef="Q5 ListBox  List Box"/>
+		<field fieldName="Q4 Checkbox  Check Boxes  Multiple Answer" fieldRef="Q4 Checkbox  Check Boxes  Multiple Answer"/>
+		<field fieldName="ErrorMessage" fieldRef="ErrorMessage"/>
+	</service>
+	
+	<service serviceName="setupmanager.FillCountryMasterData">
+		<field fieldName="Is Edit" fieldRef="isEdit"/>
+		<field fieldName="Country Code" fieldRef="countryCode"/>
+		<field fieldName="Country Name" fieldRef="countryName"/>
+		<field fieldName="Currency Name" fieldRef="currencyNameDropDown"/>
+		<field fieldName="Language" fieldRef="languageDropdown"/>
+		<field fieldName="Preference Order" fieldRef="preferenceOrder"/>
+		<field fieldName="ISD Code" fieldRef="iSDCode"/>
+		<field fieldName="Zip Code Mandatory" fieldRef="zipCodeMandatory"/>
+		<field fieldName="Zip Code Format" fieldRef="zipCodeFormat"/>
+		<field fieldName="Active" fieldRef="active"/>
+	</service>
+	
+	<service serviceName="setupmanager.VerifyCountryMasterData">
+		<field fieldName="Country Code" fieldRef="countryCode"/>
+		<field fieldName="Country Name" fieldRef="countryName"/>
+		<field fieldName="Currency Name" fieldRef="currencyNameDropDown"/>
+		<field fieldName="Language" fieldRef="languageDropdown"/>
+		<field fieldName="Preference Order" fieldRef="preferenceOrder"/>
+		<field fieldName="ISD Code" fieldRef="iSDCode"/>
+		<field fieldName="Zip Code Mandatory" fieldRef="zipCodeMandatory"/>
+		<field fieldName="Zip Code Format" fieldRef="zipCodeFormat"/>
+		<field fieldName="Active" fieldRef="active"/>
+	</service>
+	
+	<service serviceName="setupmanager.FillJurisdictionMasterData">
+		<field fieldName="Is Edit" fieldRef="isEdit"/>
+		<field fieldName="Jurisdiction Name" fieldRef="jurisdictionName"/>
+		<field fieldName="Jurisdiction Code" fieldRef="jurisdictionCode"/>
+	</service>
+	
+	<service serviceName="setupmanager.VerifyJurisdictionMasterData">
+		<field fieldName="Jurisdiction Name" fieldRef="jurisdictionName"/>
+		<field fieldName="Jurisdiction Code" fieldRef="jurisdictionCode"/>
+	</service>
+	
+	<service serviceName="setupmanager.FillJurisdictionEntityMappingMasterData">
+		<field fieldName="Is Edit" fieldRef="isEdit"/>
+		<field fieldName="Jurisdiction Name" fieldRef="jurisdictionNameDropdown"/>
+		<field fieldName="Entity Name" fieldRef="entityName"/>
+		<field fieldName="Entity Value" fieldRef="entityValue"/>
+	</service>
+	
+	<service serviceName="setupmanager.VerifyJurisdictionEntityMappingMasterData">
+		<field fieldName="Jurisdiction Name" fieldRef="jurisdictionName"/>
+		<field fieldName="Entity Name" fieldRef="entityName"/>
+		<field fieldName="Entity Value" fieldRef="entityValue"/>
+	</service>
+	
+	<service serviceName="setupmanager.FillOrganisationStructureAssociationSheet">
+		<field fieldName="Operation" fieldRef="Operation"/>
+		<field fieldName="EntityName" fieldRef="EntityName"/>
+		<field fieldName="Level" fieldRef="Level"/>
+		<field fieldName="TemplateName" fieldRef="TemplateName"/>
+		<field fieldName="AssociationType" fieldRef="AssociationType"/>
+		<field fieldName="HasMapping" fieldRef="HasMapping"/>
+		<field fieldName="ParentEntityName" fieldRef="ParentEntityName"/>
+		<field fieldName="newEntityName" fieldRef="newEntityName"/>
+		<field fieldName="newTemplateName" fieldRef="newTemplateName"/>
+	</service>
+	
+	<service serviceName="setupmanager.VerifyOrganisationStructureAssociationSheet">
+		<field fieldName="Download Type" fieldRef="Download Type"/>
+		<field fieldName="Is Full Data" fieldRef="Is Full Data"/>
+		<field fieldName="Operation" fieldRef="Operation"/>
+		<field fieldName="EntityName" fieldRef="EntityName"/>
+		<field fieldName="Level" fieldRef="Level"/>
+		<field fieldName="TemplateName" fieldRef="TemplateName"/>
+		<field fieldName="AssociationType" fieldRef="AssociationType"/>
+		<field fieldName="HasMapping" fieldRef="HasMapping"/>
+		<field fieldName="ParentEntityName" fieldRef="ParentEntityName"/>
+		<field fieldName="newEntityName" fieldRef="newEntityName"/>
+		<field fieldName="newTemplateName" fieldRef="newTemplateName"/>
+	</service>
+	
+	<service serviceName="setupmanager.FillStateCountryMappingMasterData">
+		<field fieldName="Is Edit" fieldRef="isEdit"/>
+		<field fieldName="Country Name" fieldRef="countryNameDropDown"/>
+		<field fieldName="State Code" fieldRef="stateCode"/>
+		<field fieldName="State Name" fieldRef="stateName"/>
+		<field fieldName="Active" fieldRef="active"/>
+	</service>
+	
+	<service serviceName="setupmanager.VerifyStateCountryMappingMasterData">
+		<field fieldName="Country Name" fieldRef="countryNameDropDown"/>
+		<field fieldName="State Code" fieldRef="stateCode"/>
+		<field fieldName="State Name" fieldRef="stateName"/>
+		<field fieldName="Active" fieldRef="active"/>
+	</service>
+	
+	<service serviceName="setupmanager.FillTaxMasterMasterData">
+		<field fieldName="Is Edit" fieldRef="isEdit"/>
+		<field fieldName="Tax Type" fieldRef="taxType"/>
+		<field fieldName="Tax Description" fieldRef="taxDesc"/>
+		<field fieldName="Tax Code" fieldRef="taxCode"/>
+		<field fieldName="Tax Percentage" fieldRef="taxPercentage"/>
+		<field fieldName="Country" fieldRef="country"/>
+		<field fieldName="Tax Charges" fieldRef="taxCharges"/>
+	</service>
+	
+	<service serviceName="setupmanager.VerifyTaxMasterMasterData">
+		<field fieldName="Tax Type" fieldRef="taxType"/>
+		<field fieldName="Tax Description" fieldRef="taxDesc"/>
+		<field fieldName="Tax Code" fieldRef="taxCode"/>
+		<field fieldName="Tax Percentage" fieldRef="taxPercentage"/>
+		<field fieldName="Country" fieldRef="country"/>
+		<field fieldName="Tax Charges" fieldRef="taxCharges"/>
+	</service>
+	
+	<service serviceName="setupmanager.FillReasonsForReturnNotesMasterData">
+		<field fieldName="Is Edit" fieldRef="isEdit"/>
+		<field fieldName="Reason for Return" fieldRef="reasonForReturn"/>
+		<field fieldName="Return Code" fieldRef="returnCode"/>
+		<field fieldName="Set as Default" fieldRef="setAsDefault"/>
+		<field fieldName="Mark as Internal" fieldRef="markAsInternal"/>
+	</service>
+	
+	<service serviceName="setupmanager.VerifyReasonsForReturnNotesMasterData">
+		<field fieldName="Reason for Return" fieldRef="reasonForReturn"/>
+		<field fieldName="Return Code" fieldRef="returnCode"/>
+		<field fieldName="Set as Default" fieldRef="setAsDefault"/>
+		<field fieldName="Mark as Internal" fieldRef="markAsInternal"/>
+	</service>
+	
+	<service serviceName="setupmanager.FillTaxEntityMappingMasterData">
+		<field fieldName="Is Edit" fieldRef="isEdit"/>
+		<field fieldName="Tax" fieldRef="taxRadiobutton"/>
+		<field fieldName="Entity Mapping" fieldRef="entityMapping"/>
+		<field fieldName="Tax Percentage" fieldRef="taxPercentage"/>
+		<field fieldName="Tax Description" fieldRef="taxDesc"/>
+		<field fieldName="Tax Charges" fieldRef="taxCharges"/>
+	</service>
+	
+	<service serviceName="setupmanager.VerifyTaxEntityMappingMasterData">
+		<field fieldName="Tax" fieldRef="taxRadiobutton"/>
+		<field fieldName="Entity Mapping" fieldRef="entityMapping"/>
+		<field fieldName="Tax Percentage" fieldRef="taxPercentage"/>
+		<field fieldName="Tax Description" fieldRef="taxDesc"/>
+		<field fieldName="Tax Charges" fieldRef="taxCharges"/>
+	</service>
+	
+	<service serviceName="setupmanager.FillJurisdictionTaxCodeMappingMasterData">
+		<field fieldName="Is Edit" fieldRef="isEdit"/>
+		<field fieldName="Jurisdiction Name" fieldRef="jurisdictionNameRadiobutton"/>
+		<field fieldName="Tax Code" fieldRef="taxCodeRadiobutton"/>
+	</service>
+	
+	<service serviceName="setupmanager.VerifyJurisdictionTaxCodeMappingMasterData">
+		<field fieldName="Jurisdiction Name" fieldRef="jurisdictionNameRadiobutton"/>
+		<field fieldName="Tax Code" fieldRef="taxCodeRadiobutton"/>
+	</service>
+	
+	<service serviceName="setupmanager.FillPurchaseTypeMasterData">
+		<field fieldName="Is Edit" fieldRef="isEdit"/>
+		<field fieldName="Purchase Type Name" fieldRef="purchaseTypeName"/>
+		<field fieldName="Set as Default" fieldRef="setAsDefault"/>
+		<field fieldName="Flexible Charge" fieldRef="flexibleCharge"/>
+	</service>
+	
+	<service serviceName="setupmanager.VerifyPurchaseTypeMasterData">
+		<field fieldName="Purchase Type Name" fieldRef="purchaseTypeName"/>
+		<field fieldName="Set as Default" fieldRef="setAsDefault"/>
+		<field fieldName="Flexible Charge" fieldRef="flexibleCharge"/>
+	</service>
+	
+	<service serviceName="setupmanager.FillOrgManagerStructureMasterData">
+		<field fieldName="Is Edit" fieldRef="isEdit"/>
+		<field fieldName="Structure Name" fieldRef="structureName"/>
+		<field fieldName="Document Type" fieldRef="documentType"/>
+	</service>
+	
+	<service serviceName="setupmanager.VerifyOrgManagerStructureMasterData">
+		<field fieldName="Structure Name" fieldRef="structureName"/>
+		<field fieldName="Document Type" fieldRef="documentType"/>
+	</service>
+	
+	<service serviceName="setupmanager.FillOrgManagerStructureMappingMasterData">
+		<field fieldName="Is Edit" fieldRef="isEdit"/>
+		<field fieldName="Org Structure(Document Type)" fieldRef="orgStructureDocType"/>
+		<field fieldName="Org Entity Type" fieldRef="orgEntityType"/>
+		<field fieldName="Org Manager Level" fieldRef="orgManagerLevel"/>
+	</service>
+	
+	<service serviceName="setupmanager.VerifyOrgManagerStructureMappingMasterData">
+		<field fieldName="Org Structure(Document Type)" fieldRef="orgStructureDocType"/>
+		<field fieldName="Org Entity Type" fieldRef="orgEntityType"/>
+		<field fieldName="Org Manager Level" fieldRef="orgManagerLevel"/>
+	</service>
+	
+	<service serviceName="setupmanager.FillIncotermCodeMasterData">
+		<field fieldName="Is Edit" fieldRef="isEdit"/>
+		<field fieldName="FOB Code" fieldRef="FOBCode"/>
+		<field fieldName="FOB Description" fieldRef="FOBDescription"/>
+		<field fieldName="Mark as Default" fieldRef="markasDefaultChkbox"/>
+	</service>
+	
+	<service serviceName="setupmanager.VerifyIncotermCodeMasterData">
+		<field fieldName="FOB Code" fieldRef="FOBCode"/>
+		<field fieldName="FOB Description" fieldRef="FOBDescription"/>
+		<field fieldName="Mark as Default" fieldRef="markasDefaultChkbox"/>
+	</service>
+	
+	<service serviceName="setupmanager.FillIncotermLocationMasterData">
+		<field fieldName="Is Edit" fieldRef="isEdit"/>
+		<field fieldName="FOB Location Code" fieldRef="FOBLocCode"/>
+		<field fieldName="FOB Location Description" fieldRef="FOBLocDescription"/>
+		<field fieldName="Mark As Default" fieldRef="markasDefaultChkbox1"/>
+	</service>
+	
+	<service serviceName="setupmanager.VerifyIncotermLocationMasterData">
+		<field fieldName="FOB Location Code" fieldRef="FOBLocCode"/>
+		<field fieldName="FOB Location Description" fieldRef="FOBLocDescription"/>
+		<field fieldName="Mark As Default" fieldRef="markasDefaultChkbox1"/>
+	</service>
+	
+	<service serviceName="setupmanager.FillIncotermFreightTermsMasterData">
+		<field fieldName="Is Edit" fieldRef="isEdit"/>
+		<field fieldName="Freight Term Code" fieldRef="FreightTermCode"/>
+		<field fieldName="Freight Term Description" fieldRef="FreightTermDesc"/>
+		<field fieldName="Mark As Default" fieldRef="markasDefaultChkbox1"/>
+	</service>
+	
+	<service serviceName="setupmanager.VerifyIncotermFreightTermsMasterData">
+		<field fieldName="Freight Term Code" fieldRef="FreightTermCode"/>
+		<field fieldName="Freight Term Description" fieldRef="FreightTermDesc"/>
+		<field fieldName="Mark As Default" fieldRef="markasDefaultChkbox1"/>
+	</service>
+	
+	<service serviceName="setupmanager.FillIncotermTransitTypeMasterData">
+		<field fieldName="Is Edit" fieldRef="isEdit"/>
+		<field fieldName="Transit Type Code" fieldRef="TransitTypeCode"/>
+		<field fieldName="Transit Type Description" fieldRef="TransitTypeDesc"/>
+		<field fieldName="Mark As Default" fieldRef="markasDefaultChkbox1"/>
+	</service>
+	
+	<service serviceName="setupmanager.VerifyIncotermTransitTypeMasterData">
+		<field fieldName="Transit Type Code" fieldRef="TransitTypeCode"/>
+		<field fieldName="Transit Type Description" fieldRef="TransitTypeDesc"/>
+		<field fieldName="Mark As Default" fieldRef="markasDefaultChkbox1"/>
+	</service>
+	
+	<service serviceName="setupmanager.FillIncotermCarriersMasterData">
+		<field fieldName="Is Edit" fieldRef="isEdit"/>
+		<field fieldName="Carrier Master Code" fieldRef="CarrierMasterCode"/>
+		<field fieldName="Carrier Master Description" fieldRef="CarrierMasterDesc"/>
+		<field fieldName="Mark As Default" fieldRef="markasDefaultChkbox1"/>
+	</service>
+	
+	<service serviceName="setupmanager.VerifyIncotermCarriersMasterData">
+		<field fieldName="Carrier Master Code" fieldRef="CarrierMasterCode"/>
+		<field fieldName="Carrier Master Description" fieldRef="CarrierMasterDesc"/>
+		<field fieldName="Mark As Default" fieldRef="markasDefaultChkbox1"/>
+	</service>
+	
+	<service serviceName="setupmanager.FillReceivingTolerancePOMasterData">
+		<field fieldName="Is Edit" fieldRef="isEdit"/>
+		<field fieldName="Entity Mapping" fieldRef="entityMapping"/>
+		<field fieldName="Category" fieldRef="category"/>
+		<field fieldName="Receiving Tolerance" fieldRef="receivingTolerance"/>
+		<field fieldName="Tolerance Type" fieldRef="toleranceType"/>
+		<field fieldName="Currency" fieldRef="currency"/>
+	</service>
+	
+	<service serviceName="setupmanager.VerifyReceivingTolerancePOMasterData">
+		<field fieldName="Entity Mapping" fieldRef="entityMapping"/>
+		<field fieldName="Category" fieldRef="category"/>
+		<field fieldName="Receiving Tolerance" fieldRef="receivingTolerance"/>
+		<field fieldName="Tolerance Type" fieldRef="toleranceType"/>
+		<field fieldName="Currency" fieldRef="currency"/>
+	</service>
+	
+	<service serviceName="setupmanager.FillInvoiceTolerancePOMasterData">
+		<field fieldName="Is Edit" fieldRef="isEdit"/>
+		<field fieldName="Entity Mapping" fieldRef="entityMapping"/>
+		<field fieldName="Order Tolerance Details" fieldRef="orderTolerance"/>
+		<field fieldName="Currency" fieldRef="currency"/>
+	</service>
+	
+	<service serviceName="setupmanager.VerifyInvoiceTolerancePOMasterData">
+		<field fieldName="Entity Mapping" fieldRef="entityMapping"/>
+		<field fieldName="Order Tolerance Details" fieldRef="orderTolerance"/>
+		<field fieldName="Currency" fieldRef="currency"/>
+	</service>
+	
+	<service serviceName="setupmanager.FillP2PLOBConfigurationMasterData">
+		<field fieldName="Is Edit" fieldRef="isEdit"/>
+		<field fieldName="Identification Type" fieldRef="identificationType"/>
+		<field fieldName="LOB" fieldRef="lob"/>
+		<field fieldName="Entity Type" fieldRef="entityType"/>
+	</service>
+	
+	<service serviceName="setupmanager.VerifyP2PLOBConfigurationMasterData">
+		<field fieldName="Identification Type" fieldRef="identificationType"/>
+		<field fieldName="LOB" fieldRef="lob"/>
+		<field fieldName="Entity Type" fieldRef="entityType"/>
+	</service>
+	
+	<service serviceName="setupmanager.FillDocPDFTemplateMasterData">
+		<field fieldName="Is Edit" fieldRef="isEdit"/>
+		<field fieldName="Document Type" fieldRef="documentType"/>
+		<field fieldName="Entity Mapping" fieldRef="entityMapping"/>
+		<field fieldName="Language" fieldRef="languageDropdown"/>
+		<field fieldName="Enable MultiDocInvoice" fieldRef="enableMultiDocInvoice"/>
+		<field fieldName="Upload Template" fieldRef="uploadTemplate"/>
+	</service>
+	
+	<service serviceName="setupmanager.VerifyDocPDFTemplatesMasterData">
+		<field fieldName="Document Type" fieldRef="documentType"/>
+		<field fieldName="Entity Mapping" fieldRef="entityMapping"/>
+		<field fieldName="Language" fieldRef="languageDropdown"/>
+		<field fieldName="Enable MultiDocInvoice" fieldRef="enableMultiDocInvoice"/>
+		<field fieldName="Upload Template" fieldRef="uploadTemplate"/>
+	</service>
+	
+	<service serviceName="setupmanager.FillADRSourceDefinitionMasterData">
+		<field fieldName="Is Edit" fieldRef="isEdit"/>
+		<field fieldName="Source Title" fieldRef="sourceTitle"/>
+		<field fieldName="Source Description" fieldRef="sourceDesc"/>
+	</service>
+	
+	<service serviceName="setupmanager.VerifyADRSourceDefinitionMasterData">
+		<field fieldName="Source Title" fieldRef="sourceTitle"/>
+		<field fieldName="Source Description" fieldRef="sourceDesc"/>
+	</service>
+	
+	<service serviceName="setupmanager.FillADRSetMasterData">
+		<field fieldName="Is Edit" fieldRef="isEdit"/>
+		<field fieldName="Set Description" fieldRef="setDescription"/>
+		<field fieldName="LOB Name" fieldRef="lobName"/>
+		<field fieldName="Structure - Accounting Entities" fieldRef="structureAccountingEntities"/>
+		<field fieldName="Target Name" fieldRef="targetName"/>
+		<field fieldName="Precedence" fieldRef="precedence"/>
+		<field fieldName="Line/Header" fieldRef="lineHeader"/>
+	</service>
+	
+	<service serviceName="setupmanager.VerifyADRSetMasterData">
+		<field fieldName="Set Description" fieldRef="setDescription"/>
+		<field fieldName="LOB Name" fieldRef="lobName"/>
+		<field fieldName="Structure - Accounting Entities" fieldRef="structureAccountingEntities"/>
+		<field fieldName="Target Name" fieldRef="targetName"/>
+		<field fieldName="Precedence" fieldRef="precedence"/>
+		<field fieldName="Line/Header" fieldRef="lineHeader"/>
+	</service>
+	
+	<service serviceName="setupmanager.FillADRSourceCombinationMasterData">
+		<field fieldName="Is Edit" fieldRef="isEdit"/>
+		<field fieldName="Source Combination Description" fieldRef="sourceCombinationDesc"/>
+		<field fieldName="Document Type" fieldRef="documentTypeSelect"/>
+		<field fieldName="Set Description" fieldRef="setDescriptionDropdown"/>
+		<field fieldName="Source Description" fieldRef="sourceDescDropdown"/>
+	</service>
+	
+	<service serviceName="setupmanager.VerifyADRSourceCombinationMasterData">
+		<field fieldName="Source Combination Description" fieldRef="sourceCombinationDesc"/>
+		<field fieldName="Document Type" fieldRef="documentTypeSelect"/>
+		<field fieldName="Set Description" fieldRef="setDescriptionDropdown"/>
+		<field fieldName="Source Description" fieldRef="sourceDescDropdown"/>
+	</service>
+	
+	<service serviceName="setupmanager.FillADRSourceMasterMasterData">
+		<field fieldName="Is Edit" fieldRef="isEdit"/>
+		<field fieldName="Document Type" fieldRef="documentType"/>
+		<field fieldName="Source Type" fieldRef="sourceType"/>
+		<field fieldName="Source Description" fieldRef="sourceDescDropdown"/>
+		<field fieldName="Lookup" fieldRef="lookup"/>
+		<field fieldName="Entity Name" fieldRef="entityName"/>
+		<field fieldName="Accounting Segment Enable" fieldRef="accountingSegmentEnable"/>
+		<field fieldName="Line/Header" fieldRef="lineHeader"/>
+	</service>
+	
+	<service serviceName="setupmanager.VerifyADRSourceMasterMasterData">
+		<field fieldName="Document Type" fieldRef="documentType"/>
+		<field fieldName="Source Type" fieldRef="sourceType"/>
+		<field fieldName="Source Description" fieldRef="sourceDescDropdown"/>
+		<field fieldName="Lookup" fieldRef="lookup"/>
+		<field fieldName="Entity Name" fieldRef="entityName"/>
+		<field fieldName="Accounting Segment Enable" fieldRef="accountingSegmentEnable"/>
+		<field fieldName="Line/Header" fieldRef="lineHeader"/>
+	</service>
+	
+	<service serviceName="setupmanager.FillDeleteUndeleteDocumentTemplate">
+		<field fieldName="Action" fieldRef="Action"/>
+		<field fieldName="Document Code" fieldRef="Document Code"/>
+		<field fieldName="Document Type" fieldRef="Document Type"/>
+		<field fieldName="Document Name" fieldRef="Document Name"/>
+		<field fieldName="Document Number" fieldRef="Document Number"/>
+		<field fieldName="Created By" fieldRef="Created By"/>
+		<field fieldName="Created On" fieldRef="Created On"/>
+		<field fieldName="Modified On" fieldRef="Modified On"/>
+		<field fieldName="Is it a Template" fieldRef="Is it a Template"/>
+	</service>
+	
+	<service serviceName="setupmanager.VerifyDeleteUndeleteDocumentTemplate">
+		<field fieldName="Download Type" fieldRef="Download Type"/>
+		<field fieldName="Is Full Data" fieldRef="Is Full Data"/>
+		<field fieldName="Action" fieldRef="Action"/>
+		<field fieldName="Document Code" fieldRef="Document Code"/>
+		<field fieldName="Document Type" fieldRef="Document Type"/>
+		<field fieldName="Document Name" fieldRef="Document Name"/>
+		<field fieldName="Document Number" fieldRef="Document Number"/>
+		<field fieldName="Created By" fieldRef="Created By"/>
+		<field fieldName="Created On" fieldRef="Created On"/>
+		<field fieldName="Modified On" fieldRef="Modified On"/>
+		<field fieldName="Is it a Template" fieldRef="Is it a Template"/>
+		<field fieldName="Error Message" fieldRef="Error Message"/>
+	</service>
+	
+	<service serviceName="setupmanager.FillManageCustomAttributesMasterData">
+		<field fieldName="Is Edit" fieldRef="isEdit"/>
+		<field fieldName="Form Name" fieldRef="formName"/>
+		<field fieldName="Document Mapping" fieldRef="documentMapping"/>
+		<field fieldName="Display Level" fieldRef="displayLevel"/>
+		<field fieldName="Entity Mapping" fieldRef="entityMapping"/>
+	</service>
+	
+	<service serviceName="setupmanager.VerifyManageCustomAttributesMasterData">
+		<field fieldName="Form Name" fieldRef="formName"/>
+		<field fieldName="Document Mapping" fieldRef="documentMapping"/>
+		<field fieldName="Display Level" fieldRef="displayLevel"/>
+		<field fieldName="Entity Mapping" fieldRef="entityMapping"/>
+	</service>
+	
+	<service serviceName="setupmanager.FillIncotermCodeBUMappingDetailsInSheet">
+		<field fieldName="Operation" fieldRef="Operation"/>
+		<field fieldName="LOBBUFOBMappingId" fieldRef="LOBBUFOBMappingId"/>
+		<field fieldName="FOBCode" fieldRef="FOBCode"/>
+		<field fieldName="Division" fieldRef="Division"/>
+		<field fieldName="EntityType" fieldRef="EntityType"/>
+		<field fieldName="EntityCode" fieldRef="EntityCode"/>
+		<field fieldName="EntityDetailCode" fieldRef="EntityDetailCode"/>
+	</service>
+	
+	<service serviceName="setupmanager.VerifyIncotermCodeBUMappingMasterData">
+		<field fieldName="FOB Code" fieldRef="FOBCode"/>
+		<field fieldName="Division Name" fieldRef="divisionName"/>
+		<field fieldName="Entity Type Name" fieldRef="entityTypeName"/>
+		<field fieldName="Entity Display Name" fieldRef="entityDisplayName"/>
+	</service>
+	
+	<service serviceName="setupmanager.FillIncotermLocBUMappingDetailsInSheet">
+		<field fieldName="Operation" fieldRef="Operation"/>
+		<field fieldName="LOBBUFOBMappingId" fieldRef="LOBBUFOBMappingId"/>
+		<field fieldName="FOBLocationCode" fieldRef="FOBLocationCode"/>
+		<field fieldName="Division" fieldRef="Division"/>
+		<field fieldName="EntityType" fieldRef="EntityType"/>
+		<field fieldName="EntityCode" fieldRef="EntityCode"/>
+		<field fieldName="EntityDetailCode" fieldRef="EntityDetailCode"/>
+	</service>
+	
+	<service serviceName="setupmanager.VerifyIncotermLocBUMappingMasterData">
+		<field fieldName="Fob Location Code" fieldRef="FOBLocCodeM"/>
+		<field fieldName="Division Name" fieldRef="divisionName"/>
+		<field fieldName="Entity Type Name" fieldRef="entityTypeName"/>
+		<field fieldName="Entity Display Name" fieldRef="entityDisplayName"/>
+	</service>
+	
+	<service serviceName="setupmanager.FillIncotermFreightBUMappingDetailsInSheet">
+		<field fieldName="Operation" fieldRef="Operation"/>
+		<field fieldName="LOBBUFOBMappingId" fieldRef="LOBBUFOBMappingId"/>
+		<field fieldName="FOBFreightTermCode" fieldRef="FOBFreightTermCode"/>
+		<field fieldName="Division" fieldRef="Division"/>
+		<field fieldName="EntityType" fieldRef="EntityType"/>
+		<field fieldName="EntityCode" fieldRef="EntityCode"/>
+		<field fieldName="EntityDetailCode" fieldRef="EntityDetailCode"/>
+	</service>
+	
+	<service serviceName="setupmanager.VerifyIncotermFreightBUMappingMasterData">
+		<field fieldName="FOB Freight Term Code" fieldRef="FreightTermCodeM"/>
+		<field fieldName="Division Name" fieldRef="divisionName"/>
+		<field fieldName="Entity Type Name" fieldRef="entityTypeName"/>
+		<field fieldName="Entity Display Name" fieldRef="entityDisplayName"/>
+	</service>
+	
+	<service serviceName="setupmanager.FillIncotermTransitBUMappingDetailsInSheet">
+		<field fieldName="Operation" fieldRef="Operation"/>
+		<field fieldName="LOBBUFOBMappingId" fieldRef="LOBBUFOBMappingId"/>
+		<field fieldName="FOBTransitTypeCode" fieldRef="FOBTransitTypeCode"/>
+		<field fieldName="Division" fieldRef="Division"/>
+		<field fieldName="EntityType" fieldRef="EntityType"/>
+		<field fieldName="EntityCode" fieldRef="EntityCode"/>
+		<field fieldName="EntityDetailCode" fieldRef="EntityDetailCode"/>
+	</service>
+	
+	<service serviceName="setupmanager.VerifyIncotermTransitBUMappingMasterData">
+		<field fieldName="FOB Transit Type" fieldRef="TransitTypeCodeM"/>
+		<field fieldName="Division Name" fieldRef="divisionName"/>
+		<field fieldName="Entity Type Name" fieldRef="entityTypeName"/>
+		<field fieldName="Entity Display Name" fieldRef="entityDisplayName"/>
+	</service>
+	
+	<service serviceName="setupmanager.FillIncotermCarrierBUMappingDetailsInSheet">
+		<field fieldName="Operation" fieldRef="Operation"/>
+		<field fieldName="LOBBUFOBMappingId" fieldRef="LOBBUFOBMappingId"/>
+		<field fieldName="FOBCarrierCode" fieldRef="FOBCarrierCode"/>
+		<field fieldName="Division" fieldRef="Division"/>
+		<field fieldName="EntityType" fieldRef="EntityType"/>
+		<field fieldName="EntityCode" fieldRef="EntityCode"/>
+		<field fieldName="EntityDetailCode" fieldRef="EntityDetailCode"/>
+	</service>
+	
+	<service serviceName="setupmanager.VerifyIncotermCarrierBUMappingMasterData">
+		<field fieldName="FOB Carrier Code" fieldRef="CarrierMasterCodeM"/>
+		<field fieldName="Division Name" fieldRef="divisionName"/>
+		<field fieldName="Entity Type Name" fieldRef="entityTypeName"/>
+		<field fieldName="Entity Display Name" fieldRef="entityDisplayName"/>
+	</service>
+	
+	<service serviceName="setupmanager.VerifyC2PSmartViewLog">
+		<field fieldName="Start Date" fieldRef="startDate"/>
+		<field fieldName="Request Type" fieldRef="requestType"/>
+		<field fieldName="Status" fieldRef="status"/>
+		<field fieldName="User Name" fieldRef="userName"/>
+		<field fieldName="Total Count" fieldRef="totalCount"/>
+		<field fieldName="Success Count" fieldRef="successCount"/>
+		<field fieldName="Is Error Log File Expected" fieldRef="logFile"/>
+		<field fieldName="Error Message" fieldRef="errorMessage"/>
+		
+	</service>
+	
+	<service serviceName="setupmanager.FillIncotermSupplierBUMappingDetailsInSheet">
+		<field fieldName="Operation" fieldRef="Operation"/>
+		<field fieldName="PartnerFOBMappingId" fieldRef="PartnerFOBMappingId"/>
+		<field fieldName="PartnerCode" fieldRef="PartnerCode"/>
+		<field fieldName="Division" fieldRef="Division"/>
+		<field fieldName="EntityCode" fieldRef="EntityCode"/>
+		<field fieldName="EntityDetailCode" fieldRef="EntityDetailCode"/>
+		<field fieldName="FOBCode" fieldRef="FOBCode"/>
+		<field fieldName="FOBLocationCode" fieldRef="FOBLocationCode"/>
+	</service>
+	
+	<service serviceName="setupmanager.VerifyIncotermSupplierBUMappingMasterData">
+		<field fieldName="PartnerCode" fieldRef="PartnerCode"/>
+		<field fieldName="Division Name" fieldRef="divisionName"/>
+		<field fieldName="Entity Type Name" fieldRef="entityTypeName"/>
+		<field fieldName="Entity Display Name" fieldRef="entityDisplayName"/>
+		<field fieldName="FOBCode" fieldRef="FOBCode"/>
+		<field fieldName="FOBLocationCode" fieldRef="FOBLocationCode"/>
+	</service>
+	
+	<service serviceName="setupmanager.FillDeliverToLocationDetailsInSheet">
+		<field fieldName="Operation" fieldRef="Operation"/>
+		<field fieldName="DeliverTo Location ID" fieldRef="DeliverTo Location ID"/>
+		<field fieldName="Ship To Location Name" fieldRef="Ship To Location Name"/>
+		<field fieldName="Ship To Location Number" fieldRef="Ship To Location Number"/>
+		<field fieldName="DeliverTo Location Name" fieldRef="DeliverTo Location Name"/>
+		<field fieldName="DeliverTo Location Number" fieldRef="DeliverTo Location Number"/>
+		<field fieldName="Copy Address from ShipTo" fieldRef="Copy Address from ShipTo"/>
+		<field fieldName="Address Line 1" fieldRef="Address Line 1"/>
+		<field fieldName="Address Line 2" fieldRef="Address Line 2"/>
+		<field fieldName="Address Line 3" fieldRef="Address Line 3"/>
+		<field fieldName="City" fieldRef="City"/>
+		<field fieldName="State" fieldRef="State"/>
+		<field fieldName="ZIP/PIN Code" fieldRef="ZIPPIN Code"/>
+		<field fieldName="Country" fieldRef="Country"/>
+		<field fieldName="Phone Number" fieldRef="Phone Number"/>
+		<field fieldName="Mark as Inactive" fieldRef="Mark as Inactive"/>
+	</service>
+	
+	<service serviceName="setupmanager.VerifyDeliverToLocationMasterData">
+		<field fieldName="Ship To Location Name" fieldRef="Ship To Location Name"/>
+		<field fieldName="Ship To Location Number" fieldRef="Ship To Location Number"/>
+		<field fieldName="DeliverTo Location Name" fieldRef="deliverToLocName"/>
+		<field fieldName="DeliverTo Location Number" fieldRef="deliverToLocNumber"/>
+		<field fieldName="Address Line 1" fieldRef="Address Line 1"/>
+		<field fieldName="Address Line 2" fieldRef="Address Line 2"/>
+		<field fieldName="Address Line 3" fieldRef="Address Line 3"/>
+		<field fieldName="City" fieldRef="City"/>
+		<field fieldName="State" fieldRef="State"/>
+		<field fieldName="ZIP/PIN Code" fieldRef="ZIP/PIN Code"/>
+	</service>
+	
+	<service serviceName="setupmanager.FillSupplierUOMMappingDetailsInSheet">
+		<field fieldName="Operation" fieldRef="Operation"/>
+		<field fieldName="MappingId" fieldRef="MappingId"/>
+		<field fieldName="ClientPartnerCode" fieldRef="ClientPartnerCode"/>
+		<field fieldName="BuyerUoMCode" fieldRef="BuyerUoMCode"/>
+		<field fieldName="SupplierUoMCode" fieldRef="SupplierUoMCode"/>
+	</service>
+	
+	<service serviceName="setupmanager.VerifySupplierUOMMappingMasterData">
+		<field fieldName="Supplier Name" fieldRef="Supplier Name"/>
+		<field fieldName="Client Partner Code" fieldRef="Client Partner Code"/>
+		<field fieldName="Buyer UoM Code" fieldRef="Buyer UoM Code"/>
+		<field fieldName="Supplier UoM Code" fieldRef="Supplier UoM Code"/>
+	</service>
+			
+	<service serviceName="setupmanager.VerifyApprovalGroupsMasterData">
+		<field fieldName="Group Name" fieldRef="groupName"/>
+		<field fieldName="Group Members" fieldRef="groupMembers"/>
+	</service>
+	
+	<service serviceName="setupmanager.FillCurrencyMasterData">
+		<field fieldName="Is Edit" fieldRef="isEdit"/>
+		<field fieldName="Currency Code" fieldRef="currencyCode"/>
+		<field fieldName="Currency Name" fieldRef="currencyName"/>
+		<field fieldName="Currency Symbol" fieldRef="currencySymbol"/>
+		<field fieldName="Country" fieldRef="countryDropDown"/>
+		<field fieldName="Preference Order" fieldRef="preferenceOrder"/>
+		<field fieldName="Default" fieldRef="default"/>
+		<field fieldName="Active" fieldRef="active"/>
+	</service>
+	
+	<service serviceName="setupmanager.VerifyCurrencyMasterData">
+		<field fieldName="Currency Code" fieldRef="currencyCode"/>
+		<field fieldName="Currency Name" fieldRef="currencyName"/>
+		<field fieldName="Currency Symbol" fieldRef="currencySymbol"/>
+		<field fieldName="Country" fieldRef="countryDropDown"/>
+		<field fieldName="Preference Order" fieldRef="preferenceOrder"/>
+		<field fieldName="Default" fieldRef="default"/>
+		<field fieldName="Active" fieldRef="active"/>
+	</service>
+	
+	<service serviceName="setupmanager.FillAttributesOfDocumentsMasterData">
+		<field fieldName="Is Edit" fieldRef="isEdit"/>
+		<field fieldName="Attributes" fieldRef="attributes"/>
+	</service>
+	
+	<service serviceName="setupmanager.VerifyAttributesOfDocumentsMasterData">
+		<field fieldName="Page" fieldRef="page"/>
+		<field fieldName="Attributes" fieldRef="attributes"/>
+	</service>
+	
+	<service serviceName="setupmanager.FillCurrencyCultureMappingMasterData">
+		<field fieldName="Is Edit" fieldRef="isEdit"/>
+		<field fieldName="Language" fieldRef="languageDropdown"/>
+		<field fieldName="Currency Name" fieldRef="currencyNameDropDown"/>
+		<field fieldName="Currency Name Description" fieldRef="currencyNameDescription"/>
+	</service>
+	
+	<service serviceName="setupmanager.VerifyCurrencyCultureMappingMasterData">
+		<field fieldName="Language" fieldRef="languageDropdown"/>
+		<field fieldName="Currency Name" fieldRef="currencyNameDropDown"/>
+		<field fieldName="Currency Name Description" fieldRef="currencyNameDescription"/>
+	</service>
+	
+	<service serviceName="setupmanager.FillCountryCultureMappingMasterData">
+		<field fieldName="Is Edit" fieldRef="isEdit"/>
+		<field fieldName="Language" fieldRef="languageDropdown"/>
+		<field fieldName="Country Name" fieldRef="countryNameDropDown"/>
+		<field fieldName="Country Description" fieldRef="countryDescription"/>
+	</service>
+	
+	<service serviceName="setupmanager.VerifyCountryCultureMappingMasterData">
+		<field fieldName="Language" fieldRef="languageDropdown"/>
+		<field fieldName="Country Name" fieldRef="countryNameDropDown"/>
+		<field fieldName="Country Description" fieldRef="countryDescription"/>
+	</service>
+	
+	<service serviceName="setupmanager.VerifyPersonaActivityDataSheet">
+		<field fieldName="Download Type" fieldRef="Download Type"/>
+		<field fieldName="Is Full Data" fieldRef="Is Full Data"/>
+		<field fieldName="Persona Name" fieldRef="Persona Name"/>
+		<field fieldName="Persona Category" fieldRef="Persona Category"/>
+		<field fieldName="Persona Type" fieldRef="Persona Type"/>
+		<field fieldName="Active" fieldRef="Active"/>
+		<field fieldName="Activities" fieldRef="Activities"/>
+	</service>
+	
+	<service serviceName="setupmanager.FillManageJobTitlesMasterData">
+		<field fieldName="Is Edit" fieldRef="isEdit"/>
+		<field fieldName="Job Title" fieldRef="jobTitle"/>
+		<field fieldName="Job Title Description" fieldRef="jobTitleDesc"/>
+	</service>
+	
+	<service serviceName="setupmanager.VerifyManageJobTitlesMasterData">
+		<field fieldName="Job Title" fieldRef="jobTitle"/>
+		<field fieldName="Job Title Description" fieldRef="jobTitleDescVerify"/>
+	</service>
+
+	<service serviceName="setupmanager.FillCollectionsDACRule">
+		<field fieldName="Is Edit" fieldRef="isEdit"/>
+		<field fieldName="Collection Type" fieldRef="collectionType"/>
+		<field fieldName="Collection Name" fieldRef="collectionName"/>
+		<field fieldName="Collection Description" fieldRef="collectionDescription"/>
+	</service>
+	
+	<service serviceName="setupmanager.VerifyCollectionsDACRule">
+		<field fieldName="Collection Type" fieldRef="collectionType"/>
+		<field fieldName="Collection Name" fieldRef="collectionName"/>
+		<field fieldName="Collection Description" fieldRef="collectionDescription"/>
+	</service>
+	
+	<service serviceName="setupmanager.FillRuleDacRule">
+		<field fieldName="Is Edit" fieldRef="isEdit"/>
+		<field fieldName="Rule Name" fieldRef="ruleName"/>
+		<field fieldName="Order of Execution" fieldRef="orderOfExecution"/>
+		<field fieldName="Mark as Active" fieldRef="markAsActive"/>
+	</service>
+	
+	<service serviceName="setupmanager.VerifyRuleDacRule">
+		<field fieldName="Rule Name" fieldRef="ruleName"/>
+		<field fieldName="Order of Execution" fieldRef="orderOfExecution"/>
+		<field fieldName="Mark as Active" fieldRef="markAsActive"/>
+	</service>
+	
+	<service serviceName="setupmanager.FillBasicDetailsDacRule">
+		<field fieldName="Is Edit" fieldRef="isEdit"/>
+		<field fieldName="Document Type" fieldRef="dacDocumentType"/>
+		<field fieldName="Rule Name" fieldRef="ruleName"/>
+		<field fieldName="Rule Type" fieldRef="dacRuleType"/>
+		<field fieldName="Order Of Execution" fieldRef="dacOrderOfExecution"/>
+		<field fieldName="Mark As Active" fieldRef="dacMarkAsActive"/>
+	</service>
+	
+	<service serviceName="setupmanager.VerifyBasicDetailsDacRule">
+		<field fieldName="Document Type" fieldRef="dacDocumentType"/>
+		<field fieldName="Rule Name" fieldRef="ruleName"/>
+		<field fieldName="Rule Type" fieldRef="dacRuleType"/>
+		<field fieldName="Order Of Execution" fieldRef="dacOrderOfExecution"/>
+		<field fieldName="Mark As Active" fieldRef="dacMarkAsActive"/>
+	</service>
+	
+	<service serviceName="setupmanager.FillConditionsSectionDACRule">
+		<field fieldName="Is Edit" fieldRef="isEdit"/>
+		<field fieldName="Attribute" fieldRef="dacAttributeCondition"/>
+		<field fieldName="Operator" fieldRef="dacOperatorCondition"/>
+		<field fieldName="Value" fieldRef="dacValueCondition"/>
+	</service>
+	
+	<service serviceName="setupmanager.VerifyConditionSectionDACRule">
+		<field fieldName="Attribute" fieldRef="dacAttributeCondition"/>
+		<field fieldName="Operator" fieldRef="dacOperatorCondition"/>
+		<field fieldName="Value" fieldRef="dacValueCondition"/>
+	</service>
+	
+	<service serviceName="setupmanager.FillParametersSectionDACRule">
+		<field fieldName="Is Edit" fieldRef="isEdit"/>
+		<field fieldName="Attributes" fieldRef="dacAttributesParameter"/>
+		<field fieldName="Operators" fieldRef="dacOperatorsParameter"/>
+		<field fieldName="Values" fieldRef="dacValuesParameter"/>
+		<field fieldName="Logical Operator" fieldRef=""/>
+	</service>
+	
+	<service serviceName="setupmanager.FillDocumentNumberingFormatMasterData">
+		<field fieldName="Is Edit" fieldRef="isEdit"/>
+		<field fieldName="Document" fieldRef="document"/>
+		<field fieldName="Entity Mapping" fieldRef="entityMapping"/>
+		<field fieldName="Purchase Type" fieldRef="purchaseType"/>
+		<field fieldName="Start Number" fieldRef="startNumber"/>
+		<field fieldName="Format Display Value" fieldRef="formatDisplayValue"/>
+		<field fieldName="Reset Date" fieldRef="resetDate"/>
+		<field fieldName="Mark As Active" fieldRef="markAsActive"/>
+	</service>
+	
+	<service serviceName="setupmanager.VerifyDocumentNumberingFormatMasterData">
+		<field fieldName="Document" fieldRef="document"/>
+		<field fieldName="Entity Mapping" fieldRef="entityMapping"/>
+		<field fieldName="Purchase Type" fieldRef="purchaseType"/>
+		<field fieldName="Start Number" fieldRef="startNumber"/>
+		<field fieldName="Format Display Value" fieldRef="formatDisplayValue"/>
+		<field fieldName="Reset Date" fieldRef="resetDate"/>
+		<field fieldName="Mark As Active" fieldRef="markAsActivetype"/>
+	</service>
+	
+	<service serviceName="setupmanager.FillOrganizationEntityManagerMappingDetailsInSheet">
+		<field fieldName="Operation" fieldRef="Operation"/>
+		<field fieldName="Mapping ID" fieldRef="Mapping ID"/>
+		<field fieldName="Approver Username" fieldRef="Approver Username"/>
+		<field fieldName="Threshold Amount" fieldRef="Threshold Amount"/>
+		<field fieldName="Currency Code" fieldRef="Currency Code"/>
+		<field fieldName="Structure ID" fieldRef="Structure ID"/>
+		<field fieldName="LOB" fieldRef="LOB"/>
+		<field fieldName="Entity Type 1" fieldRef="Entity Type 1"/>
+		<field fieldName="Entity Code 1" fieldRef="Entity Code 1"/>
+		<field fieldName="Entity Detail Code 1" fieldRef="Entity Detail Code 1"/>
+		<field fieldName="Entity Type 2" fieldRef="Entity Type 2"/>
+		<field fieldName="Entity Code 2" fieldRef="Entity Code 2"/>
+		<field fieldName="Entity Detail Code 2" fieldRef="Entity Detail Code 2"/>
+		<field fieldName="Entity Type 3" fieldRef="Entity Type 3"/>
+		<field fieldName="Entity Code 3" fieldRef="Entity Code 3"/>
+		<field fieldName="Entity Detail Code 3" fieldRef="Entity Detail Code 3"/>
+		<field fieldName="Entity Type 4" fieldRef="Entity Type 4"/>
+		<field fieldName="Entity Code 4" fieldRef="Entity Code 4"/>
+		<field fieldName="Entity Detail Code 4" fieldRef="Entity Detail Code 4"/>
+		<field fieldName="Entity Type 5" fieldRef="Entity Type 5"/>
+		<field fieldName="Entity Code 5" fieldRef="Entity Code 5"/>
+		<field fieldName="Entity Detail Code 5" fieldRef="Entity Detail Code 5"/>
+		<field fieldName="Entity Type 6" fieldRef="Entity Type 6"/>
+		<field fieldName="Entity Code 6" fieldRef="Entity Code 6"/>
+		<field fieldName="Entity Detail Code 6" fieldRef="Entity Detail Code 6"/>
+		<field fieldName="Entity Type 7" fieldRef="Entity Type 7"/>
+		<field fieldName="Entity Code 7" fieldRef="Entity Code 7"/>
+		<field fieldName="Entity Detail Code 7" fieldRef="Entity Detail Code 7"/>
+	</service>
+
+	<service serviceName="setupmanager.VerifyOrganizationEntityManagerMappingMasterData">
+		<field fieldName="Mapping ID" fieldRef="mappingID"/>
+		<field fieldName="Approver User Name" fieldRef="approverUsername"/>
+		<field fieldName="Threshold Amount" fieldRef="thresholdAmount"/>
+		<field fieldName="Currency Code" fieldRef="currencyCode"/>
+		<field fieldName="Structure ID" fieldRef="structureID"/>
+		<field fieldName="LOB Name" fieldRef="LOBNameOrg"/>
+		<field fieldName="Entity Type 1" fieldRef="entityType1"/>
+		<field fieldName="Entity Code 1" fieldRef="entityCode1"/>
+		<field fieldName="Entity Display Name 1" fieldRef="entityDisplayName1"/>
+		<field fieldName="Entity Type 2" fieldRef="entityType2"/>
+		<field fieldName="Entity Code 2" fieldRef="entityCode2"/>
+		<field fieldName="Entity Display Name 2" fieldRef="entityDisplayName2"/>
+		<field fieldName="Entity Type 3" fieldRef="entityType3"/>
+		<field fieldName="Entity Code 3" fieldRef="entityCode3"/>
+		<field fieldName="Entity Display Name 3" fieldRef="entityDisplayName3"/>
+		<field fieldName="Entity Type 4" fieldRef="entityType4"/>
+		<field fieldName="Entity Code 4" fieldRef="entityCode4"/>
+		<field fieldName="Entity Display Name 4" fieldRef="entityDisplayName4"/>
+		<field fieldName="Entity Type 5" fieldRef="entityType5"/>
+		<field fieldName="Entity Code 5" fieldRef="entityCode5"/>
+		<field fieldName="Entity Display Name 5" fieldRef="entityDisplayName5"/>
+		<field fieldName="Entity Type 6" fieldRef="entityType6"/>
+		<field fieldName="Entity Code 6" fieldRef="entityCode6"/>
+		<field fieldName="Entity Display Name 6" fieldRef="entityDisplayName6"/>
+		<field fieldName="Entity Type 7" fieldRef="entityType7"/>
+		<field fieldName="Entity Code 7" fieldRef="entityCode7"/>
+		<field fieldName="Entity Display Name 7" fieldRef="entityDisplayName7"/>
+	</service>
+	
+	<service serviceName="setupmanager.FillAccountCodeCombinationDetailsInSheet">
+		<field fieldName="Operation" fieldRef="Operation"/>
+		<field fieldName="Accounting Code Combination Id" fieldRef="Accounting Code Combination Id"/>
+		<field fieldName="Code Combination Structure Id" fieldRef="Code Combination Structure Id"/>
+		<field fieldName="Accounting Entity Detail Code" fieldRef="Accounting Entity Detail Code"/>
+		<field fieldName="Organization Field 1" fieldRef="Organization Field 1"/>
+		<field fieldName="Organization Field 2" fieldRef="Organization Field 2"/>
+		<field fieldName="Organization Field 3" fieldRef="Organization Field 3"/>
+		<field fieldName="Organization Field 4" fieldRef="Organization Field 4"/>
+		<field fieldName="Organization Field 5" fieldRef="Organization Field 5"/>
+		<field fieldName="Organization Field 6" fieldRef="Organization Field 6"/>
+		<field fieldName="Organization Field 7" fieldRef="Organization Field 7"/>
+		<field fieldName="Organization Field 8" fieldRef="Organization Field 8"/>
+		<field fieldName="Organization Field 9" fieldRef="Organization Field 9"/>
+		<field fieldName="Organization Field 10" fieldRef="Organization Field 10"/>
+		<field fieldName="Organization Field 11" fieldRef="Organization Field 11"/>
+		<field fieldName="Organization Field 12" fieldRef="Organization Field 12"/>
+	</service>
+	
+	<service serviceName="setupmanager.VerifyAccountCodeCombinationMasterData">
+		<field fieldName="Code Combination Structure Id" fieldRef="codeCombinationStructureId"/>
+		<field fieldName="Accounting Entity Detail Code" fieldRef="accountingEntityDetailCode"/>
+		<field fieldName="Organization Field 1" fieldRef="orgField1"/>
+		<field fieldName="Organization Field 2" fieldRef="orgField2"/>
+		<field fieldName="Organization Field 3" fieldRef="orgField3"/>
+		<field fieldName="Organization Field 4" fieldRef="orgField4"/>
+		<field fieldName="Organization Field 5" fieldRef="orgField5"/>
+		<field fieldName="Organization Field 6" fieldRef="orgField6"/>
+		<field fieldName="Organization Field 7" fieldRef="orgField7"/>
+		<field fieldName="Organization Field 8" fieldRef="orgField8"/>
+		<field fieldName="Organization Field 9" fieldRef="orgField9"/>
+		<field fieldName="Organization Field 10" fieldRef="orgField10"/>
+		<field fieldName="Organization Field 11" fieldRef="orgField11"/>
+		<field fieldName="Organization Field 12" fieldRef="orgField12"/>
+	</service>
+	
+	<service serviceName="setupmanager.FillCategoryNLevelsSheet">
+		<field fieldName="Operation" fieldRef="Operation"/>
+		<field fieldName="Category PAS Name" fieldRef="Category PAS Name"/>
+		<field fieldName="Category PAS Code" fieldRef="Category PAS Code"/>
+		<field fieldName="Client Category PAS Code" fieldRef="Client Category PAS Code"/>
+		<field fieldName="GPN Category PAS Code" fieldRef="GPN Category PAS Code"/>
+		<field fieldName="Parent Category PAS Code" fieldRef="Parent Category PAS Code"/>
+		<field fieldName="Replacement Category PAS Code" fieldRef="Replacement Category PAS Code"/>
+		<field fieldName="Level" fieldRef="Level"/>
+		<field fieldName="Category Description" fieldRef="Category Description"/>
+		<field fieldName="Hierarchy" fieldRef="Hierarchy"/>
+	</service>
+	
+	<service serviceName="setupmanager.VerifyCategoryNLevelsSheet">
+		<field fieldName="Download Type" fieldRef="Download Type"/>
+		<field fieldName="Is Full Data" fieldRef="Is Full Data"/>
+		<field fieldName="Operation" fieldRef="Operation"/>
+		<field fieldName="Category PAS Name" fieldRef="Category PAS Name"/>
+		<field fieldName="Category PAS Code" fieldRef="Category PAS Code"/>
+		<field fieldName="Client Category PAS Code" fieldRef="Client Category PAS Code"/>
+		<field fieldName="GPN Category PAS Code" fieldRef="GPN Category PAS Code"/>
+		<field fieldName="Parent Category PAS Code" fieldRef="Parent Category PAS Code"/>
+		<field fieldName="Replacement Category PAS Code" fieldRef="Replacement Category PAS Code"/>
+		<field fieldName="Level" fieldRef="Level"/>
+		<field fieldName="Category Description" fieldRef="Category Description"/>
+		<field fieldName="Hierarchy" fieldRef="Hierarchy"/>
+		<field fieldName="Error Message" fieldRef="Error Message"/>
+	</service>
+	
+	<service serviceName="setupmanager.VerifyCategoryNLevelsMasterData">
+		<field fieldName="Category Name" fieldRef="categoryName"/>
+		<field fieldName="Category Code" fieldRef="categoryCode"/>
+		<field fieldName="Parent Category Code" fieldRef="parentCategoryCode"/>
+		<field fieldName="Level" fieldRef="level"/>
+		<field fieldName="Client Category Code" fieldRef="clientCategoryCode"/>
+		<field fieldName="GPN Category Code" fieldRef="gPNCategoryCode"/>
+		<field fieldName="Category Description" fieldRef="categoryDescription"/>
+	</service>
+	
+	<service serviceName="setupmanager.FillLanguageMasterData">
+		<field fieldName="Is Edit" fieldRef="isEdit"/>
+		<field fieldName="Language Name" fieldRef="languageName"/>
+		<field fieldName="Preference Order" fieldRef="preferenceOrder"/>
+		<field fieldName="Active" fieldRef="active"/>
+	</service>
+	
+	<service serviceName="setupmanager.VerifyLanguageMasterData">
+		<field fieldName="Language Code" fieldRef="languageCode"/>
+		<field fieldName="Language Name" fieldRef="languageName"/>
+		<field fieldName="Preference Order" fieldRef="preferenceOrder"/>
+		<field fieldName="Active" fieldRef="active"/>
+	</service>
+	
+	<service serviceName="setupmanager.VerifyRegionMasterData">
+		<field fieldName="Region Id" fieldRef="regionId"/>
+		<field fieldName="Region Code" fieldRef="regionCode"/>
+		<field fieldName="Region Name" fieldRef="regionName"/>
+		<field fieldName="Parent Region Code" fieldRef="parentRegionCode"/>
+		<field fieldName="Region Level" fieldRef="regionLevel"/>
+	</service>
+	
+	<service serviceName="setupmanager.VerifyCountryMasterSheet">
+		<field fieldName="Download Type" fieldRef="Download Type"/>
+		<field fieldName="Is Full Data" fieldRef="Is Full Data"/>
+		<field fieldName="Operation" fieldRef="Operation"/>
+		<field fieldName="Country Id" fieldRef="Country Id"/>
+		<field fieldName="Country Code" fieldRef="Country Code"/>
+		<field fieldName="Country Name" fieldRef="Country Name"/>
+		<field fieldName="Currency" fieldRef="Currency"/>
+		<field fieldName="Language" fieldRef="Language"/>
+		<field fieldName="Preference Order" fieldRef="Preference Order"/>
+		<field fieldName="ISD Code" fieldRef="ISD Code"/>
+		<field fieldName="Zip Code Mandatory" fieldRef="Zip Code Mandatory"/>
+		<field fieldName="Zip Code Format" fieldRef="Zip Code Format"/>
+		<field fieldName="Mark as Inactive" fieldRef="Mark as Inactive"/>
+		<field fieldName="Error Message" fieldRef="Error Message"/>
+	</service>
+	
+	<service serviceName="setupmanager.VerifyBuyerUserPersonaActivityMappingSheet">
+		<field fieldName="Download Type" fieldRef="Download Type"/>
+		<field fieldName="Is Full Data" fieldRef="Is Full Data"/>
+		<field fieldName="Operation" fieldRef="Operation"/>
+		<field fieldName="User Name" fieldRef="User Name"/>
+		<field fieldName="Persona" fieldRef="Persona"/>
+		<field fieldName="Activities Pipe Separated" fieldRef="Activities Pipe Separated"/>
+		<field fieldName="Error Message" fieldRef="Error Message"/>
+	</service>
+	
+	<service serviceName="setupmanager.VerifyShipToLocationMasterData">
+		<field fieldName="Ship To Location ID" fieldRef="shipToLocationID"/>
+		<field fieldName="Ship To Location Name" fieldRef="shipToLocationName"/>
+		<field fieldName="Ship To Location Number" fieldRef="shipToLocationNumber"/>
+		<field fieldName="Contact Person" fieldRef="contactPerson"/>
+		<field fieldName="Address Line 1" fieldRef="addressLine1"/>
+		<field fieldName="Address Line 2" fieldRef="addressLine2"/>
+		<field fieldName="Address Line 3" fieldRef="addressLine3"/>
+		<field fieldName="City" fieldRef="city"/>
+		<field fieldName="State" fieldRef="state"/>
+		<field fieldName="ZIPPIN Code" fieldRef="zipCode"/>
+		<field fieldName="Country" fieldRef="countryType"/>
+		<field fieldName="Phone Number" fieldRef="phoneNumber"/>
+		<field fieldName="Divisions" fieldRef="divisions"/>
+		<field fieldName="Entities" fieldRef="entities"/>
+		<field fieldName="Mark as Default" fieldRef="markasDefault"/>
+		<field fieldName="Entity(ies) which will default" fieldRef="entitydefault"/>
+		<field fieldName="Allow For Future Reference" fieldRef="allowFutureReference"/>
+		<field fieldName="Mark as Deleted" fieldRef="markasDeleted"/>
+	</service>
+
+	<service serviceName="setupmanager.VerifyTaskActivityMappingSheet">
+		<field fieldName="Download Type" fieldRef="Download Type"/>
+		<field fieldName="Is Negative TC" fieldRef="Is Negative TC"/>
+		<field fieldName="Is Full Data" fieldRef="Is Full Data"/>
+		<field fieldName="Task Name Sheet" fieldRef="Task Name"/>
+		<field fieldName="Activity Name" fieldRef="Activity Name"/>
+	</service>
+	
+	<service serviceName="setupmanager.VerifyBillToLocationMasterData">
+		<field fieldName="Bill To Location ID" fieldRef="billToLocationID"/>
+		<field fieldName="Bill To Location Name" fieldRef="billToLocationName"/>
+		<field fieldName="Bill To Location Number" fieldRef="billToLocationNumber"/>
+		<field fieldName="Contact Person" fieldRef="contactPerson"/>
+		<field fieldName="Address Line 1" fieldRef="addressLine1"/>
+		<field fieldName="Address Line 2" fieldRef="addressLine2"/>
+		<field fieldName="Address Line 3" fieldRef="addressLine3"/>
+		<field fieldName="City" fieldRef="city"/>
+		<field fieldName="State" fieldRef="state"/>
+		<field fieldName="ZIPPIN Code" fieldRef="zipCode"/>
+		<field fieldName="Country" fieldRef="countryType"/>
+		<field fieldName="Phone Number" fieldRef="phoneNumber"/>
+		<field fieldName="Email Address" fieldRef="emailAddr"/>
+		<field fieldName="Divisions" fieldRef="divisions"/>
+		<field fieldName="Entities" fieldRef="entities"/>
+		<field fieldName="Mark as Default" fieldRef="markasDefault"/>
+		<field fieldName="Entity(ies) which will default" fieldRef="entitydefault"/>
+		<field fieldName="Mark as Deleted" fieldRef="markasDeleted"/>
+	</service>
+	
+	<service serviceName="setupmanager.VerifyGLCodesMasterData">
+		<field fieldName="GL Detail Id" fieldRef="glDetailId"/>
+		<field fieldName="GL Name" fieldRef="glName"/>
+		<field fieldName="GL Code" fieldRef="glCode"/>
+		<field fieldName="GL Description" fieldRef="glDesc"/>
+	</service>
+	
+	<service serviceName="setupmanager.FillAccountingStructureAndEntityMappingMasterData">
+		<field fieldName="Is Edit" fieldRef="isEdit"/>
+		<field fieldName="Accounting Structure Name" fieldRef="accountingStructureName"/>
+		<field fieldName="LOB" fieldRef="lob"/>
+		<field fieldName="Accounting Entity Name" fieldRef="accountingEntityName"/>
+	</service>
+	
+	<service serviceName="setupmanager.VerifyAccountingStructureAndEntityMappingMasterData">
+		<field fieldName="Accounting Structure Name" fieldRef="accountingStructureName"/>
+		<field fieldName="LOB" fieldRef="lob"/>
+		<field fieldName="Accounting Entity Name" fieldRef="accountingEntityName"/>
+	</service>
+	
+	<service serviceName="setupmanager.FillManageSourceSystemMasterData">
+		<field fieldName="Is Edit" fieldRef="isEdit"/>
+		<field fieldName="Source System Name" fieldRef="sourceSystemName"/>
+	</service>
+	
+	<service serviceName="setupmanager.VerifyManageSourceSystemMasterData">
+		<field fieldName="Source System Name" fieldRef="sourceSystemName"/>
+	</service>
+
+	<service serviceName="setupmanager.FillDocumentDACRuleAtrributeMapping">
+		<field fieldName="Is Edit" fieldRef="isEdit"/>
+		<field fieldName="Document Name" fieldRef="dacDocumentName"/>
+		<field fieldName="Attributes" fieldRef="attributes"/>
+		<field fieldName="Rule Type" fieldRef="docDACRuleType"/>
+	</service>
+	
+	<service serviceName="setupmanager.VerifyDocumentDACRuleAtrributeMapping">
+		<field fieldName="Document Name" fieldRef="dacDocumentName"/>
+		<field fieldName="Attributes" fieldRef="attributes"/>
+		<field fieldName="Rule Type" fieldRef="docDACRuleType"/>
+	</service>
+	
+	<service serviceName="setupmanager.FillIncotermCodesDetailsInSheet">
+		<field fieldName="Operation" fieldRef="Operation"/>
+		<field fieldName="FOB Code Id" fieldRef="FOB Code Id"/>
+		<field fieldName="FOB Code" fieldRef="FOB Code"/>
+		<field fieldName="FOB Description" fieldRef="FOB Description"/>
+		<field fieldName="Mark as Default" fieldRef="Mark as Default"/>
+		<field fieldName="Mark as Deleted" fieldRef="Mark as Deleted"/>
+	</service>
+	
+	<service serviceName="setupmanager.FillIncotermLocationsDetailsInSheet">
+		<field fieldName="Operation" fieldRef="Operation"/>
+		<field fieldName="FOB Location Id" fieldRef="FOB Location Id"/>
+		<field fieldName="FOB Location Code" fieldRef="FOB Location Code"/>
+		<field fieldName="FOB Location Description" fieldRef="FOB Location Description"/>
+		<field fieldName="Mark as Default" fieldRef="Mark as Default"/>
+		<field fieldName="Mark as Deleted" fieldRef="Mark as Deleted"/>
+	</service>
+	
+	<service serviceName="setupmanager.FillIncotermFreightTermsDetailsInSheet">
+		<field fieldName="Operation" fieldRef="Operation"/>
+		<field fieldName="Freight Term Id" fieldRef="Freight Term Id"/>
+		<field fieldName="Freight Term Code" fieldRef="Freight Term Code"/>
+		<field fieldName="Freight Term Description" fieldRef="Freight Term Description"/>
+		<field fieldName="Mark as Default" fieldRef="Mark as Default"/>
+		<field fieldName="Mark as Deleted" fieldRef="Mark as Deleted"/>
+	</service>
+	
+	<service serviceName="setupmanager.FillIncotermTransitTypesDetailsInSheet">
+		<field fieldName="Operation" fieldRef="Operation"/>
+		<field fieldName="Transit Type Id" fieldRef="Transit Type Id"/>
+		<field fieldName="Transit Type Code" fieldRef="Transit Type Code"/>
+		<field fieldName="Transit Type Description" fieldRef="Transit Type Description"/>
+		<field fieldName="Mark as Default" fieldRef="Mark as Default"/>
+		<field fieldName="Mark as Deleted" fieldRef="Mark as Deleted"/>
+	</service>
+	
+	<service serviceName="setupmanager.FillIncotermCarriersDetailsInSheet">
+		<field fieldName="Operation" fieldRef="Operation"/>
+		<field fieldName="Carrier Id" fieldRef="Carrier Id"/>
+		<field fieldName="Carrier Master Code" fieldRef="Carrier Master Code"/>
+		<field fieldName="Carrier Master Description" fieldRef="Carrier Master Description"/>
+		<field fieldName="Mark as Default" fieldRef="Mark as Default"/>
+		<field fieldName="Mark as Deleted" fieldRef="Mark as Deleted"/>
+	</service>
+	
+	<service serviceName="setupmanager.VerifyIncotermCodeDetailsInSheet">
+		<field fieldName="Download Type" fieldRef="Download Type"/>
+		<field fieldName="Operation" fieldRef="Operation"/>
+		<field fieldName="FOB Code Id" fieldRef="FOB Code Id"/>
+		<field fieldName="FOB Code" fieldRef="FOB Code"/>
+		<field fieldName="FOB Description" fieldRef="FOB Description"/>
+		<field fieldName="Mark as Default" fieldRef="Mark as Default"/>
+		<field fieldName="Mark as Deleted" fieldRef="Mark as Deleted"/>
+		<field fieldName="ValidationMessage" fieldRef="ValidationMessage"/>
+	</service>
+	
+	<service serviceName="setupmanager.VerifyIncotermLocationDetailsInSheet">
+		<field fieldName="Download Type" fieldRef="Download Type"/>
+		<field fieldName="Operation" fieldRef="Operation"/>
+		<field fieldName="FOB Location Id" fieldRef="FOB Location Id"/>
+		<field fieldName="FOB Location Code" fieldRef="FOB Location Code"/>
+		<field fieldName="FOB Location Description" fieldRef="FOB Location Description"/>
+		<field fieldName="Mark as Default" fieldRef="Mark as Default"/>
+		<field fieldName="Mark as Deleted" fieldRef="Mark as Deleted"/>
+		<field fieldName="ValidationMessage" fieldRef="ValidationMessage"/>
+	</service>
+	
+	<service serviceName="setupmanager.VerifyIncotermFreightTermsDetailsInSheet">
+		<field fieldName="Download Type" fieldRef="Download Type"/>
+		<field fieldName="Operation" fieldRef="Operation"/>
+		<field fieldName="Freight Term Id" fieldRef="Freight Term Id"/>
+		<field fieldName="Freight Term Code" fieldRef="Freight Term Code"/>
+		<field fieldName="Freight Term Description" fieldRef="Freight Term Description"/>
+		<field fieldName="Mark as Default" fieldRef="Mark as Default"/>
+		<field fieldName="Mark as Deleted" fieldRef="Mark as Deleted"/>
+		<field fieldName="ValidationMessage" fieldRef="ValidationMessage"/>
+	</service>
+	
+	<service serviceName="setupmanager.VerifyIncotermTransitTypesDetailsInSheet">
+		<field fieldName="Download Type" fieldRef="Download Type"/>
+		<field fieldName="Operation" fieldRef="Operation"/>
+		<field fieldName="Transit Type Id" fieldRef="Transit Type Id"/>
+		<field fieldName="Transit Type Code" fieldRef="Transit Type Code"/>
+		<field fieldName="Transit Type Description" fieldRef="Transit Type Description"/>
+		<field fieldName="Mark as Default" fieldRef="Mark as Default"/>
+		<field fieldName="Mark as Deleted" fieldRef="Mark as Deleted"/>
+		<field fieldName="ValidationMessage" fieldRef="ValidationMessage"/>
+	</service>
+	<service serviceName="setupmanager.VerifyIncotermCarriersDetailsInSheet">
+		<field fieldName="Download Type" fieldRef="Download Type"/>
+		<field fieldName="Operation" fieldRef="Operation"/>
+		<field fieldName="Carrier Id" fieldRef="Carrier Id"/>
+		<field fieldName="Carrier Master Code" fieldRef="Carrier Master Code"/>
+		<field fieldName="Carrier Master Description" fieldRef="Carrier Master Description"/>
+		<field fieldName="Mark as Default" fieldRef="Mark as Default"/>
+		<field fieldName="Mark as Deleted" fieldRef="Mark as Deleted"/>
+		<field fieldName="ValidationMessage" fieldRef="ValidationMessage"/>
+	</service>
+	
+	<service serviceName="setupmanager.FillCategoryClassificationMasterData">
+		<field fieldName="Is Edit" fieldRef="isEdit"/>
+		<field fieldName="Classification Name" fieldRef="classificationName"/>
+		<field fieldName="Classification Description" fieldRef="classificationDescription"/>
+	</service>
+	
+	<service serviceName="setupmanager.VerifyCategoryClassificationMasterData">
+		<field fieldName="Classification Name" fieldRef="classificationName"/>
+		<field fieldName="Classification Description" fieldRef="classificationDescription"/>
+	</service>
+	
+	<service serviceName="setupmanager.FillCategoryClassificationValueMasterSheet">
+		<field fieldName="Operation" fieldRef="Operation"/>
+		<field fieldName="Classification Name" fieldRef="Classification Name"/>
+		<field fieldName="Classification Value Id" fieldRef="Classification Value Id"/>
+		<field fieldName="Classification Value Name" fieldRef="Classification Value Name"/>
+		<field fieldName="Classification Value Description" fieldRef="Classification Value Description"/>
+		<field fieldName="Mark as Deleted" fieldRef="Mark as Deleted"/>
+	</service>
+	
+	<service serviceName="setupmanager.VerifyCategoryClassificationValueMasterSheet">
+		<field fieldName="Download Type" fieldRef="Download Type"/>
+		<field fieldName="Is Full Data" fieldRef="Is Full Data"/>
+		<field fieldName="Operation" fieldRef="Operation"/>
+		<field fieldName="Classification Name" fieldRef="Classification Name"/>
+		<field fieldName="Classification Value Id" fieldRef="Classification Value Id"/>
+		<field fieldName="Classification Value Name" fieldRef="Classification Value Name"/>
+		<field fieldName="Classification Value Description" fieldRef="Classification Value Description"/>
+		<field fieldName="Mark as Deleted" fieldRef="Mark as Deleted"/>
+		<field fieldName="Error Message" fieldRef="Error Message"/>
+	</service>
+	
+	<service serviceName="setupmanager.VerifyCategoryClassificationValueMasterData">
+		<field fieldName="Classification Value Id" fieldRef="classificationValueId"/>
+		<field fieldName="Classification Name" fieldRef="classificationName"/>
+		<field fieldName="Classification Value Name" fieldRef="classificationValueName"/>
+		<field fieldName="Classification Value Description" fieldRef="classificationValueDescription"/>
+	</service>
+	
+	<service serviceName="setupmanager.FillFormUserObjectMappingMasterData">
+		<field fieldName="Is Edit" fieldRef="isEdit"/>
+		<field fieldName="Form Name" fieldRef="formName"/>
+		<field fieldName="Mapping Object" fieldRef="formMappingObject"/>
+	</service>
+	
+	<service serviceName="setupmanager.VerifyFormUserObjectMappingMasterData">
+		<field fieldName="Form Name" fieldRef="formName"/>
+		<field fieldName="Mapping Object" fieldRef="formMappingObject"/>
+	</service>
+	
+	<service serviceName="setupmanager.FillReasonsforReturnNotesDetailsInSheet">
+		<field fieldName="Operation" fieldRef="Operation"/>
+		<field fieldName="Reason Id" fieldRef="Reason Id"/>
+		<field fieldName="Reason for Return" fieldRef="Reason for Return"/>
+		<field fieldName="Return Code" fieldRef="Return Code"/>
+		<field fieldName="Mark as Default" fieldRef="Mark as Default"/>
+		<field fieldName="Mark as Internal" fieldRef="Mark as Internal"/>
+		<field fieldName="Mark as Deleted" fieldRef="Mark as Deleted"/>
+	</service>
+	
+	<service serviceName="setupmanager.FillPurchaseTypeMappingDetailsInSheet">
+		<field fieldName="Operation" fieldRef="Operation"/>
+		<field fieldName="Record Id" fieldRef="Record Id"/>
+		<field fieldName="Purchase Type" fieldRef="Purchase Type"/>
+		<field fieldName="Item Type" fieldRef="Item Type"/>
+		<field fieldName="Match Type" fieldRef="Match Type"/>
+		<field fieldName="Fulfilment Document Type" fieldRef="Fulfilment Document Type"/>
+		<field fieldName="Mark as Default" fieldRef="Mark as Default"/>
+		<field fieldName="Overall Limit Enabled" fieldRef="Overall Limit Enabled"/>
+		<field fieldName="Header Contract Enabled" fieldRef="Header Contract Enabled"/>
+	</service>
+	
+	<service serviceName="setupmanager.VerifyReasonsforReturnNotesDetailsInSheet">
+		<field fieldName="Download Type" fieldRef="Download Type"/>
+		<field fieldName="Operation" fieldRef="Operation"/>
+		<field fieldName="Reason Id" fieldRef="Reason Id"/>
+		<field fieldName="Reason for Return" fieldRef="Reason for Return"/>
+		<field fieldName="Return Code" fieldRef="Return Code"/>
+		<field fieldName="Mark as Default" fieldRef="Mark as Default"/>
+		<field fieldName="Mark as Internal" fieldRef="Mark as Internal"/>
+		<field fieldName="Mark as Deleted" fieldRef="Mark as Deleted"/>
+		<field fieldName="ValidationMessage" fieldRef="ValidationMessage"/>
+	</service>
+	
+	<service serviceName="setupmanager.VerifyPurchaseTypeMappingDetailsInSheet">
+		<field fieldName="Download Type" fieldRef="Download Type"/>
+		<field fieldName="Operation" fieldRef="Operation"/>
+		<field fieldName="Record Id" fieldRef="Record Id"/>
+		<field fieldName="Purchase Type" fieldRef="Purchase Type"/>
+		<field fieldName="Item Type" fieldRef="Item Type"/>
+		<field fieldName="Match Type" fieldRef="Match Type"/>
+		<field fieldName="Fulfilment Document Type" fieldRef="Fulfilment Document Type"/>
+		<field fieldName="Mark as Default" fieldRef="Mark as Default"/>
+		<field fieldName="Overall Limit Enabled" fieldRef="Overall Limit Enabled"/>
+		<field fieldName="Header Contract Enabled" fieldRef="Header Contract Enabled"/>
+		<field fieldName="ValidationMessage" fieldRef="ValidationMessage"/>
+	</service>
+	
+	<service serviceName="setupmanager.FillPurchaseTypeMappingMasterData">
+		<field fieldName="Is Edit" fieldRef="isEdit"/>
+		<field fieldName="Purchase Type" fieldRef="purchaseType"/>
+		<field fieldName="Item Type" fieldRef="itemType"/>
+		<field fieldName="Set as Default" fieldRef="setAsDefault"/>
+		<field fieldName="Match Type" fieldRef="matchType"/>
+		<field fieldName="Fulfillment Document Type" fieldRef="fulfillmentDocType"/>
+		<field fieldName="Overall Limit" fieldRef="overallLimit"/>
+		<field fieldName="Header Contract Enable" fieldRef="headerContractEnable"/>
+	</service>
+	
+	<service serviceName="setupmanager.VerifyPurchaseTypeMappingMasterData">
+		<field fieldName="Purchase Type" fieldRef="purchaseType"/>
+		<field fieldName="Item Type" fieldRef="itemType"/>
+		<field fieldName="Set as Default" fieldRef="setAsDefault"/>
+		<field fieldName="Match Type" fieldRef="matchType"/>
+		<field fieldName="Fulfillment Document Type" fieldRef="fulfillmentDocType"/>
+		<field fieldName="Overall Limit" fieldRef="overallLimit"/>
+		<field fieldName="Header Contract Enable" fieldRef="headerContractEnable"/>
+	</service>
+	
+	<service serviceName="setupmanager.FillManageFlipQuestionMappingMasterData">
+		<field fieldName="Is Edit" fieldRef="isEdit"/>
+		<field fieldName="Source Document" fieldRef="sourceDoc"/>
+		<field fieldName="Source Question" fieldRef="sourceQuestion"/>
+		<field fieldName="Source Question Type" fieldRef="sourceQuestionType"/>
+		<field fieldName="Display Level" fieldRef="displayLevel"/>
+		<field fieldName="Target Document" fieldRef="targetDoc"/>
+		<field fieldName="Target Question" fieldRef="targetQuestion"/>
+		<field fieldName="Target Question Type" fieldRef="targetQuestionType"/>
+	</service>
+	
+	<service serviceName="setupmanager.VerifyManageQuestionMappingMasterData">
+		<field fieldName="Source Document" fieldRef="sourceDoc"/>
+		<field fieldName="Source Question" fieldRef="sourceQuestion"/>
+		<field fieldName="Source Question Type" fieldRef="sourceQuestionType"/>
+		<field fieldName="Display Level" fieldRef="displayLevel"/>
+		<field fieldName="Target Document" fieldRef="targetDoc"/>
+		<field fieldName="Target Question" fieldRef="targetQuestion"/>
+		<field fieldName="Target Question Type" fieldRef="targetQuestionType"/>
+	</service>
+	
+	<service serviceName="setupmanager.FillManageFlipAnswerMappingMasterData">
+		<field fieldName="Is Edit" fieldRef="isEdit"/>
+		<field fieldName="Source Question" fieldRef="sourceQuestion"/>
+		<field fieldName="Mapping Object" fieldRef="mappingObject"/>
+		<field fieldName="Source Mapping Option" fieldRef="sourceMappingOption"/>
+		<field fieldName="Display Level" fieldRef="displayLevel"/>
+		<field fieldName="Target Question" fieldRef="targetQuestion"/>
+		<field fieldName="Target Mapping Option" fieldRef="targetMappingOption"/>
+	</service>
+	
+	<service serviceName="setupmanager.VerifyManageAnswerMappingMasterData">
+		<field fieldName="Source Question" fieldRef="sourceQuestion"/>
+		<field fieldName="Mapping Object" fieldRef="mappingObject"/>
+		<field fieldName="Source Mapping Option" fieldRef="sourceMappingOption"/>
+		<field fieldName="Display Level" fieldRef="displayLevel"/>
+		<field fieldName="Target Question" fieldRef="targetQuestion"/>
+		<field fieldName="Target Mapping Option" fieldRef="targetMappingOption"/>
+	</service>
+	
+	<service serviceName="setupmanager.VerifyPaymentTermsMasterData">
+		<field fieldName="Payment Term Id" fieldRef="paymentTermId"/>
+		<field fieldName="Payment Term Name" fieldRef="paymentTermName"/>	
+		<field fieldName="Number of Days" fieldRef="numberOfDays"/>
+		<field fieldName="Discount" fieldRef="discount"/>
+		<field fieldName="Discount Days" fieldRef="discountDays"/>
+		<field fieldName="Payment Term Code" fieldRef="paymentTermCode"/>
+		<field fieldName="Division" fieldRef="division"/>	
+		<field fieldName="Entities" fieldRef="entities"/>
+		<field fieldName="Mark As Default" fieldRef="paymentTermMarkAsDefault"/>
+		<field fieldName="Active" fieldRef="active"/>
+	</service>
+	
+	<service serviceName="setupmanager.FillCountryMasterSheet">
+		<field fieldName="Operation" fieldRef="Operation"/>
+		<field fieldName="Country Id" fieldRef="Country Id"/>
+		<field fieldName="Country Code" fieldRef="Country Code"/>
+		<field fieldName="Country Name" fieldRef="Country Name"/>
+		<field fieldName="Currency" fieldRef="Currency"/>
+		<field fieldName="Language" fieldRef="Language"/>
+		<field fieldName="Preference Order" fieldRef="Preference Order"/>
+		<field fieldName="ISD Code" fieldRef="ISD Code"/>
+		<field fieldName="Zip Code Mandatory" fieldRef="Zip Code Mandatory"/>
+		<field fieldName="Zip Code Format" fieldRef="Zip Code Format"/>
+		<field fieldName="Mark as Inactive" fieldRef="Mark as Inactive"/>
+	</service>
+	
+	<service serviceName="setupmanager.VerifyUnitOfMeasuresMasterData">
+		<field fieldName="UoM Code" fieldRef="uoMCode"/>
+		<field fieldName="Standard UoM Code" fieldRef="standardUoMCode"/>	
+		<field fieldName="UoM Description" fieldRef="uoMDescription"/>
+		<field fieldName="Allow Decimals" fieldRef="allowDecimals"/>
+		<field fieldName="Preferred" fieldRef="preferred"/>
+		<field fieldName="Active" fieldRef="active"/>
+	</service>
+	
+	<service serviceName="setupmanager.FillBasicDetailsSectionRules">
+		<field fieldName="Is Edit" fieldRef="isEdit"/>
+		<field fieldName="Rule Name" fieldRef="ruleName"/>
+		<field fieldName="Description" fieldRef="descriptionRules"/>
+		<field fieldName="Rule Category" fieldRef="ruleCategory"/>
+		<field fieldName="Document Group" fieldRef="documentGroup"/>
+		<field fieldName="Document Type" fieldRef="documentTypeRules"/>
+	</service>
+	
+	<service serviceName="setupmanager.FillActionTypesSectionRules">
+		<field fieldName="Is Edit" fieldRef="isEdit"/>
+		<field fieldName="Action Types" fieldRef="actionTypes"/>
+	</service>
+	
+	<service serviceName="setupmanager.FillActionTypePopupRules">
+		<field fieldName="Is Edit" fieldRef="isEdit"/>
+		<field fieldName="Action Type" fieldRef="actionTypesDummy"/>
+		<field fieldName="Action Code" fieldRef="actionCode"/>
+		<field fieldName="Approval Type" fieldRef="approvalType"/>
+		<field fieldName="Group Approval Matrix" fieldRef="groupApprovalMatrix"/>
+		<field fieldName="Lead Approver" fieldRef="leadApprover"/>
+		<field fieldName="Self approval" fieldRef="selfapproval"/>
+		<field fieldName="Pool type" fieldRef="pooltype"/>
+		<field fieldName="Pool value" fieldRef="poolvalue"/>
+	</service>
+	
+	<service serviceName="setupmanager.FillConditionsInRules">
+		<field fieldName="Is Edit" fieldRef="isEdit"/>
+		<field fieldName="Common Condition" fieldRef="commonConditionDummy"/>
+		<field fieldName="Attributes" fieldRef="attributesRules"/>
+		<field fieldName="Rule Group" fieldRef="ruleGroup"/>
+		<field fieldName="Operators" fieldRef="dacOperatorsParameter"/>
+		<field fieldName="Value" fieldRef="rulesValue"/>
+		<field fieldName="Level" fieldRef="rulesLevel"/>
+		<field fieldName="Actions" fieldRef="rulesActions"/>
+	</service>
+	
+	<service serviceName="setupmanager.VerifyBasicDetailsSectionRules">
+		<field fieldName="Rule Name" fieldRef="ruleName"/>
+		<field fieldName="Rule Number" fieldRef="ruleNumber"/>
+		<field fieldName="Description" fieldRef="descriptionRules"/>
+		<field fieldName="Rule Category" fieldRef="ruleCategory"/>
+		<field fieldName="Document Group" fieldRef="documentGroup"/>
+		<field fieldName="Document Type" fieldRef="documentTypeRules"/>
+	</service>
+	
+	<service serviceName="setupmanager.VerifyActionTypesSectionRules">
+		<field fieldName="Action Types" fieldRef="actionTypes"/>
+	</service>
+	
+	<service serviceName="setupmanager.VerifyActionTypePopupRules">
+		<field fieldName="Action Type" fieldRef="actionTypesDummy"/>
+		<field fieldName="Action Code" fieldRef="actionCode"/>
+		<field fieldName="Approval Type" fieldRef="approvalType"/>
+		<field fieldName="Group Approval Matrix" fieldRef="groupApprovalMatrix"/>
+		<field fieldName="Lead Approver" fieldRef="leadApprover"/>
+		<field fieldName="Self approval" fieldRef="selfapproval"/>
+		<field fieldName="Pool type" fieldRef="pooltype"/>
+		<field fieldName="Pool value" fieldRef="poolvalue"/>
+	</service>
+	
+	<service serviceName="setupmanager.VerifyConditionsInRules">
+		<field fieldName="Common Condition" fieldRef="commonConditionDummy"/>
+		<field fieldName="Attributes" fieldRef="attributesRules"/>
+		<field fieldName="Rule Group" fieldRef="ruleGroup"/>
+		<field fieldName="Operators" fieldRef="dacOperatorsParameter"/>
+		<field fieldName="Value" fieldRef="rulesValue"/>
+		<field fieldName="Level" fieldRef="rulesLevel"/>
+		<field fieldName="Actions" fieldRef="rulesActions"/>
+	</service>
+	
+	<service serviceName="setupmanager.FillDefaultAuthorityAmountsSheet">
+		<field fieldName="User Name" fieldRef="User Name"/>
+		<field fieldName="First Name" fieldRef="First Name"/>
+		<field fieldName="Last Name" fieldRef="Last Name"/>
+		<field fieldName="Email" fieldRef="Email"/>
+		<field fieldName="Client Contact Code" fieldRef="Client Contact Code"/>
+		<field fieldName="Product" fieldRef="Product"/>
+		<field fieldName="Authority Amount Type" fieldRef="Authority Amount Type"/>
+		<field fieldName="Amount" fieldRef="Amount"/>
+	</service>
+	
+	<service serviceName="setupmanager.FillAuthorityAmountByOrgEntitySheet">
+		<field fieldName="User Name" fieldRef="User Name"/>
+		<field fieldName="First Name" fieldRef="First Name"/>
+		<field fieldName="Last Name" fieldRef="Last Name"/>
+		<field fieldName="Email" fieldRef="Email"/>
+		<field fieldName="Client Contact Code" fieldRef="Client Contact Code"/>
+		<field fieldName="Entity Type" fieldRef="Entity Type"/>
+		<field fieldName="Entity Detail Code" fieldRef="Entity Detail Code"/>
+		<field fieldName="Product" fieldRef="Product"/>
+		<field fieldName="Authority Amount Type" fieldRef="Authority Amount Type"/>
+		<field fieldName="Amount" fieldRef="Amount"/>
+		<field fieldName="Mark as Deleted" fieldRef="Mark as Deleted"/>
+	</service>
+	
+	<service serviceName="setupmanager.VerifyDefaultAuthorityAmountsSheet">
+		<field fieldName="Download Type" fieldRef="Download Type"/>
+		<field fieldName="Is Full Data" fieldRef="Is Full Data"/>
+		<field fieldName="User Name" fieldRef="User Name"/>
+		<field fieldName="First Name" fieldRef="First Name"/>
+		<field fieldName="Last Name" fieldRef="Last Name"/>
+		<field fieldName="Email" fieldRef="Email"/>
+		<field fieldName="Client Contact Code" fieldRef="Client Contact Code"/>
+		<field fieldName="Product" fieldRef="Product"/>
+		<field fieldName="Authority Amount Type" fieldRef="Authority Amount Type"/>
+		<field fieldName="Amount" fieldRef="Amount"/>
+		<field fieldName="Error Message" fieldRef="Error Message"/>
+	</service>
+	
+	<service serviceName="setupmanager.VerifyAuthorityAmountByOrgEntitySheet">
+		<field fieldName="Download Type" fieldRef="Download Type"/>
+		<field fieldName="Is Full Data" fieldRef="Is Full Data"/>
+		<field fieldName="Is Negative TC" fieldRef="Is Negative TC"/>
+		<field fieldName="User Name" fieldRef="User Name"/>
+		<field fieldName="First Name" fieldRef="First Name"/>
+		<field fieldName="Last Name" fieldRef="Last Name"/>
+		<field fieldName="Email" fieldRef="Email"/>
+		<field fieldName="Client Contact Code" fieldRef="Client Contact Code"/>
+		<field fieldName="Entity Type" fieldRef="Entity Type"/>
+		<field fieldName="Entity Detail Code" fieldRef="Entity Detail Code"/>
+		<field fieldName="Product" fieldRef="Product"/>
+		<field fieldName="Authority Amount Type" fieldRef="Authority Amount Type"/>
+		<field fieldName="Amount" fieldRef="Amount"/>
+		<field fieldName="Mark as Deleted" fieldRef="Mark as Deleted"/>
+		<field fieldName="Error Message" fieldRef="Error Message"/>
+	</service>
+	
+	<service serviceName="setupmanager.VerifyRulesInSheet">
+		<field fieldName="Download Type" fieldRef="Download Type"/>
+		<field fieldName="Is Full Data" fieldRef="Is Full Data"/>
+		<field fieldName="Rule Status" fieldRef="Rule Status"/>
+		<field fieldName="Active" fieldRef="Active"/>
+		<field fieldName="Rule Number" fieldRef="Rule Number"/>
+		<field fieldName="Rule Name" fieldRef="Rule Name"/>
+		<field fieldName="Rule Description" fieldRef="Rule Description"/>
+		<field fieldName="Rule Category" fieldRef="Rule Category"/>
+		<field fieldName="Document Group" fieldRef="Document Group"/>
+		<field fieldName="Document Type" fieldRef="Document Type"/>
+		<field fieldName="Condition Type" fieldRef="Condition Type"/>
+		<field fieldName="Attribute" fieldRef="Attribute"/>
+		<field fieldName="Operator" fieldRef="Operator"/>
+		<field fieldName="Values" fieldRef="Values"/>
+		<field fieldName="Delta Attribute" fieldRef="Delta Attribute"/>
+		<field fieldName="Rule Group" fieldRef="Rule Group"/>
+		<field fieldName="Level" fieldRef="Level"/>
+		<field fieldName="Action Type" fieldRef="Action Type"/>
+	</service>
+
+	<service serviceName="setupmanager.FillCurrencyConversionMasterData">
+		<field fieldName="Is Edit" fieldRef="isEdit"/>
+		<field fieldName="Effective Date India Standard Time" fieldRef="effectiveDate"/>
+		<field fieldName="Exchange Rate" fieldRef="exchangeRate"/>
+	</service>
+	
+	<service serviceName="setupmanager.VerifyCurrencyConversionMasterData">
+		<field fieldName="From Currency" fieldRef="fromCurrency"/>
+		<field fieldName="To Currency" fieldRef="toCurrency"/>
+		<field fieldName="Effective Date India Standard Time" fieldRef="effectiveDate"/>
+		<field fieldName="Exchange Rate" fieldRef="exchangeRateUI"/>
+	</service>
+
+	<service serviceName="setupmanager.FillRegionTranslationsSheet">
+		<field fieldName="Operation" fieldRef="Operation"/>
+		<field fieldName="Region ID" fieldRef="Region ID"/>
+		<field fieldName="Language" fieldRef="Language"/>
+		<field fieldName="Region Translation" fieldRef="Region Translation"/>
+	</service>
+
+	<service serviceName="setupmanager.VerifyRegionTranslationsSheet">
+		<field fieldName="Download Type" fieldRef="Download Type"/>
+		<field fieldName="Is Full Data" fieldRef="Is Full Data"/>
+		<field fieldName="Operation" fieldRef="Operation"/>
+		<field fieldName="Region ID" fieldRef="Region ID"/>
+		<field fieldName="Language" fieldRef="Language"/>
+		<field fieldName="Region Translation" fieldRef="Region Translation"/>
+		<field fieldName="Error Message" fieldRef="Error Message"/>
+	</service>
+
+	<service serviceName="setupmanager.VerifyRegionTranslationsMasterData">
+		<field fieldName="Region ID" fieldRef="regionIDTranslation"/>
+		<field fieldName="Region Name" fieldRef="regionName"/>
+		<field fieldName="Language" fieldRef="languageDropdown"/>
+		<field fieldName="Region Translation" fieldRef="regionTranslation"/>
+	</service>
+
+	<service serviceName="setupmanager.FillCategoryTranslationsSheet">
+		<field fieldName="Operation" fieldRef="Operation"/>
+		<field fieldName="Category Code" fieldRef="Category Code"/>
+		<field fieldName="Language" fieldRef="Language"/>
+		<field fieldName="Category Translation" fieldRef="Category Translation"/>
+	</service>
+
+	<service serviceName="setupmanager.VerifyCategoryTranslationsSheet">
+		<field fieldName="Download Type" fieldRef="Download Type"/>
+		<field fieldName="Is Full Data" fieldRef="Is Full Data"/>
+		<field fieldName="Operation" fieldRef="Operation"/>
+		<field fieldName="Category Code" fieldRef="Category Code"/>
+		<field fieldName="Language" fieldRef="Language"/>
+		<field fieldName="Category Translation" fieldRef="Category Translation"/>
+		<field fieldName="Error Message" fieldRef="Error Message"/>
+	</service>
+
+	<service serviceName="setupmanager.VerifyCategoryTranslationsMasterData">
+		<field fieldName="Category Code" fieldRef="categoryCode"/>
+		<field fieldName="Category Name" fieldRef="categoryName"/>
+		<field fieldName="Language" fieldRef="languageDropdown"/>
+		<field fieldName="Category Translation" fieldRef="categoryTranslation"/>
+	</service>
+	
+	<service serviceName="setupmanager.FillPaymentTermTranslationsSheet">
+		<field fieldName="Operation" fieldRef="Operation"/>
+		<field fieldName="Payment Term ID" fieldRef="Payment Term ID"/>
+		<field fieldName="Language" fieldRef="Language"/>
+		<field fieldName="Payment Term Translation" fieldRef="Payment Term Translation"/>
+	</service>
+
+	<service serviceName="setupmanager.VerifyPaymentTermTranslationsSheet">
+		<field fieldName="Download Type" fieldRef="Download Type"/>
+		<field fieldName="Is Full Data" fieldRef="Is Full Data"/>
+		<field fieldName="Operation" fieldRef="Operation"/>
+		<field fieldName="Payment Term ID" fieldRef="Payment Term ID"/>
+		<field fieldName="Language" fieldRef="Language"/>
+		<field fieldName="Payment Term Translation" fieldRef="Payment Term Translation"/>
+		<field fieldName="Error Message" fieldRef="Error Message"/>
+	</service>
+
+	<service serviceName="setupmanager.VerifyPaymentTermTranslationMasterData">
+		<field fieldName="Payment Term ID" fieldRef="paymentTermIDTranslation"/>
+		<field fieldName="Payment Term Name" fieldRef="paymentTermName"/>
+		<field fieldName="Language" fieldRef="languageDropdown"/>
+		<field fieldName="Payment Term Translation" fieldRef="paymentTermTranslation"/>
+	</service>
+	
+	<service serviceName="setupmanager.FillOrgEntityTranslationsSheet">
+		<field fieldName="Operation" fieldRef="Operation"/>
+		<field fieldName="Entity Detail Code" fieldRef="Entity Detail Code"/>
+		<field fieldName="Language" fieldRef="Language"/>
+		<field fieldName="Entity Translation" fieldRef="Entity Translation"/>
+	</service>
+
+	<service serviceName="setupmanager.VerifyOrgEntityTranslationsSheet">
+		<field fieldName="Download Type" fieldRef="Download Type"/>
+		<field fieldName="Is Full Data" fieldRef="Is Full Data"/>
+		<field fieldName="Operation" fieldRef="Operation"/>
+		<field fieldName="Entity Detail Code" fieldRef="Entity Detail Code"/>
+		<field fieldName="Language" fieldRef="Language"/>
+		<field fieldName="Entity Translation" fieldRef="Entity Translation"/>
+		<field fieldName="Error Message" fieldRef="Error Message"/>
+	</service>
+
+	<service serviceName="setupmanager.VerifyOrgEntityTranslationsMasterData">
+		<field fieldName="Entity Detail Code" fieldRef="entityDetailCode"/>
+		<field fieldName="Entity Name" fieldRef="entityName"/>
+		<field fieldName="Language" fieldRef="languageDropdown"/>
+		<field fieldName="Entity Translation" fieldRef="entityTranslation"/>
+	</service>
+	
+	<service serviceName="setupmanager.FillCategoryClassificationMappingSheet">
+		<field fieldName="Operation" fieldRef="Operation"/>
+		<field fieldName="Category Classification Mapping Id" fieldRef="Category Classification Mapping Id"/>
+		<field fieldName="Category Code" fieldRef="Category Code"/>
+		<field fieldName="Classification Name" fieldRef="Classification Name"/>
+		<field fieldName="Classification Value Name" fieldRef="Classification Value Name"/>
+	</service>
+	
+	<service serviceName="setupmanager.VerifyCategoryClassificationMappingSheet">
+		<field fieldName="Download Type" fieldRef="Download Type"/>
+		<field fieldName="Is Full Data" fieldRef="Is Full Data"/>
+		<field fieldName="Operation" fieldRef="Operation"/>
+		<field fieldName="Category Classification Mapping Id" fieldRef="Category Classification Mapping Id"/>
+		<field fieldName="Category Code" fieldRef="Category Code"/>
+		<field fieldName="Classification Name" fieldRef="Classification Name"/>
+		<field fieldName="Classification Value Name" fieldRef="Classification Value Name"/>
+		<field fieldName="Error Message" fieldRef="Error Message"/>
+	</service>
+	
+	<service serviceName="setupmanager.VerifyCategoryClassificationMappingMasterData">
+		<field fieldName="Category Code" fieldRef="categoryCode"/>
+		<field fieldName="Category Name" fieldRef="categoryName"/>
+		<field fieldName="Level" fieldRef="level"/>
+		<field fieldName="Classification Name" fieldRef="classificationName"/>
+		<field fieldName="Classification Value" fieldRef="classificationValue"/>
+	</service>
+	
+	<service serviceName="setupmanager.FillHelpCenterModulesMasterData">
+		<field fieldName="Is Edit" fieldRef="isEdit"/>
+		<field fieldName="Module Name" fieldRef="moduleName"/>
+		<field fieldName="Module Name Description" fieldRef="moduleNameDescription"/>
+		<field fieldName="Visible in User Screen" fieldRef="visibleInUserScreen"/>
+	</service>
+	
+	<service serviceName="setupmanager.VerifyHelpCenterModulesMasterData">
+		<field fieldName="Module Name" fieldRef="moduleName"/>
+		<field fieldName="Module Name Description" fieldRef="moduleNameDescription"/>
+		<field fieldName="Visible in User Screen" fieldRef="visibleInUserScreen"/>
+	</service>
+	
+	<service serviceName="setupmanager.FillHelpCenterModulesTranslationMasterData">
+		<field fieldName="Is Edit" fieldRef="isEdit"/>
+		<field fieldName="Language" fieldRef="languageDropdown"/>
+		<field fieldName="Module Name" fieldRef="moduleNameDropdown"/>
+		<field fieldName="Module Name Translation" fieldRef="moduleNameTranslation"/>
+	</service>
+	
+	<service serviceName="setupmanager.VerifyHelpCenterModulesTranslationMasterData">
+		<field fieldName="Language" fieldRef="languageDropdown"/>
+		<field fieldName="Module Name" fieldRef="moduleNameDropdown"/>
+		<field fieldName="Module Name Translation" fieldRef="moduleNameTranslation"/>
+	</service>
+	
+	<service serviceName="setupmanager.FillHelpCenterMasterData">
+		<field fieldName="Is Edit" fieldRef="isEdit"/>
+		<field fieldName="Module DW" fieldRef="moduleDropdown"/>
+		<field fieldName="User Type" fieldRef="userType"/>
+		<field fieldName="Language" fieldRef="languageDropdown"/>
+		<field fieldName="File Name" fieldRef="fileName"/>
+	</service>
+	
+	<service serviceName="setupmanager.VerifyHelpCenterMasterData">
+		<field fieldName="Module DW" fieldRef="moduleDropdown"/>
+		<field fieldName="User Type" fieldRef="userType"/>
+		<field fieldName="Language" fieldRef="languageDropdown"/>
+		<field fieldName="File Name" fieldRef="fileName"/>
+		<field fieldName="Uploaded By" fieldRef="uploadedBy"/>
+		<field fieldName="Uploaded On" fieldRef="uploadedOn"/>
+	</service>
+	
+	<service serviceName="setupmanager.FillStateCountryMappingSheet">
+		<field fieldName="Operation" fieldRef="Operation"/>
+		<field fieldName="State Id" fieldRef="State Id"/>
+		<field fieldName="Country Name" fieldRef="Country Name"/>
+		<field fieldName="State Code" fieldRef="State Code"/>
+		<field fieldName="State Name" fieldRef="State Name"/>
+		<field fieldName="Mark as Inactive" fieldRef="Mark as Inactive"/>
+	</service>
+	
+	<service serviceName="setupmanager.VerifyStateCountryMappingSheet">
+		<field fieldName="Download Type" fieldRef="Download Type"/>
+		<field fieldName="Is Full Data" fieldRef="Is Full Data"/>
+		<field fieldName="Operation" fieldRef="Operation"/>
+		<field fieldName="State Id" fieldRef="State Id"/>
+		<field fieldName="Country Name" fieldRef="Country Name"/>
+		<field fieldName="State Code" fieldRef="State Code"/>
+		<field fieldName="State Name" fieldRef="State Name"/>
+		<field fieldName="Mark as Inactive" fieldRef="Mark as Inactive"/>
+		<field fieldName="Error Message" fieldRef="Error Message"/>
+	</service>
+	
+	<service serviceName="setupmanager.FillEmailNotificationTemplateExcel">
+		<field fieldName="Operation" fieldRef="Operation"/>
+		<field fieldName="Event Code" fieldRef="Event Code"/>
+		<field fieldName="Notification Name" fieldRef="Notification Name"/>
+		<field fieldName="Notification Id" fieldRef="Notification Id"/>
+		<field fieldName="Language" fieldRef="Language"/>
+		<field fieldName="Subject" fieldRef="Subject"/>
+		<field fieldName="Body HTML" fieldRef="Body HTML"/>
+		<field fieldName="Status" fieldRef="Status"/>
+	</service>
+	
+	<service serviceName="setupmanager.VerifyEmailNotificationTemplateExcel">
+		<field fieldName="Download Type" fieldRef="Download Type"/>
+		<field fieldName="Is Full Data" fieldRef="Is Full Data"/>
+		<field fieldName="Operation" fieldRef="Operation"/>
+		<field fieldName="Product" fieldRef="Product"/>
+		<field fieldName="Document Type" fieldRef="Document Type"/>
+		<field fieldName="Event ID" fieldRef="Event ID"/>
+		<field fieldName="Event Code" fieldRef="Event Code"/>
+		<field fieldName="Event Name" fieldRef="Event Name"/>
+		<field fieldName="Notification Name" fieldRef="Notification Name"/>
+		<field fieldName="Notification Id" fieldRef="Notification Id"/>
+		<field fieldName="Language" fieldRef="Language"/>
+		<field fieldName="Subject" fieldRef="Subject"/>
+		<field fieldName="Body HTML" fieldRef="Body HTML"/>
+		<field fieldName="Variables" fieldRef="Variables"/>
+		<field fieldName="Recipients" fieldRef="Recipients"/>
+		<field fieldName="Status" fieldRef="Status"/>
+		<field fieldName="Error Message" fieldRef="Error Message"/>
+	</service>
+	
+	<service serviceName="setupmanager.FillApprovalMatrixSheet">
+		<field fieldName="Operation" fieldRef="Operation"/>
+		<field fieldName="Any Line Category" fieldRef="Any Line Category"/>
+		<field fieldName="Group" fieldRef="Group"/>
+		<field fieldName="Pool Type" fieldRef="Pool Type"/>
+		<field fieldName="Pool Value" fieldRef="Pool Value"/>
+	</service>
+	
+	<service serviceName="setupmanager.VerifyApprovalMatrixSheet">
+		<field fieldName="Download Type" fieldRef="Download Type"/>
+		<field fieldName="Is Full Data" fieldRef="Is Full Data"/>
+		<field fieldName="Operation" fieldRef="Operation"/>
+		<field fieldName="Any Line Category" fieldRef="Any Line Category"/>
+		<field fieldName="Group" fieldRef="Group"/>
+		<field fieldName="Pool Type" fieldRef="Pool Type"/>
+		<field fieldName="Pool Value" fieldRef="Pool Value"/>
+		<field fieldName="Status" fieldRef="Status"/>
+	</service>
+	
+	<service serviceName="setupmanager.FillDelegationsMasterData">
+		<field fieldName="Is Edit" fieldRef="isEdit"/>
+		<field fieldName="Deleted" fieldRef="deleted"/>	
+	</service>
+	
+	<service serviceName="setupmanager.VerifyDelegationsMasterData">
+		<field fieldName="Document Type" fieldRef="documentTypeDelegation"/>	
+		<field fieldName="Deleted" fieldRef="deleted"/>	
+	</service>
+
+	<service serviceName="setupmanager.FillWorkflowActionsMasterData">
+		<field fieldName="Is Edit" fieldRef="isEdit"/>
+		<field fieldName="Action Name" fieldRef="actionName"/>
+		<field fieldName="Display Order" fieldRef="displayOrder"/>
+	</service>
+	
+	<service serviceName="setupmanager.VerifyWorkflowActionsMasterData">
+		<field fieldName="Action Name" fieldRef="actionName"/>
+		<field fieldName="Display Order" fieldRef="displayOrder"/>
+	</service>
+		
+	<service serviceName="setupmanager.FillWorkflowMasterData">
+		<field fieldName="Is Edit" fieldRef="isEdit"/>
+		<field fieldName="Document Type" fieldRef="workflowDocumentType"/>
+		<field fieldName="Workflow Name" fieldRef="workflowName"/>
+		<field fieldName="Workflow Description" fieldRef="workflowDescription"/>
+		<field fieldName="Set as Default" fieldRef="setAsDefault"/>
+	</service>
+	
+	<service serviceName="setupmanager.VerifyUOMTransaltionDetailsInSheet">
+		<field fieldName="Download Type" fieldRef="Download Type"/>
+		<field fieldName="Is Full Data" fieldRef="Is Full Data"/>
+		<field fieldName="Operation" fieldRef="Operation"/>
+		<field fieldName="UOM Code" fieldRef="UOM Code"/>
+		<field fieldName="Language" fieldRef="Language"/>
+		<field fieldName="UOM Translation" fieldRef="UOM Translation"/>
+		<field fieldName="Error Message" fieldRef="Error Message"/>
+	</service>
+
+	<service serviceName="setupmanager.VerifyUOMTranslationMasterData">
+		<field fieldName="UOM Code" fieldRef="uomCodeTranslationID"/>
+		<field fieldName="UOM Description" fieldRef="uomTranslationDescription"/>
+		<field fieldName="Language" fieldRef="languageDropdown"/>
+		<field fieldName="UOM Translation" fieldRef="uomTranslation"/>
+	</service>
+		<service serviceName="setupmanager.FillUOMTranslationsSheet">
+		<field fieldName="Operation" fieldRef="Operation"/>
+		<field fieldName="UOM Code" fieldRef="UOM Code"/>
+		<field fieldName="Language" fieldRef="Language"/>
+		<field fieldName="UOM Translation" fieldRef="UOM Translation"/>
+	</service>
+	
+	<service serviceName="setupmanager.VerifyWorkflowMasterData">
+		<field fieldName="Document Type" fieldRef="workflowDocumentType"/>
+		<field fieldName="Workflow Name" fieldRef="workflowName"/>
+		<field fieldName="Workflow Description" fieldRef="workflowDescription"/>
+		<field fieldName="Set as Default" fieldRef="setAsDefault"/>
+	</service>
+	
+	<service serviceName="setupmanager.FillSupplierLocationSheet">
+			<field fieldName="Operation" fieldRef="Operation"/>
+			<field fieldName="Legal Company Name" fieldRef="Legal Company Name"/>
+			<field fieldName="Location Name" fieldRef="Location Name"/>
+			<field fieldName="Address Line 1" fieldRef="Address Line 1"/>
+			<field fieldName="City" fieldRef="City"/>
+			<field fieldName="Country" fieldRef="Country"/>
+			<field fieldName="State" fieldRef="State"/>
+			<field fieldName="Zip Code" fieldRef="Zip Code"/>
+			<field fieldName="Location Type" fieldRef="Location Type"/>
+			<field fieldName="Location Code" fieldRef="Location Code"/>
+			<field fieldName="Primary EmailID" fieldRef="Primary EmailID"/>	
+			<field fieldName="County" fieldRef="County"/>
+			<field fieldName="IsParentLocation" fieldRef="IsParentLocation"/>
+	</service>
+	
+	<service serviceName="setupmanager.FillSupplierIdentificationSheet">
+			<field fieldName="Operation" fieldRef="Operation"/>
+			<field fieldName="Legal Company Name" fieldRef="Legal Company Name"/>
+			<field fieldName="Other Identification Type" fieldRef="Other Identification Type"/>
+			<field fieldName="Other Identification Value" fieldRef="Other Identification Value"/>
+			<field fieldName="Location Code" fieldRef="Location Code"/>
+			<field fieldName="Primary EmailID" fieldRef="Primary EmailID"/>	
+	</service>
+
+    <service serviceName="setupmanager.FillOrgEntityRegionMappingsSheet">
+		<field fieldName="Operation" fieldRef="Operation"/>
+		<field fieldName="Org EntityRegion Id" fieldRef="Org EntityRegion Id"/>
+		<field fieldName="Entity Detail Code" fieldRef="Entity Detail Code"/>
+		<field fieldName="Region ID" fieldRef="Region ID"/>
+		<field fieldName="Mark as Inactive" fieldRef="Mark as Inactive"/>
+	</service>
+	
+	<service serviceName="setupmanager.VerifyOrgEntityRegionMappingsSheet">
+		<field fieldName="Download Type" fieldRef="Download Type"/>
+		<field fieldName="Is Full Data" fieldRef="Is Full Data"/>
+		<field fieldName="Org EntityRegion Id" fieldRef="Org EntityRegion Id"/>
+		<field fieldName="Entity Detail Code" fieldRef="Entity Detail Code"/>
+		<field fieldName="Region ID" fieldRef="Region ID"/>
+		<field fieldName="Mark as Inactive" fieldRef="Mark as Inactive"/>
+		<field fieldName="Error Message" fieldRef="Error Message"/>
+	</service>
+	
+	<service serviceName="setupmanager.VerifyORGEntityRegionMappingMasterData">
+		<field fieldName="Entity Detail Code" fieldRef="entityDetailCode"/>
+		<field fieldName="Entity Code" fieldRef="entityCode"/>
+		<field fieldName="Entity Name" fieldRef="entityName"/>
+		<field fieldName="Region ID" fieldRef="orgEntityRegionId"/>
+		<field fieldName="Region Code" fieldRef="regionCode"/>
+		<field fieldName="Region Name" fieldRef="regionName"/>
+		<field fieldName="Active" fieldRef="active"/>
+	</service>
+	
+	<service serviceName="setupmanager.VerifyCommonSettingsAuditSheet">
+		<field fieldName="Download Type" fieldRef="Download Type"/>
+		<field fieldName="Is Full Data" fieldRef="Is Full Data"/>
+		<field fieldName="Action Performed On" fieldRef="Action Performed On"/>
+		<field fieldName="User Name" fieldRef="User Name"/>
+		<field fieldName="User Full Name" fieldRef="User Full Name"/>
+		<field fieldName="Field Name Setting Name" fieldRef="Field Name Setting Name"/>
+		<field fieldName="Previous Value" fieldRef="Previous Value"/>
+		<field fieldName="New Value" fieldRef="New Value"/>
+		<field fieldName="Error Message" fieldRef="Error Message"/>
+	</service>
+	
+	<service serviceName="setupmanager.FillOrgEntityCurrencyMappingsSheet">
+		<field fieldName="Operation" fieldRef="Operation"/>
+		<field fieldName="Org EntityCurrency Id" fieldRef="Org EntityCurrency Id"/>
+		<field fieldName="Entity Detail Code" fieldRef="Entity Detail Code"/>
+		<field fieldName="Currency Code" fieldRef="Currency Code"/>
+		<field fieldName="Status" fieldRef="status"/>
+	</service>
+	
+	<service serviceName="setupmanager.VerifyOrgEntityCurrencyMappingSheet">
+		<field fieldName="Download Type" fieldRef="Download Type"/>
+		<field fieldName="Is Full Data" fieldRef="Is Full Data"/>
+		<field fieldName="Org EntityCurrency Id" fieldRef="Org EntityCurrency Id"/>
+		<field fieldName="Entity Detail Code" fieldRef="Entity Detail Code"/>
+		<field fieldName="Currency Code" fieldRef="Currency Code"/>
+		<field fieldName="Status" fieldRef="Status"/>
+		<field fieldName="Error Message" fieldRef="Error Message"/>
+	</service>
+
+	<service serviceName="setupmanager.FillConfigureSettingsAtAUserLevelSheet">
+		<field fieldName="User Name" fieldRef="User Name"/>
+		<field fieldName="Product" fieldRef="Product"/>
+		<field fieldName="Object Type" fieldRef="Object Type"/>
+		<field fieldName="Setting Name" fieldRef="Setting Name"/>
+		<field fieldName="Setting Value" fieldRef="Setting Value"/>
+	</service>
+	
+	<service serviceName="setupmanager.VerifyConfigureSettingAtaUserLevelsheet">
+                <field fieldName="Download Type" fieldRef="Download Type"/>
+		<field fieldName="Is Full Data" fieldRef="Is Full Data"/>
+		<field fieldName="User Name" fieldRef="User Name"/>
+		<field fieldName="Product" fieldRef="Product"/>
+		<field fieldName="Object Type" fieldRef="Object Type"/>
+		<field fieldName="Setting Name" fieldRef="Setting Name"/>
+		<field fieldName="Setting Value" fieldRef="Setting Value"/>
+	        <field fieldName="Error Message" fieldRef="Error Message"/>
+	</service>
+</services>

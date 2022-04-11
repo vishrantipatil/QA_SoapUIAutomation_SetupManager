@@ -1,0 +1,6 @@
+<FieldMapper>
+<field fieldName="Coporation"  fieldMapping="Corporation" isUserSpecificField="true"/>
+<field fieldName="Currency" fieldMapping="Currency" isUserSpecificField="true"/>
+<field fieldName="Ship To" fieldMapping="Ship To" isUserSpecificField="true"/>
+<field fieldName="Bill To" fieldMapping="Bill To" isUserSpecificField="true"/>
+</FieldMapper>
